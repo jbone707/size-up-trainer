@@ -1,0 +1,268 @@
+[
+  {
+    "code": "G-RES-01",
+    "type": "residential",
+    "time": "06:40",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a single-story 1960s ranch house with tan stucco and an attached two-car garage; gray smoke pushing from the seams of the closed garage door and the eaves above it; two cars in the driveway; porch light still on; soft dawn light, quiet suburban street."
+  },
+  {
+    "code": "G-RES-02",
+    "type": "residential",
+    "time": "14:15",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a two-story 1990s tract house with beige siding; fire showing from one upstairs front bedroom window with dark smoke rolling up the face of the house; empty driveway; bright afternoon sun."
+  },
+  {
+    "code": "G-RES-03",
+    "type": "residential",
+    "time": "02:15",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a small single-story wood-frame bungalow with a front porch; orange glow behind the front windows and light smoke curling from the eaves; one pickup in the driveway; porch light on; dark night, streetlight."
+  },
+  {
+    "code": "G-RES-04",
+    "type": "residential",
+    "time": "17:50",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a split-level house on a sloped lot; medium gray smoke from the attic vents and along the roof ridge; a minivan and a sedan in the driveway; kids' bikes on the lawn; early evening light."
+  },
+  {
+    "code": "G-RES-05",
+    "type": "residential",
+    "time": "11:00",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: an older two-story craftsman house; flames visible coming through the roof at the rear of the house, seen over the ridgeline from the front; a neighboring house about ten feet away on the left; mid-morning."
+  },
+  {
+    "code": "G-RES-06",
+    "type": "residential",
+    "time": "03:30",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a single-story ranch house at night; heavy fire visible down the side yard at the rear corner; smoke drifting over the roof; front of the house still dark; one car in the driveway."
+  },
+  {
+    "code": "G-RES-07",
+    "type": "residential",
+    "time": "12:30",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a two-story hillside home with wood siding and a large wooden deck, surrounded by oaks and dry golden grass; smoke and small flames coming from under the deck; steep narrow driveway; hot sunny day."
+  },
+  {
+    "code": "G-RES-08",
+    "type": "residential",
+    "time": "19:30",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a single-wide mobile home in a mobile home park; fire showing from the end window; neighboring mobile homes about fifteen feet away on both sides; dusk."
+  },
+  {
+    "code": "G-RES-09",
+    "type": "residential",
+    "time": "07:10",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a two-story house in light morning fog; thin gray smoke from the roof near the chimney and from the attic vent; two cars in the driveway; trash cans at the curb."
+  },
+  {
+    "code": "G-RES-10",
+    "type": "residential",
+    "time": "16:30",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a detached wooden garage behind a single-story house, seen from the alley; fire through the garage roof; the back of the house about fifteen feet away; wooden fence; late afternoon."
+  },
+  {
+    "code": "G-RES-11",
+    "type": "residential",
+    "time": "22:45",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a vacant single-story house with boarded-up windows and an overgrown yard; fire showing from one front window around the plywood; no cars; night."
+  },
+  {
+    "code": "G-RES-12",
+    "type": "residential",
+    "time": "09:00",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a single-story ranch house; heavy black smoke pushing from a front window and the eaves; garage door closed; one car in the driveway; clear morning."
+  },
+  {
+    "code": "G-MF-01",
+    "type": "multi-family",
+    "time": "01:30",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a two-story garden apartment building with exterior stairs and walkways; fire showing from one upstairs unit window and smoke filling the walkway; cars in the parking lot; night, parking lot lights."
+  },
+  {
+    "code": "G-MF-02",
+    "type": "multi-family",
+    "time": "18:45",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a three-story apartment building over tuck-under carport parking; smoke pouring out of the carport level and up the front of the building; residents' cars parked; early evening."
+  },
+  {
+    "code": "G-MF-03",
+    "type": "multi-family",
+    "time": "06:00",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a two-story fourplex apartment; light gray smoke from the attic vents along the whole length of the roof; several cars out front; first light."
+  },
+  {
+    "code": "G-MF-04",
+    "type": "multi-family",
+    "time": "13:00",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a row of two-story townhomes with shared roofline; fire showing from an upstairs window of a middle unit; smoke at the roofline; midday."
+  },
+  {
+    "code": "G-MF-05",
+    "type": "multi-family",
+    "time": "23:00",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a three-story senior apartment building; smoke and orange glow from a third-floor window; a few residents standing on balconies; night."
+  },
+  {
+    "code": "G-MF-06",
+    "type": "multi-family",
+    "time": "16:00",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a single-story duplex; fire showing from the front window of one side; the other side's door open; afternoon."
+  },
+  {
+    "code": "G-COM-01",
+    "type": "commercial",
+    "time": "14:30",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a single-story strip mall with a nail salon, a taqueria and a laundromat; smoke from the roofline above one storefront; cars in the parking lot; businesses open; afternoon."
+  },
+  {
+    "code": "G-COM-02",
+    "type": "commercial",
+    "time": "03:00",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a single-story strip mall at night, closed and dark; smoke from roof vents and around the front door of one store; empty parking lot."
+  },
+  {
+    "code": "G-COM-03",
+    "type": "commercial",
+    "time": "12:00",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a stand-alone restaurant; heavy smoke coming from the roof near the kitchen exhaust; a few customers standing in the parking lot; lunchtime."
+  },
+  {
+    "code": "G-COM-04",
+    "type": "commercial",
+    "time": "22:00",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a large concrete tilt-up warehouse in an industrial park; smoke pushing from around the closed roll-up doors; a few trucks parked; night."
+  },
+  {
+    "code": "G-COM-05",
+    "type": "commercial",
+    "time": "10:00",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a small auto repair shop with two open bays; smoke pouring from one bay; cars parked out front; morning."
+  },
+  {
+    "code": "G-COM-06",
+    "type": "commercial",
+    "time": "19:00",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a two-story brick building downtown with shops on the ground floor and apartments above; smoke from the second-floor windows; people on the sidewalk; early evening."
+  },
+  {
+    "code": "G-HR-01",
+    "type": "high-rise",
+    "time": "15:00",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a ten-story hotel; smoke and fire showing from one sixth-floor window; cars at the entrance; afternoon."
+  },
+  {
+    "code": "G-HR-02",
+    "type": "high-rise",
+    "time": "02:30",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: an eight-story senior housing tower at night; fire showing from one fourth-floor window; most windows dark."
+  },
+  {
+    "code": "G-HR-03",
+    "type": "high-rise",
+    "time": "11:00",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a seven-story office building; smoke from the roof mechanical area; parking lot full; morning."
+  },
+  {
+    "code": "G-HR-04",
+    "type": "high-rise",
+    "time": "20:00",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a twelve-story residential tower; fire on a ninth-floor balcony; lit windows; evening."
+  },
+  {
+    "code": "G-VEG-01",
+    "type": "vegetation",
+    "time": "15:00",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a small grass fire, about the size of a basketball court, on the shoulder of a freeway on-ramp; flames a foot or two high moving uphill in light wind toward a few oak trees; cars passing; hot afternoon."
+  },
+  {
+    "code": "G-VEG-02",
+    "type": "vegetation",
+    "time": "16:30",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a small grass fire, about a quarter acre, at the edge of a vineyard, burning toward a farmhouse about 100 feet away; light smoke blowing across the vines; late afternoon."
+  },
+  {
+    "code": "G-VEG-03",
+    "type": "vegetation",
+    "time": "01:00",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a small brush fire at night on a vacant hillside lot between two houses, about the size of a backyard; flames a few feet high; porch lights on next door; night."
+  },
+  {
+    "code": "G-VEG-04",
+    "type": "vegetation",
+    "time": "13:30",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a small grass fire in a strip of open space right behind a row of wooden backyard fences, about thirty feet long; fence boards starting to scorch; light smoke drifting over the rooftops; midday."
+  },
+  {
+    "code": "G-VEG-05",
+    "type": "vegetation",
+    "time": "17:00",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a small brush fire along a creek bank under a highway overpass, about the size of a two-car garage; flames in the blackberry and willow; smoke under the bridge; late afternoon."
+  },
+  {
+    "code": "G-VEG-06",
+    "type": "vegetation",
+    "time": "12:00",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a small field fire, about the size of a tennis court, next to a hay barn on a ranch; fire about fifty feet from the barn and moving toward it; dry golden grass; noon."
+  },
+  {
+    "code": "G-VEH-01",
+    "type": "vehicle",
+    "time": "07:45",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a car on fire in a driveway, parked nose-in close to the closed garage door of a house; flames from under the hood; morning."
+  },
+  {
+    "code": "G-VEH-02",
+    "type": "vehicle",
+    "time": "21:30",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a car burning under an apartment complex carport; other cars parked on both sides; night."
+  },
+  {
+    "code": "G-VEH-03",
+    "type": "vehicle",
+    "time": "14:00",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a motorhome on fire parked on a residential street; smoke and flames from the rear; houses across the sidewalk; afternoon."
+  },
+  {
+    "code": "G-VEH-04",
+    "type": "vehicle",
+    "time": "16:30",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as if from the front seat of the first fire engine pulling up. Sonoma County, Northern California. No firefighters, no fire trucks, no hoses, no people in turnouts, no text, no watermark. Scene: a backyard wooden shed on fire; flames through the roof; wooden fence and the back of the house about ten feet away; late afternoon."
+  }
+]

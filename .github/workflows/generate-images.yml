@@ -1,0 +1,39 @@
+name: generate-images
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate.trigger
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Read run settings
+        id: cfg
+        run: |
+          set -a; . scripts/generate.trigger; set +a
+          echo "ONLY=${ONLY:-}" >> "$GITHUB_ENV"
+          echo "PER_PROMPT=${PER_PROMPT:-2}" >> "$GITHUB_ENV"
+          echo "IMAGE_QUALITY=${IMAGE_QUALITY:-medium}" >> "$GITHUB_ENV"
+          echo "IMAGE_MODEL=${IMAGE_MODEL:-gpt-image-1}" >> "$GITHUB_ENV"
+      - run: node scripts/generate-images.mjs
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - name: Commit images to their own branch
+        run: |
+          if [ ! -s generated/manifest.json ] || [ "$(cat generated/manifest.json)" = "[]" ]; then echo "nothing to commit"; exit 0; fi
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git checkout --orphan generated
+          git rm -rq --cached .
+          git add generated
+          git commit -qm "Generated scene images"
+          git push -f origin generated

@@ -1,0 +1,50 @@
+// Runs on GitHub's machines (see .github/workflows/generate-images.yml).
+// Sends each prompt in scripts/image-prompts.json to OpenAI's image API and saves the
+// results under generated/ with a manifest. Nothing here is shown on the page until a
+// person reviews it and copies it into img/.
+import { mkdirSync, writeFileSync, readFileSync } from "node:fs";
+
+const key = process.env.OPENAI_API_KEY;
+if (!key) {
+  console.log("No OPENAI_API_KEY secret is set on this repo, so nothing was generated.");
+  process.exit(0);
+}
+const model = process.env.IMAGE_MODEL || "gpt-image-1";
+const quality = process.env.IMAGE_QUALITY || "medium";
+const perPrompt = Number(process.env.PER_PROMPT || 2);
+const only = (process.env.ONLY || "").split(",").map((s) => s.trim()).filter(Boolean);
+
+let prompts = JSON.parse(readFileSync("scripts/image-prompts.json", "utf8"));
+if (only.length) prompts = prompts.filter((p) => only.includes(p.code));
+
+mkdirSync("generated", { recursive: true });
+const manifest = [];
+let failures = 0;
+
+for (const p of prompts) {
+  for (let v = 1; v <= perPrompt; v++) {
+    const file = `generated/${p.code}-${v}.png`;
+    try {
+      const r = await fetch("https://api.openai.com/v1/images/generations", {
+        method: "POST",
+        headers: { "Authorization": `Bearer ${key}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ model, prompt: p.prompt, size: "1536x1024", quality, n: 1 }),
+      });
+      const body = await r.json();
+      if (!r.ok) {
+        failures++;
+        console.log(`${p.code}-${v}: refused, ${r.status} ${body?.error?.message || ""}`);
+        if (r.status === 401 || r.status === 429 && /quota|billing/i.test(body?.error?.message || "")) process.exit(1);
+        continue;
+      }
+      writeFileSync(file, Buffer.from(body.data[0].b64_json, "base64"));
+      manifest.push({ ...p, file, model, quality });
+      console.log(`${p.code}-${v}: ok`);
+    } catch (e) {
+      failures++;
+      console.log(`${p.code}-${v}: failed, ${e.message}`);
+    }
+  }
+}
+writeFileSync("generated/manifest.json", JSON.stringify(manifest, null, 2));
+console.log(`made ${manifest.length}, failed ${failures}`);

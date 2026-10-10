@@ -9,9 +9,10 @@ It must open on a city desktop, so it lives on `github.io`, an address old enoug
 - Header: the name of the page and a "Scene type" list (All scenes, Residential, Multi-family, Commercial, High-rise, Vegetation, Vehicle and other). The choice is remembered on that device.
 - The picture, as large as fits, nothing drawn over it.
 - A small credit line under the picture when the license asks for one.
-- The time in large type (four digits, no colon), the day, "Scene 3 of 38", and a "Next scene" button.
-- Space bar and right arrow do the same as the button.
-- Scenes come in random order and none repeats until every scene of the chosen type has been shown.
+- The time in large type (four digits, no colon), the day, "Scene 3 of 38", and Previous, Random and Next buttons.
+- Previous and Next step through the chosen type in a fixed order; Random jumps to a random scene of that type, and none repeats until every scene of the type has come up. The page opens on a random scene.
+- Keys: left and right arrows for Previous and Next, space bar or R for Random.
+- A Gallery page shows every scene as a thumbnail, with the same buttons in its full-size viewer.
 - A type with no scenes says so and tells the person to pick another.
 - No timer, no checklist, no typed answer in version 1.
 
@@ -38,4 +39,5 @@ It must open on a city desktop, so it lives on `github.io`, an address old enoug
 - None.
 
 ## Changelog
+- 2026-10-10: Previous, Random and Next on the Practice page, Gallery page added, at James's request.
 - 2026-10-09: Written by Cowork from James's decisions in chat that day.

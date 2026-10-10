@@ -19,3 +19,14 @@ James: a much simpler size-up simulator than the commercial ones, reachable from
 - Scene pictures (the whole point). See the wall above.
 - Firewall test from a city desktop.
 - Units panel, later.
+
+## Later the same night: real photos
+- The wall was removed without James's computer: a GitHub Action (GitHub's machines can reach Wikimedia) pulled 341 freely licensed photos in two rounds into the `candidates` branch.
+- Cowork reviewed every one on contact sheets, then 35 at full size, and kept 33 that read like a first-due view. Dropped: fire stations, aftermath, satellite pictures, drills, historical engravings, and anything from a tragedy where the picture would be about the people rather than the fire.
+- Times and days were picked to fit the light in each picture, spread across early morning, work hours, dinner and the middle of the night. Notes hold what each picture shows.
+- Checked in a browser again at 1366 and 390 px: no sideways scroll, credit line wraps on a phone, filter works.
+
+## Open items, updated
+- James to make the repo public and turn on Pages (Cowork's access cannot).
+- Firewall test from a city desktop.
+- More houses, ideally Northern California wood frame and hillside interface.

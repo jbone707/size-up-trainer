@@ -1,32 +1,332 @@
 [
   {
-    "id": "placeholder-01",
-    "file": "img/placeholder-01.svg",
+    "id": "res-01",
+    "file": "img/res-01.jpg",
     "type": "residential",
-    "time": "06:42",
-    "day": "Tuesday",
-    "source": "placeholder",
-    "credit": "",
-    "notes": "Placeholder drawing so the page can be tested before real photos are added. Replace."
-  },
-  {
-    "id": "placeholder-02",
-    "file": "img/placeholder-02.svg",
-    "type": "vegetation",
-    "time": "15:10",
-    "day": "Saturday",
-    "source": "placeholder",
-    "credit": "",
-    "notes": "Placeholder drawing. Replace."
-  },
-  {
-    "id": "placeholder-03",
-    "file": "img/placeholder-03.svg",
-    "type": "high-rise",
-    "time": "02:15",
+    "time": "15:20",
     "day": "Sunday",
-    "source": "placeholder",
-    "credit": "",
-    "notes": "Placeholder drawing. Replace."
+    "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:House_fire_in_Waikanae,_16_May_2026,_P_36.jpg",
+    "credit": "Panamitsu, CC BY-SA 4.0, via Wikimedia Commons",
+    "notes": "Hillside neighborhood, two-story house with fire showing from a lower floor and heavy dark smoke; closely spaced exposures uphill and downhill; tight access."
+  },
+  {
+    "id": "res-02",
+    "file": "img/res-02.jpg",
+    "type": "residential",
+    "time": "15:24",
+    "day": "Sunday",
+    "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:House_fire_in_Waikanae,_16_May_2026,_P_40.jpg",
+    "credit": "Panamitsu, CC BY-SA 4.0, via Wikimedia Commons",
+    "notes": "Close view of the same hillside fire: fire through a dormer, smoke pushing from the eaves, occupied homes directly above."
+  },
+  {
+    "id": "res-03",
+    "file": "img/res-03.jpg",
+    "type": "residential",
+    "time": "07:15",
+    "day": "Wednesday",
+    "source": "Wikimedia Commons, CC BY 4.0, https://commons.wikimedia.org/wiki/File:House_Fire_in_Hickory,_Mississippi.jpg",
+    "credit": "Ktkvtsh, CC BY 4.0, via Wikimedia Commons",
+    "notes": "Single-story ranch, light gray smoke from the eaves and front, crews on the lawn, supply line laid across the yard; overcast."
+  },
+  {
+    "id": "res-04",
+    "file": "img/res-04.jpg",
+    "type": "residential",
+    "time": "05:10",
+    "day": "Tuesday",
+    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:House_fire_in_Beaver_Falls,_front.jpg",
+    "credit": "Nyttend, public domain, via Wikimedia Commons",
+    "notes": "Two-and-a-half-story wood frame at night in snow, smoke from the second floor and attic, ladders thrown to porch roof and rear, attached exposure on side B."
+  },
+  {
+    "id": "res-05",
+    "file": "img/res-05.jpg",
+    "type": "residential",
+    "time": "23:40",
+    "day": "Friday",
+    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:House_fire_in_Beaver_Falls,_rear.jpg",
+    "credit": "Nyttend, public domain, via Wikimedia Commons",
+    "notes": "Two-story house at night, heavy smoke from the second floor and roof, crews on the porch roof, brick exposure close on one side."
+  },
+  {
+    "id": "res-06",
+    "file": "img/res-06.jpg",
+    "type": "residential",
+    "time": "02:30",
+    "day": "Saturday",
+    "source": "Wikimedia Commons, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Port_Washington_Fire_Department_Fighting_House_Fire_September_2011.jpg",
+    "credit": "SpeedyEJL, CC BY-SA 3.0, via Wikimedia Commons",
+    "notes": "Single-family house fully involved at night, fire through the roof and walls, set back in trees, defensive conditions."
+  },
+  {
+    "id": "res-07",
+    "file": "img/res-07.jpg",
+    "type": "residential",
+    "time": "17:45",
+    "day": "Thursday",
+    "source": "Wikimedia Commons, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Structure_Fire_in_Union,_Mississippi_05.jpg",
+    "credit": "Ktkvtsh, CC BY 4.0, via Wikimedia Commons",
+    "notes": "Single-story bungalow, heavy smoke boiling from the rear and roof, front looks clear, porch entry; mailbox and trash can out front."
+  },
+  {
+    "id": "res-08",
+    "file": "img/res-08.jpg",
+    "type": "residential",
+    "time": "08:05",
+    "day": "Monday",
+    "source": "Wikimedia Commons, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Structure_Fire_in_Union,_Mississippi_01.jpg",
+    "credit": "Ktkvtsh, CC BY 4.0, via Wikimedia Commons",
+    "notes": "Arriving on a residential street with heavy smoke banked across the road and trees, structure barely visible behind the smoke, first engine already on scene."
+  },
+  {
+    "id": "mf-01",
+    "file": "img/mf-01.jpg",
+    "type": "multi-family",
+    "time": "01:50",
+    "day": "Sunday",
+    "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Apartment_Fire_High_Point,_NC_Feb28_2022_Rear.jpg",
+    "credit": "Marcusmax, CC BY-SA 4.0, via Wikimedia Commons",
+    "notes": "Three-story garden apartment complex at night, fire showing at the far end of the building, parked cars, residents outside."
+  },
+  {
+    "id": "mf-02",
+    "file": "img/mf-02.jpg",
+    "type": "multi-family",
+    "time": "01:55",
+    "day": "Sunday",
+    "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Apartment_Fire_High_Point,_NC_Feb28_2022.jpg",
+    "credit": "Marcusmax, CC BY-SA 4.0, via Wikimedia Commons",
+    "notes": "Wider view of the same apartment complex: heavy fire at the end unit, three stories, parking lot access, more buildings behind."
+  },
+  {
+    "id": "mf-03",
+    "file": "img/mf-03.jpg",
+    "type": "multi-family",
+    "time": "18:30",
+    "day": "Wednesday",
+    "source": "Wikimedia Commons, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Wohnungsbrand_Muenchen.jpg",
+    "credit": "Usien, CC BY-SA 3.0, via Wikimedia Commons",
+    "notes": "Six-story apartment block, fire through the roof and top floor, aerials set up, balconies and occupants at windows."
+  },
+  {
+    "id": "mf-04",
+    "file": "img/mf-04.jpg",
+    "type": "multi-family",
+    "time": "12:40",
+    "day": "Saturday",
+    "source": "Wikimedia Commons, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Buffalo_Apartment_Fire_June25.07_pt3.jpg",
+    "credit": "DragonFire1024, CC BY-SA 3.0, via Wikimedia Commons",
+    "notes": "Narrow side yard between two wood-frame multi-family buildings, smoke from upper windows and eaves, exposure within a few feet."
+  },
+  {
+    "id": "com-01",
+    "file": "img/com-01.jpg",
+    "type": "commercial",
+    "time": "19:20",
+    "day": "Friday",
+    "source": "Wikimedia Commons, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Smoke_2018_Warehouse_fire_in_West_Footscray.jpg",
+    "credit": "Environment Protection Authority Victoria, CC BY 4.0, via Wikimedia Commons",
+    "notes": "Large warehouse fire at dusk, massive black smoke column, fire visible at ground level, shipping container yard as an exposure."
+  },
+  {
+    "id": "com-02",
+    "file": "img/com-02.jpg",
+    "type": "commercial",
+    "time": "10:30",
+    "day": "Thursday",
+    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:US_Navy_110127-N-5319A-013_Firefighters_work_to_put_out_a_warehouse_fire_at_Naval_Station_Norfolk.jpg",
+    "credit": "U.S. Navy, Brien Aho, public domain, via Wikimedia Commons",
+    "notes": "Warehouse with heavy smoke from roll-up doors, apparatus flowing master stream, vehicles parked against the building."
+  },
+  {
+    "id": "com-03",
+    "file": "img/com-03.jpg",
+    "type": "commercial",
+    "time": "09:00",
+    "day": "Thursday",
+    "source": "Wikimedia Commons, CC BY 2.0, https://commons.wikimedia.org/wiki/File:Firefighters_put_out_fire_after_protest_and_riot_on_East_Lake_Street_(49946168143).jpg",
+    "credit": "Fibonacci Blue from Minnesota, USA, CC BY 2.0, via Wikimedia Commons",
+    "notes": "Strip mall with heavy smoke through the storefronts, aerial ladder over the roof, master streams in use."
+  },
+  {
+    "id": "com-04",
+    "file": "img/com-04.jpg",
+    "type": "commercial",
+    "time": "13:15",
+    "day": "Tuesday",
+    "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Captain_D%27s_Seafood_Kitchen_with_smoke_from_fire_at_People%27s_Cartage_warehouse.jpg",
+    "credit": "MoodySadSad, CC BY-SA 4.0, via Wikimedia Commons",
+    "notes": "Huge black smoke column visible from blocks away behind a restaurant, the size-up on approach before you can see the building."
+  },
+  {
+    "id": "hr-01",
+    "file": "img/hr-01.jpg",
+    "type": "high-rise",
+    "time": "14:00",
+    "day": "Wednesday",
+    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:High-Rise_Fire_Test;_Positive_Pressure_Ventilation_Fans_(5887634583)_(cropped).jpg",
+    "credit": "National Institute of Standards and Technology, public domain, via Wikimedia Commons",
+    "notes": "Nine-story brick residential high-rise, fire out the windows near the top floor, heavy smoke from the roof line."
+  },
+  {
+    "id": "hr-02",
+    "file": "img/hr-02.jpg",
+    "type": "high-rise",
+    "time": "11:30",
+    "day": "Friday",
+    "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Wushinfire22.jpg",
+    "credit": "최광모, CC BY-SA 4.0, via Wikimedia Commons",
+    "notes": "Thirty-plus-story tower, exterior fire spread up the facade with heavy black smoke, adjacent tower close by."
+  },
+  {
+    "id": "hr-03",
+    "file": "img/hr-03.jpg",
+    "type": "high-rise",
+    "time": "08:30",
+    "day": "Thursday",
+    "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Plasco_building_on_fire_by_Emi_uploaded_by_Mardetanha_(2).jpg",
+    "credit": "Mardetanha, CC BY-SA 4.0, via Wikimedia Commons",
+    "notes": "Fifteen-story commercial high-rise, fire on several upper floors along one side, heavy smoke, dense surrounding buildings."
+  },
+  {
+    "id": "hr-04",
+    "file": "img/hr-04.jpg",
+    "type": "high-rise",
+    "time": "13:45",
+    "day": "Saturday",
+    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:High_Rise_Fire_Study;_Wind-Driven_Fires_(5888199090).jpg",
+    "credit": "National Institute of Standards and Technology, public domain, via Wikimedia Commons",
+    "notes": "View from the roof of a mid-rise brick building: fire venting out a window below, aerial platform set up on the street side."
+  },
+  {
+    "id": "veg-01",
+    "file": "img/veg-01.jpg",
+    "type": "vegetation",
+    "time": "14:20",
+    "day": "Saturday",
+    "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Firefighters_battle_grass_fire_2.jpg",
+    "credit": "Helitak430, CC BY-SA 4.0, via Wikimedia Commons",
+    "notes": "Grass fire with a wide front and heavy white smoke, single engine on the ridge, trees near the edge."
+  },
+  {
+    "id": "veg-02",
+    "file": "img/veg-02.jpg",
+    "type": "vegetation",
+    "time": "11:45",
+    "day": "Monday",
+    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:Firefighters_often_ignite_smaller_sections_on_controlled_burns._Using_two_fire_lines,_they_control_the_fire_size_by_burning_(b810e55d-bec1-4e70-921d-56e6437ff9d3).JPG",
+    "credit": "NPS Photo, public domain, via Wikimedia Commons",
+    "notes": "Grass fire burning across a field, flame front near a gravel road, one firefighter, fence line."
+  },
+  {
+    "id": "veg-03",
+    "file": "img/veg-03.jpg",
+    "type": "vegetation",
+    "time": "20:40",
+    "day": "Friday",
+    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:Sprawling_Gifford_Fire_Scorches_California_(154658_-_pho_20250809_lrg).jpg",
+    "credit": "U.S. Forest Service, Sergio Mora, public domain, via Wikimedia Commons",
+    "notes": "Wildland fire at dusk on the hills, large lit-up smoke column, grassy foreground, scattered oaks."
+  },
+  {
+    "id": "veg-04",
+    "file": "img/veg-04.jpg",
+    "type": "vegetation",
+    "time": "15:00",
+    "day": "Wednesday",
+    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:FEMA_-_1504_-_Photograph_by_FEMA_News_Photo_taken_on_10-23-1996_in_California.jpg",
+    "credit": "FEMA News Photo, public domain, via Wikimedia Commons",
+    "notes": "Fire running along a brushy hillside above a road and a housing development entrance, engine staged on the road."
+  },
+  {
+    "id": "veg-05",
+    "file": "img/veg-05.jpg",
+    "type": "vegetation",
+    "time": "17:10",
+    "day": "Tuesday",
+    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:Smoke_from_Esparto_fireworks_warehouse_fire_(2025-07-01).jpeg",
+    "credit": "CAL FIRE LNU, public domain, via Wikimedia Commons",
+    "notes": "Smoke rising behind trees along a rural highway, fire in the vegetation off the road, ag equipment in the distance."
+  },
+  {
+    "id": "veg-06",
+    "file": "img/veg-06.jpg",
+    "type": "vegetation",
+    "time": "16:30",
+    "day": "Sunday",
+    "source": "Wikimedia Commons, CC BY 2.0, https://commons.wikimedia.org/wiki/File:High_Park_Fire,_2012020-FS-UNK-0017.jpg",
+    "credit": "U.S. Department of Agriculture, CC BY 2.0, via Wikimedia Commons",
+    "notes": "Large smoke column in timbered mountains with a spot fire on the slope."
+  },
+  {
+    "id": "veg-07",
+    "file": "img/veg-07.jpg",
+    "type": "vegetation",
+    "time": "18:15",
+    "day": "Saturday",
+    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:2001_Sheepshead_Fire_(24893880431).jpg",
+    "credit": "Bureau of Land Management, public domain, via Wikimedia Commons",
+    "notes": "Fast-moving fire through grass and brush with scattered trees, flame lengths several feet, heavy smoke."
+  },
+  {
+    "id": "veg-08",
+    "file": "img/veg-08.jpg",
+    "type": "vegetation",
+    "time": "22:10",
+    "day": "Thursday",
+    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:2001_Sheepshead_Fire_(24691682540).jpg",
+    "credit": "Bureau of Land Management, public domain, via Wikimedia Commons",
+    "notes": "Night grass fire, long flame front across an open field, heavy glow and smoke."
+  },
+  {
+    "id": "veg-09",
+    "file": "img/veg-09.jpg",
+    "type": "vegetation",
+    "time": "12:30",
+    "day": "Sunday",
+    "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Firefighters_battle_grass_fire_3.jpg",
+    "credit": "Helitak430, CC BY-SA 4.0, via Wikimedia Commons",
+    "notes": "Grass and brush fire next to a building, tall flames in dry vegetation, one firefighter with a handline."
+  },
+  {
+    "id": "veh-01",
+    "file": "img/veh-01.jpg",
+    "type": "vehicle",
+    "time": "06:50",
+    "day": "Monday",
+    "source": "Wikimedia Commons, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Burning_automobile_02.jpg",
+    "credit": "Stolbovsky, CC BY-SA 3.0, via Wikimedia Commons",
+    "notes": "SUV on fire on a city street, fire in the engine compartment, bystander close, other cars nearby."
+  },
+  {
+    "id": "veh-02",
+    "file": "img/veh-02.jpg",
+    "type": "vehicle",
+    "time": "16:45",
+    "day": "Saturday",
+    "source": "Wikimedia Commons, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Auto_fire_Vallejo_1.jpg",
+    "credit": "Cullen328, CC BY-SA 3.0, via Wikimedia Commons",
+    "notes": "Sedan burning in a busy grocery store parking lot, fire in the engine compartment and passenger compartment, cars parked on both sides."
+  },
+  {
+    "id": "veh-03",
+    "file": "img/veh-03.jpg",
+    "type": "vehicle",
+    "time": "12:15",
+    "day": "Wednesday",
+    "source": "Wikimedia Commons, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Hampshire_Fire_and_Rescue_Service_tackles_a_car_fire.jpg",
+    "credit": "TimSC, CC BY 4.0, via Wikimedia Commons",
+    "notes": "Car fire in a lot near an industrial building, single line in operation, engine staged."
+  },
+  {
+    "id": "veh-04",
+    "file": "img/veh-04.jpg",
+    "type": "vehicle",
+    "time": "15:40",
+    "day": "Tuesday",
+    "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:August_barn_fire_at_Monkton_Kent_England.jpg",
+    "credit": "Acabashi, CC BY-SA 4.0, via Wikimedia Commons",
+    "notes": "Barn or outbuilding fire seen through tall vegetation, heavy fire and smoke."
   }
 ]

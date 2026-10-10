@@ -1,0 +1,72 @@
+// One command that is "green" for this repo: node scripts/check.mjs
+// 1. Picker tests. 2. scenes.json shape. 3. Copy check on what reaches the screen.
+// The copy check reads index.html, picker.js and scenes.json only. It deliberately
+// ignores Markdown files, this script, and the contents of image files.
+import { readFileSync, existsSync } from "node:fs";
+import { filterScenes, createDeck, formatTime } from "../picker.js";
+
+const fails = [];
+const fail = (msg) => fails.push(msg);
+const root = new URL("../", import.meta.url);
+const read = (p) => readFileSync(new URL(p, root), "utf8");
+
+// 1. Picker
+{
+  const items = ["a", "b", "c", "d", "e"];
+  const deck = createDeck(items);
+  for (let pass = 0; pass < 20; pass++) {
+    const seen = new Set();
+    let first = null, prevLast = deck._last;
+    for (let i = 0; i < items.length; i++) {
+      const s = deck.next();
+      if (i === 0) first = s;
+      seen.add(s);
+      deck._last = s;
+    }
+    if (seen.size !== items.length) fail(`picker: pass ${pass} repeated a scene before the set was used up`);
+    if (prevLast && first === prevLast) fail(`picker: pass ${pass} opened with the scene that closed the last pass`);
+  }
+  if (createDeck([]).next() !== null) fail("picker: empty deck should deal null");
+  if (filterScenes([{ type: "x" }, { type: "y" }], "x").length !== 1) fail("picker: filter by type");
+  if (filterScenes([{ type: "x" }, { type: "y" }], "all").length !== 2) fail("picker: filter all");
+  if (formatTime("06:42") !== "0642") fail("picker: formatTime 06:42");
+  if (formatTime("25:00") !== "") fail("picker: formatTime rejects 25:00");
+}
+
+// 2. scenes.json
+const TYPES = ["residential", "multi-family", "commercial", "high-rise", "vegetation", "vehicle"];
+const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+const scenes = JSON.parse(read("scenes.json"));
+const ids = new Set();
+for (const s of scenes) {
+  const at = `scenes.json ${s.id || "(no id)"}`;
+  if (!s.id || ids.has(s.id)) fail(`${at}: id missing or repeated`);
+  ids.add(s.id);
+  if (!TYPES.includes(s.type)) fail(`${at}: type "${s.type}" is not one of ${TYPES.join(", ")}`);
+  if (!formatTime(s.time)) fail(`${at}: time "${s.time}" is not HH:MM`);
+  if (!DAYS.includes(s.day)) fail(`${at}: day "${s.day}"`);
+  if (!s.source) fail(`${at}: source is required (license and where it came from, or "generated")`);
+  if (typeof s.file !== "string" || !s.file) fail(`${at}: file missing`);
+  else if (!/^https:\/\//.test(s.file) && !existsSync(new URL(s.file, root))) fail(`${at}: file ${s.file} not found`);
+  if (/CC BY/i.test(s.source) && !s.credit) fail(`${at}: a CC BY picture needs a credit line`);
+}
+
+// 3. Copy check
+const screenText = [
+  ["index.html", read("index.html")],
+  ["picker.js", read("picker.js")],
+  ["scenes.json", scenes.map((s) => `${s.day} ${s.credit || ""}`).join("\n")],
+];
+for (const [name, text] of screenText) {
+  if (/[—–]/.test(text)) fail(`${name}: contains an em dash or en dash`);
+}
+const html = read("index.html");
+if ((html.match(/<h1[\s>]/g) || []).length !== 1) fail("index.html: must have exactly one h1");
+if (!/<title>[^<]+<\/title>/.test(html)) fail("index.html: missing title");
+if (/<h1[^>]*>[^<]*\.\s*<\/h1>/.test(html)) fail("index.html: heading ends with a period");
+
+if (fails.length) {
+  console.error("FAIL\n" + fails.map((f) => " - " + f).join("\n"));
+  process.exit(1);
+}
+console.log(`OK: picker, ${scenes.length} scenes, copy check`);

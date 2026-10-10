@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Placeholder scene">
+  <rect width="1600" height="900" fill="#9fc4e8"/>
+  <rect y="640" width="1600" height="260" fill="#c9a64a"/>
+  <polygon points="0,640 300,420 620,560 980,380 1600,600 1600,640" fill="#8a8f4a"/><polygon points="700,640 760,520 820,600 880,480 960,610 1020,540 1080,640" fill="#ff7a1a"/><ellipse cx="980" cy="330" rx="330" ry="150" fill="#6a6a6a" opacity="0.75"/><rect x="1300" y="540" width="170" height="100" fill="#d8cdb8"/><polygon points="1280,540 1385,470 1490,540" fill="#6b4a3a"/>
+  <text x="800" y="840" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" fill="#ffffff" opacity="0.85">Placeholder scene. Real photo coming.</text>
+</svg>

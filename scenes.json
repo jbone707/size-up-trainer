@@ -1,0 +1,32 @@
+[
+  {
+    "id": "placeholder-01",
+    "file": "img/placeholder-01.svg",
+    "type": "residential",
+    "time": "06:42",
+    "day": "Tuesday",
+    "source": "placeholder",
+    "credit": "",
+    "notes": "Placeholder drawing so the page can be tested before real photos are added. Replace."
+  },
+  {
+    "id": "placeholder-02",
+    "file": "img/placeholder-02.svg",
+    "type": "vegetation",
+    "time": "15:10",
+    "day": "Saturday",
+    "source": "placeholder",
+    "credit": "",
+    "notes": "Placeholder drawing. Replace."
+  },
+  {
+    "id": "placeholder-03",
+    "file": "img/placeholder-03.svg",
+    "type": "high-rise",
+    "time": "02:15",
+    "day": "Sunday",
+    "source": "placeholder",
+    "credit": "",
+    "notes": "Placeholder drawing. Replace."
+  }
+]

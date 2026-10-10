@@ -4,7 +4,7 @@ A one-page practice tool for fire scene size-ups. It shows a picture of a fire a
 
 - Live page: https://jbone707.github.io/size-up-trainer/
 - Source of truth: `SPEC.md`
-- Current phase: version 1 is built with 33 real scenes from Wikimedia Commons (8 houses, 4 multi-family, 4 commercial, 4 high-rise, 9 vegetation, 4 vehicle and outbuilding).
+- Current phase: version 1 is live. After James's first look the set was cut to the 9 Commons photos that look like first arrival; generated images will fill the rest.
 
 ## Working files
 - `AGENTS.md`: project rules

@@ -202,7 +202,7 @@ function show(scene) {
   timeEl.textContent = formatTime(scene.time);
   dayEl.textContent = scene.day;
   countEl.textContent = "Scene " + deck.position() + " of " + deck.size;
-  credit.textContent = scene.credit ? "Photo: " + scene.credit : "";
+  credit.textContent = scene.id.toUpperCase() + (scene.credit ? ". Photo: " + scene.credit : "");
 }
 
 function next() {

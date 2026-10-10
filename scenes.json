@@ -130,16 +130,6 @@
     "notes": "A ten-story hotel; smoke and fire showing from one sixth-floor window; cars at the entrance; afternoon."
   },
   {
-    "id": "gen-hr-02",
-    "file": "img/gen-hr-02.jpg",
-    "type": "high-rise",
-    "time": "02:30",
-    "day": "Thursday",
-    "source": "generated, gpt-image-1, prompt G-HR-02",
-    "credit": "",
-    "notes": "An eight-story senior housing tower at night; fire showing from one fourth-floor window; most windows dark."
-  },
-  {
     "id": "gen-hr-03",
     "file": "img/gen-hr-03.jpg",
     "type": "high-rise",
@@ -148,16 +138,6 @@
     "source": "generated, gpt-image-1, prompt G-HR-03",
     "credit": "",
     "notes": "A seven-story office building; smoke from the roof mechanical area; parking lot full; morning."
-  },
-  {
-    "id": "gen-hr-04",
-    "file": "img/gen-hr-04.jpg",
-    "type": "high-rise",
-    "time": "20:00",
-    "day": "Saturday",
-    "source": "generated, gpt-image-1, prompt G-HR-04",
-    "credit": "",
-    "notes": "A twelve-story residential tower; fire on a ninth-floor balcony; lit windows; evening."
   },
   {
     "id": "gen-mf-01",

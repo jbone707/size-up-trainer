@@ -49,21 +49,26 @@ for (const s of scenes) {
   if (typeof s.file !== "string" || !s.file) fail(`${at}: file missing`);
   else if (!/^https:\/\//.test(s.file) && !existsSync(new URL(s.file, root))) fail(`${at}: file ${s.file} not found`);
   if (/CC BY/i.test(s.source) && !s.credit) fail(`${at}: a CC BY picture needs a credit line`);
+  if (!existsSync(new URL(`img/thumbs/${s.id}.jpg`, root))) fail(`${at}: thumbnail img/thumbs/${s.id}.jpg missing (run python3 scripts/make_thumbs.py)`);
 }
 
 // 3. Copy check
 const screenText = [
   ["index.html", read("index.html")],
+  ["gallery.html", read("gallery.html")],
   ["picker.js", read("picker.js")],
   ["scenes.json", scenes.map((s) => `${s.day} ${s.credit || ""}`).join("\n")],
 ];
 for (const [name, text] of screenText) {
   if (/[—–]/.test(text)) fail(`${name}: contains an em dash or en dash`);
 }
-const html = read("index.html");
-if ((html.match(/<h1[\s>]/g) || []).length !== 1) fail("index.html: must have exactly one h1");
-if (!/<title>[^<]+<\/title>/.test(html)) fail("index.html: missing title");
-if (/<h1[^>]*>[^<]*\.\s*<\/h1>/.test(html)) fail("index.html: heading ends with a period");
+for (const page of ["index.html", "gallery.html"]) {
+  const html = read(page);
+  if ((html.match(/<h1[\s>]/g) || []).length !== 1) fail(`${page}: must have exactly one h1`);
+  if (!/<title>[^<]+<\/title>/.test(html)) fail(`${page}: missing title`);
+  if (/<h[1-3][^>]*>[^<]*\.\s*<\/h[1-3]>/.test(html)) fail(`${page}: heading ends with a period`);
+  if (!/<nav aria-label="Main">[\s\S]*href="\.\/"[\s\S]*href="gallery\.html"[\s\S]*<\/nav>/.test(html)) fail(`${page}: main navigation must link Practice and Gallery`);
+}
 
 if (fails.length) {
   console.error("FAIL\n" + fails.map((f) => " - " + f).join("\n"));

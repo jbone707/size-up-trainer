@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Gallery, Size-Up Trainer</title>
+<link rel="icon" href="data:,">
+<style>
+  :root {
+    --bg: #0f1216;
+    --panel: #181d24;
+    --line: #2b333e;
+    --text: #f1f3f5;
+    --muted: #9aa5b1;
+    --accent: #e4572e;
+    --accent-press: #c4441f;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+    min-height: 100vh;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--line);
+  }
+  .brand { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+  nav { display: flex; gap: 4px; }
+  nav a {
+    display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px;
+    color: var(--muted); text-decoration: none; border-radius: 8px; font-weight: 600;
+  }
+  nav a:hover { color: var(--text); background: var(--panel); }
+  nav a[aria-current="page"] { color: var(--text); box-shadow: inset 0 -3px 0 var(--accent); border-radius: 0; }
+  h1 {
+    font-size: 1.05rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+  }
+  .filter { display: flex; align-items: center; gap: 8px; }
+  .filter label { color: var(--muted); font-size: 0.9rem; }
+  select {
+    min-height: 44px;
+    padding: 0 12px;
+    font: inherit;
+    color: var(--text);
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+  }
+  main { padding: 16px; }
+  .summary { color: var(--muted); margin: 0 0 12px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .tile {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--panel);
+    color: var(--text);
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+  }
+  .tile:hover { border-color: var(--muted); }
+  .tile img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; background: #000; }
+  .tile .meta { display: flex; justify-content: space-between; gap: 8px; padding: 8px 10px; font-size: 0.85rem; }
+  .tile .code { color: var(--muted); }
+  .tile .when { font-variant-numeric: tabular-nums; font-weight: 600; }
+  :focus-visible { outline: 3px solid #ffd166; outline-offset: 2px; }
+
+  dialog {
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #000;
+    color: var(--text);
+  }
+  dialog::backdrop { background: rgba(0, 0, 0, 0.9); }
+  .viewer { display: flex; flex-direction: column; height: 100%; }
+  .viewer-top {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 8px 16px; background: var(--panel); border-bottom: 1px solid var(--line);
+  }
+  .viewer-top h2 { font-size: 1rem; margin: 0; font-weight: 600; }
+  .viewer-stage { flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; position: relative; }
+  .viewer-stage img { max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
+  .viewer-bottom {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+    padding: 10px 16px 14px; background: var(--panel); border-top: 1px solid var(--line);
+  }
+  .clock { display: flex; align-items: baseline; gap: 12px; }
+  .time { font-size: 2.4rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; letter-spacing: 0.04em; }
+  .day { font-size: 1.2rem; color: var(--muted); }
+  .credit { color: var(--muted); font-size: 0.75rem; margin: 4px 0 0; overflow-wrap: anywhere; }
+  .steps { display: flex; gap: 8px; margin-left: auto; }
+  button.step, button.close {
+    min-height: 44px; min-width: 44px; padding: 0 18px;
+    font: inherit; font-weight: 600; color: #fff;
+    background: var(--accent); border: 0; border-radius: 8px; cursor: pointer;
+  }
+  button.step:hover { background: var(--accent-press); }
+  button.close { background: transparent; border: 1px solid var(--line); }
+  button.close:hover { background: var(--bg); }
+  .position { color: var(--muted); font-variant-numeric: tabular-nums; }
+  @media (max-width: 520px) {
+    .grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .tile .meta { flex-direction: column; gap: 2px; }
+    .steps { width: 100%; justify-content: space-between; }
+    .steps button { flex: 1; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <h1>Size-Up Trainer</h1>
+    <nav aria-label="Main">
+      <a href="./">Practice</a>
+      <a href="gallery.html" aria-current="page">Gallery</a>
+    </nav>
+  </div>
+  <div class="filter">
+    <label for="type">Scene type</label>
+    <select id="type">
+      <option value="all">All scenes</option>
+      <option value="residential">Residential</option>
+      <option value="multi-family">Multi-family</option>
+      <option value="commercial">Commercial</option>
+      <option value="high-rise">High-rise</option>
+      <option value="vegetation">Vegetation</option>
+      <option value="vehicle">Vehicle and other</option>
+    </select>
+  </div>
+</header>
+
+<main>
+  <p class="summary" id="summary" role="status">Loading scenes.</p>
+  <ul class="grid" id="grid"></ul>
+</main>
+
+<dialog id="viewer" aria-labelledby="viewer-title">
+  <div class="viewer">
+    <div class="viewer-top">
+      <h2 id="viewer-title"></h2>
+      <button type="button" class="close" id="close">Close</button>
+    </div>
+    <div class="viewer-stage"><img id="big" alt=""></div>
+    <div class="viewer-bottom">
+      <div>
+        <div class="clock"><span class="time" id="v-time"></span><span class="day" id="v-day"></span></div>
+        <p class="credit" id="v-credit"></p>
+      </div>
+      <span class="position" id="v-pos"></span>
+      <div class="steps">
+        <button type="button" class="step" id="prev">Previous</button>
+        <button type="button" class="step" id="next">Next</button>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script type="module">
+import { filterScenes, formatTime } from "./picker.js";
+
+const el = (id) => document.getElementById(id);
+const grid = el("grid"), summary = el("summary"), typeSel = el("type");
+const viewer = el("viewer"), big = el("big");
+const TYPE_ORDER = ["residential", "multi-family", "commercial", "high-rise", "vegetation", "vehicle"];
+const TYPE_NAMES = {
+  "residential": "Residential", "multi-family": "Multi-family", "commercial": "Commercial",
+  "high-rise": "High-rise", "vegetation": "Vegetation", "vehicle": "Vehicle and other"
+};
+const thumbOf = (s) => "img/thumbs/" + s.id + ".jpg";
+const plural = (n, word) => n + " " + word + (n === 1 ? "" : "s");
+
+let scenes = [];
+let shown = [];
+let current = -1;
+let lastTile = null;
+
+function render() {
+  shown = filterScenes(scenes, typeSel.value)
+    .sort((a, b) => TYPE_ORDER.indexOf(a.type) - TYPE_ORDER.indexOf(b.type) || a.id.localeCompare(b.id));
+  grid.textContent = "";
+  summary.textContent = shown.length
+    ? plural(shown.length, "scene") + ". Pick one to see it full size."
+    : "No scenes of this type yet. Pick another scene type.";
+  shown.forEach((s, i) => {
+    const li = document.createElement("li");
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "tile";
+    b.setAttribute("aria-label", "Open " + s.id.toUpperCase() + ", " + formatTime(s.time) + " " + s.day);
+    const img = document.createElement("img");
+    img.loading = "lazy";
+    img.alt = "";
+    img.src = thumbOf(s);
+    img.addEventListener("error", () => { img.src = s.file; }, { once: true });
+    const meta = document.createElement("span");
+    meta.className = "meta";
+    const code = document.createElement("span");
+    code.className = "code";
+    code.textContent = s.id.toUpperCase();
+    const when = document.createElement("span");
+    when.className = "when";
+    when.textContent = formatTime(s.time) + " " + s.day;
+    meta.append(code, when);
+    b.append(img, meta);
+    b.addEventListener("click", () => { lastTile = b; open(i); });
+    li.append(b);
+    grid.append(li);
+  });
+}
+
+function open(i) {
+  current = i;
+  fill();
+  if (!viewer.open) viewer.showModal();
+  el("next").focus();
+}
+
+function fill() {
+  const s = shown[current];
+  big.src = s.file;
+  big.alt = "Fire scene, " + TYPE_NAMES[s.type] + ", " + formatTime(s.time) + " " + s.day;
+  el("viewer-title").textContent = TYPE_NAMES[s.type] + ", " + s.id.toUpperCase();
+  el("v-time").textContent = formatTime(s.time);
+  el("v-day").textContent = s.day;
+  el("v-credit").textContent = s.credit ? "Photo: " + s.credit : "";
+  el("v-pos").textContent = (current + 1) + " of " + shown.length;
+}
+
+function step(d) {
+  if (!shown.length) return;
+  current = (current + d + shown.length) % shown.length;
+  fill();
+}
+
+el("prev").addEventListener("click", () => step(-1));
+el("next").addEventListener("click", () => step(1));
+el("close").addEventListener("click", () => viewer.close());
+viewer.addEventListener("close", () => { if (lastTile) lastTile.focus(); });
+viewer.addEventListener("keydown", (e) => {
+  if (e.key === "ArrowRight") { e.preventDefault(); step(1); }
+  if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); }
+});
+
+typeSel.addEventListener("change", () => {
+  try { localStorage.setItem("galleryType", typeSel.value); } catch (e) { /* storage is optional */ }
+  render();
+});
+
+try {
+  const saved = localStorage.getItem("galleryType");
+  if (saved && [...typeSel.options].some((o) => o.value === saved)) typeSel.value = saved;
+} catch (e) { /* storage is optional */ }
+
+fetch("scenes.json", { cache: "no-cache" })
+  .then((r) => { if (!r.ok) throw new Error("scenes"); return r.json(); })
+  .then((list) => { scenes = list; render(); })
+  .catch(() => { summary.textContent = "The scene list could not be loaded. Check your connection and reload the page."; });
+</script>
+</body>
+</html>

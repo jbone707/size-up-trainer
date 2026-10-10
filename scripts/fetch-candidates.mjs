@@ -11,7 +11,7 @@ const strip = (s) => (s || "").replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim
 
 const queries = readFileSync("scripts/candidate-queries.txt", "utf8")
   .split("\n").map((l) => l.trim()).filter((l) => l && !l.startsWith("#"));
-const perQuery = 12;
+const perQuery = Number(process.env.PER_QUERY || 15);
 
 mkdirSync("candidates", { recursive: true });
 const manifest = [];

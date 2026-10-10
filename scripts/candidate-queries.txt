@@ -1,21 +1,22 @@
 # One Wikimedia Commons search per line. Changing this file and pushing reruns the fetch.
+# Round 2: single-family houses, the thin category from round 1.
 incategory:"House fires in the United States"
+incategory:"Structure fires in the United States"
 incategory:"House fires in California"
-house fire firefighters smoke
-structure fire engine company
-residential structure fire
-apartment fire firefighters
-apartment building fire United States
-commercial building fire firefighters
-warehouse fire smoke
-strip mall fire
-high-rise fire smoke
-incategory:"High-rise fires"
-grass fire firefighters
-brush fire engine California
-wildfire homes California
-Tubbs Fire Santa Rosa
-Glass Fire Santa Rosa
-car fire firefighters
-vehicle fire
-barn fire
+incategory:"House fires"
+"house fire" smoke roof
+"working fire" house
+"fully involved" house
+"house fire" night flames
+attic fire house smoke
+garage fire house
+mobile home fire
+duplex fire
+townhouse fire
+"house fire" Oregon
+"house fire" Washington
+"house fire" Texas
+"house fire" Pennsylvania
+"house fire" Ohio
+"residential fire" smoke
+"structure fire" smoke showing

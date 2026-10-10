@@ -24,6 +24,9 @@ jobs:
           echo "PER_PROMPT=${PER_PROMPT:-2}" >> "$GITHUB_ENV"
           echo "IMAGE_QUALITY=${IMAGE_QUALITY:-medium}" >> "$GITHUB_ENV"
           echo "IMAGE_MODEL=${IMAGE_MODEL:-gpt-image-1}" >> "$GITHUB_ENV"
+          echo "PROMPTS_FILE=${PROMPTS_FILE:-scripts/image-prompts.json}" >> "$GITHUB_ENV"
+          echo "MAX_IMAGES=${MAX_IMAGES:-250}" >> "$GITHUB_ENV"
+          echo "LANES=${LANES:-4}" >> "$GITHUB_ENV"
       - run: node scripts/generate-images.mjs
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

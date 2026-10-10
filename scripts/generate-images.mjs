@@ -14,15 +14,17 @@ const quality = process.env.IMAGE_QUALITY || "medium";
 const perPrompt = Number(process.env.PER_PROMPT || 2);
 const only = (process.env.ONLY || "").split(",").map((s) => s.trim()).filter(Boolean);
 
-let prompts = JSON.parse(readFileSync("scripts/image-prompts.json", "utf8"));
+let prompts = JSON.parse(readFileSync(process.env.PROMPTS_FILE || "scripts/image-prompts.json", "utf8"));
 if (only.length) prompts = prompts.filter((p) => only.includes(p.code));
 
 mkdirSync("generated", { recursive: true });
 const manifest = [];
 let failures = 0;
 
-const jobs = [];
+let jobs = [];
 for (const p of prompts) for (let v = 1; v <= perPrompt; v++) jobs.push([p, v]);
+const maxImages = Number(process.env.MAX_IMAGES || 250);
+if (jobs.length > maxImages) { console.log(`capped at ${maxImages} of ${jobs.length}`); jobs = jobs.slice(0, maxImages); }
 let stop = false;
 async function one([p, v]) {
   if (stop) return;

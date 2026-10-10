@@ -1,0 +1,786 @@
+[
+  {
+    "code": "B-RES-01",
+    "type": "residential",
+    "area": "Downtown, near the junior college",
+    "time": "06:30",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: soft dawn light. Scene: a two-story 1900s balloon-frame Victorian house with narrow lap siding, tall double-hung windows, a steep gable roof and a raised foundation with basement windows, on a narrow lot with large old street trees and houses close on both sides; smoke pushing from around the closed garage door and the eaves above it; two cars in the driveway and one on the street."
+  },
+  {
+    "code": "B-RES-02",
+    "type": "residential",
+    "area": "Downtown, near the junior college",
+    "time": "07:20",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early morning with light marine-layer fog. Scene: a two-story 1900s balloon-frame Victorian house with narrow lap siding, tall double-hung windows, a steep gable roof and a raised foundation with basement windows, on a narrow lot with large old street trees and houses close on both sides; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway, porch light still on."
+  },
+  {
+    "code": "B-RES-03",
+    "type": "residential",
+    "area": "Downtown, near the junior college",
+    "time": "08:10",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: low morning sun. Scene: a two-story 1900s balloon-frame Victorian house with narrow lap siding, tall double-hung windows, a steep gable roof and a raised foundation with basement windows, on a narrow lot with large old street trees and houses close on both sides; smoke coming from the basement windows and the front door; two cars in the driveway, porch light still on."
+  },
+  {
+    "code": "B-RES-04",
+    "type": "residential",
+    "area": "McDonald Avenue area",
+    "time": "20:30",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early night, streetlights on, some windows lit. Scene: a 1920s one-and-a-half-story craftsman bungalow with a deep front porch, tapered columns and a low dormer, on an older tree-lined street; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway and one parked on the street."
+  },
+  {
+    "code": "B-RES-05",
+    "type": "residential",
+    "area": "McDonald Avenue area",
+    "time": "07:20",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early morning with light marine-layer fog. Scene: a 1920s one-and-a-half-story craftsman bungalow with a deep front porch, tapered columns and a low dormer, on an older tree-lined street; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway, porch light still on."
+  },
+  {
+    "code": "B-RES-06",
+    "type": "residential",
+    "area": "McDonald Avenue area",
+    "time": "20:30",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early night, streetlights on, some windows lit. Scene: a 1920s one-and-a-half-story craftsman bungalow with a deep front porch, tapered columns and a low dormer, on an older tree-lined street; fire on the front porch starting to climb the siding; two cars in the driveway and one parked on the street."
+  },
+  {
+    "code": "B-RES-07",
+    "type": "residential",
+    "area": "West End",
+    "time": "20:30",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early night, streetlights on, some windows lit. Scene: a small 1910s single-story workers' cottage with a hip roof and a tiny front porch, close to the sidewalk, a detached garage at the back of the lot; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway."
+  },
+  {
+    "code": "B-RES-08",
+    "type": "residential",
+    "area": "West End",
+    "time": "07:20",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early morning with light marine-layer fog. Scene: a small 1910s single-story workers' cottage with a hip roof and a tiny front porch, close to the sidewalk, a detached garage at the back of the lot; light smoke from the eaves only, the house otherwise looks normal; two cars in the driveway and one on the street."
+  },
+  {
+    "code": "B-RES-09",
+    "type": "residential",
+    "area": "West End",
+    "time": "08:10",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: low morning sun. Scene: a small 1910s single-story workers' cottage with a hip roof and a tiny front porch, close to the sidewalk, a detached garage at the back of the lot; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway, porch light still on."
+  },
+  {
+    "code": "B-RES-10",
+    "type": "residential",
+    "area": "Montgomery Village",
+    "time": "10:40",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: clear mid-morning sun. Scene: a 1950s single-story ranch house with board-and-batten siding, a low-pitched roof and an attached one-car garage, mature trees, flat street; smoke pushing from around the closed garage door and the eaves above it; one car in the driveway."
+  },
+  {
+    "code": "B-RES-11",
+    "type": "residential",
+    "area": "Montgomery Village",
+    "time": "08:10",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: low morning sun. Scene: a 1950s single-story ranch house with board-and-batten siding, a low-pitched roof and an attached one-car garage, mature trees, flat street; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway and one on the street."
+  },
+  {
+    "code": "B-RES-12",
+    "type": "residential",
+    "area": "Montgomery Village",
+    "time": "13:20",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: bright midday sun. Scene: a 1950s single-story ranch house with board-and-batten siding, a low-pitched roof and an attached one-car garage, mature trees, flat street; fire on the front porch starting to climb the siding; an empty driveway."
+  },
+  {
+    "code": "B-RES-13",
+    "type": "residential",
+    "area": "Rincon Valley",
+    "time": "13:20",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: bright midday sun. Scene: a 1970s single-story ranch house with wood siding and an attached two-car garage, oak trees in the yard, a gently sloping street; heavy smoke from the windows and the roof; an empty driveway and trash cans at the curb."
+  },
+  {
+    "code": "B-RES-14",
+    "type": "residential",
+    "area": "Rincon Valley",
+    "time": "07:20",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early morning with light marine-layer fog. Scene: a 1970s single-story ranch house with wood siding and an attached two-car garage, oak trees in the yard, a gently sloping street; light smoke from the eaves only, the house otherwise looks normal; two cars in the driveway and one on the street."
+  },
+  {
+    "code": "B-RES-15",
+    "type": "residential",
+    "area": "Rincon Valley",
+    "time": "02:50",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: middle of the night, dark, only streetlights. Scene: a 1970s single-story ranch house with wood siding and an attached two-car garage, oak trees in the yard, a gently sloping street; smoke pushing from around the closed garage door and the eaves above it; two cars in the driveway."
+  },
+  {
+    "code": "B-RES-16",
+    "type": "residential",
+    "area": "Oakmont",
+    "time": "17:40",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late afternoon sun, long shadows. Scene: a single-story 1970s ranch home in a quiet retirement community, low-pitched roof, attached two-car garage, tidy landscaping, oak-covered hills behind; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway and one parked on the street."
+  },
+  {
+    "code": "B-RES-17",
+    "type": "residential",
+    "area": "Oakmont",
+    "time": "08:10",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: low morning sun. Scene: a single-story 1970s ranch home in a quiet retirement community, low-pitched roof, attached two-car garage, tidy landscaping, oak-covered hills behind; fire on the front porch starting to climb the siding; two cars in the driveway and one on the street."
+  },
+  {
+    "code": "B-RES-18",
+    "type": "residential",
+    "area": "Oakmont",
+    "time": "06:30",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: soft dawn light. Scene: a single-story 1970s ranch home in a quiet retirement community, low-pitched roof, attached two-car garage, tidy landscaping, oak-covered hills behind; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway and one on the street."
+  },
+  {
+    "code": "B-RES-19",
+    "type": "residential",
+    "area": "Bennett Valley",
+    "time": "18:50",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: dusk, sky turning orange. Scene: a 1980s two-story house with cedar siding on a large lot with mature oaks and a long driveway, golden hills behind; light smoke from the eaves only, the house otherwise looks normal; two cars in the driveway and one parked on the street."
+  },
+  {
+    "code": "B-RES-20",
+    "type": "residential",
+    "area": "Bennett Valley",
+    "time": "10:40",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: clear mid-morning sun. Scene: a 1980s two-story house with cedar siding on a large lot with mature oaks and a long driveway, golden hills behind; fire showing from one front window with dark smoke rolling up the face of the house; cars in the driveway and on the street."
+  },
+  {
+    "code": "B-RES-21",
+    "type": "residential",
+    "area": "Bennett Valley",
+    "time": "17:40",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late afternoon sun, long shadows. Scene: a 1980s two-story house with cedar siding on a large lot with mature oaks and a long driveway, golden hills behind; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway."
+  },
+  {
+    "code": "B-RES-22",
+    "type": "residential",
+    "area": "Coffey Park, rebuilt after the Tubbs Fire",
+    "time": "20:30",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early night, streetlights on, some windows lit. Scene: a new two-story house built after 2017 in modern farmhouse style with fiber-cement siding and dark window frames, a small front yard with young trees, similar new houses close on both sides; smoke pushing from around the closed garage door and the eaves above it; two cars in the driveway and one parked on the street."
+  },
+  {
+    "code": "B-RES-23",
+    "type": "residential",
+    "area": "Coffey Park, rebuilt after the Tubbs Fire",
+    "time": "08:10",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: low morning sun. Scene: a new two-story house built after 2017 in modern farmhouse style with fiber-cement siding and dark window frames, a small front yard with young trees, similar new houses close on both sides; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway, porch light still on."
+  },
+  {
+    "code": "B-RES-24",
+    "type": "residential",
+    "area": "Coffey Park, rebuilt after the Tubbs Fire",
+    "time": "10:40",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: clear mid-morning sun. Scene: a new two-story house built after 2017 in modern farmhouse style with fiber-cement siding and dark window frames, a small front yard with young trees, similar new houses close on both sides; fire in a small backyard accessory dwelling unit behind the house, seen over the side fence; one car in the driveway."
+  },
+  {
+    "code": "B-RES-25",
+    "type": "residential",
+    "area": "Fountaingrove, rebuilt after the Tubbs Fire",
+    "time": "05:10",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: before dawn, dark with a faint blue glow on the horizon, porch lights and streetlights on. Scene: a large new two-story hillside home with stucco and stone, a tile roof and big windows, on a curving street with young landscaping and a few scorched oak trunks still standing nearby; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway, porch light still on."
+  },
+  {
+    "code": "B-RES-26",
+    "type": "residential",
+    "area": "Fountaingrove, rebuilt after the Tubbs Fire",
+    "time": "05:10",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: before dawn, dark with a faint blue glow on the horizon, porch lights and streetlights on. Scene: a large new two-story hillside home with stucco and stone, a tile roof and big windows, on a curving street with young landscaping and a few scorched oak trunks still standing nearby; heavy smoke from the second floor windows and the roof; two cars in the driveway, porch light still on."
+  },
+  {
+    "code": "B-RES-27",
+    "type": "residential",
+    "area": "Fountaingrove, rebuilt after the Tubbs Fire",
+    "time": "17:40",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late afternoon sun, long shadows. Scene: a large new two-story hillside home with stucco and stone, a tile roof and big windows, on a curving street with young landscaping and a few scorched oak trunks still standing nearby; light smoke from the eaves only, the house otherwise looks normal; two cars in the driveway."
+  },
+  {
+    "code": "B-RES-28",
+    "type": "residential",
+    "area": "Fountaingrove hillside",
+    "time": "23:40",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late night, streetlights on, most windows dark. Scene: a large 1990s two-story hillside home with a wooden deck built out over a dry grassy slope, oak woodland around it, a narrow winding street; heavy smoke from the second floor windows and the roof; two cars in the driveway."
+  },
+  {
+    "code": "B-RES-29",
+    "type": "residential",
+    "area": "Fountaingrove hillside",
+    "time": "02:50",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: middle of the night, dark, only streetlights. Scene: a large 1990s two-story hillside home with a wooden deck built out over a dry grassy slope, oak woodland around it, a narrow winding street; fire on the front porch starting to climb the siding; two cars in the driveway."
+  },
+  {
+    "code": "B-RES-30",
+    "type": "residential",
+    "area": "Fountaingrove hillside",
+    "time": "18:50",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: dusk, sky turning orange. Scene: a large 1990s two-story hillside home with a wooden deck built out over a dry grassy slope, oak woodland around it, a narrow winding street; fire under the deck spreading into the dry grass on the slope below; cars in the driveway and on the street."
+  },
+  {
+    "code": "B-RES-31",
+    "type": "residential",
+    "area": "Skyhawk, next to Annadel",
+    "time": "20:30",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early night, streetlights on, some windows lit. Scene: a 1990s two-story home on the last street before open space, its back fence opening onto dry golden grass and oaks; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway."
+  },
+  {
+    "code": "B-RES-32",
+    "type": "residential",
+    "area": "Skyhawk, next to Annadel",
+    "time": "13:20",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: bright midday sun. Scene: a 1990s two-story home on the last street before open space, its back fence opening onto dry golden grass and oaks; a kitchen fire: flames out of one side window and smoke along the eaves; an empty driveway and trash cans at the curb."
+  },
+  {
+    "code": "B-RES-33",
+    "type": "residential",
+    "area": "Skyhawk, next to Annadel",
+    "time": "17:40",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late afternoon sun, long shadows. Scene: a 1990s two-story home on the last street before open space, its back fence opening onto dry golden grass and oaks; a small grass fire in the open space burning up to the back fence of the house; two cars in the driveway and a kid's bike on the lawn."
+  },
+  {
+    "code": "B-RES-34",
+    "type": "residential",
+    "area": "Mark West Springs Road area",
+    "time": "05:10",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: before dawn, dark with a faint blue glow on the horizon, porch lights and streetlights on. Scene: a 1960s single-story house on a wooded lot under tall redwoods and bay trees, at the end of a long narrow driveway off a two-lane country road; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway, porch light still on."
+  },
+  {
+    "code": "B-RES-35",
+    "type": "residential",
+    "area": "Mark West Springs Road area",
+    "time": "06:30",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: soft dawn light. Scene: a 1960s single-story house on a wooded lot under tall redwoods and bay trees, at the end of a long narrow driveway off a two-lane country road; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway, porch light still on."
+  },
+  {
+    "code": "B-RES-36",
+    "type": "residential",
+    "area": "Mark West Springs Road area",
+    "time": "08:10",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: low morning sun. Scene: a 1960s single-story house on a wooded lot under tall redwoods and bay trees, at the end of a long narrow driveway off a two-lane country road; smoke from the roof and fire showing from a side window, needles and leaves on the roof; two cars in the driveway, porch light still on."
+  },
+  {
+    "code": "B-RES-37",
+    "type": "residential",
+    "area": "West of Fulton Road",
+    "time": "15:50",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: warm afternoon sun. Scene: a single-story ranch house on a two-acre rural lot with a long gravel driveway, a metal shop building, a horse fence and open fields around; light gray smoke pushing from the attic vents and gable ends, nothing else showing; no vehicles in the driveway."
+  },
+  {
+    "code": "B-RES-38",
+    "type": "residential",
+    "area": "West of Fulton Road",
+    "time": "06:30",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: soft dawn light. Scene: a single-story ranch house on a two-acre rural lot with a long gravel driveway, a metal shop building, a horse fence and open fields around; light smoke from the eaves only, the house otherwise looks normal; a pickup truck and a car parked by the house."
+  },
+  {
+    "code": "B-RES-39",
+    "type": "residential",
+    "area": "West of Fulton Road",
+    "time": "06:30",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: soft dawn light. Scene: a single-story ranch house on a two-acre rural lot with a long gravel driveway, a metal shop building, a horse fence and open fields around; fire in the metal shop building beside the house, smoke from its roll-up door; a pickup truck and a car parked by the house."
+  },
+  {
+    "code": "B-RES-40",
+    "type": "residential",
+    "area": "Roseland",
+    "time": "18:50",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: dusk, sky turning orange. Scene: a small 1940s single-story stucco house with a chain-link fence and a converted garage, older cars in the driveway and on the street; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway."
+  },
+  {
+    "code": "B-RES-41",
+    "type": "residential",
+    "area": "Roseland",
+    "time": "18:50",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: dusk, sky turning orange. Scene: a small 1940s single-story stucco house with a chain-link fence and a converted garage, older cars in the driveway and on the street; heavy smoke from the windows and the roof; two cars in the driveway and one parked on the street."
+  },
+  {
+    "code": "B-RES-42",
+    "type": "residential",
+    "area": "Roseland",
+    "time": "06:30",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: soft dawn light. Scene: a small 1940s single-story stucco house with a chain-link fence and a converted garage, older cars in the driveway and on the street; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway, porch light still on."
+  },
+  {
+    "code": "B-RES-43",
+    "type": "residential",
+    "area": "Southwest Santa Rosa",
+    "time": "08:10",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: low morning sun. Scene: a 2000s two-story tract house with stucco walls and a tile roof in a subdivision of similar houses, two-car garage, small lawn; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway and one on the street."
+  },
+  {
+    "code": "B-RES-44",
+    "type": "residential",
+    "area": "Southwest Santa Rosa",
+    "time": "05:10",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: before dawn, dark with a faint blue glow on the horizon, porch lights and streetlights on. Scene: a 2000s two-story tract house with stucco walls and a tile roof in a subdivision of similar houses, two-car garage, small lawn; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway, porch light still on."
+  },
+  {
+    "code": "B-RES-45",
+    "type": "residential",
+    "area": "Southwest Santa Rosa",
+    "time": "07:20",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early morning with light marine-layer fog. Scene: a 2000s two-story tract house with stucco walls and a tile roof in a subdivision of similar houses, two-car garage, small lawn; smoke pushing from around the closed garage door and the eaves above it; two cars in the driveway and one on the street."
+  },
+  {
+    "code": "B-MF-01",
+    "type": "multi-family",
+    "area": "Stony Point Road",
+    "time": "08:10",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: low morning sun. Scene: a two-story 1980s garden apartment complex with exterior stairs and walkways, carports along the parking lot; fire showing from one upstairs unit window, smoke spreading along the walkway."
+  },
+  {
+    "code": "B-MF-02",
+    "type": "multi-family",
+    "area": "Stony Point Road",
+    "time": "17:40",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late afternoon sun, long shadows. Scene: a two-story 1980s garden apartment complex with exterior stairs and walkways, carports along the parking lot; fire showing from a ground-floor unit, smoke rising up the face of the building past the units above."
+  },
+  {
+    "code": "B-MF-03",
+    "type": "multi-family",
+    "area": "Southwest Santa Rosa",
+    "time": "23:40",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late night, streetlights on, most windows dark. Scene: a three-story 2010s apartment building with balconies over a parking lot, more buildings of the same complex behind; smoke pushing from one unit's front door and window, residents standing in the parking lot."
+  },
+  {
+    "code": "B-MF-04",
+    "type": "multi-family",
+    "area": "Southwest Santa Rosa",
+    "time": "10:40",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: clear mid-morning sun. Scene: a three-story 2010s apartment building with balconies over a parking lot, more buildings of the same complex behind; light smoke from the attic vents along the whole roof."
+  },
+  {
+    "code": "B-MF-05",
+    "type": "multi-family",
+    "area": "Rincon Valley",
+    "time": "15:50",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: warm afternoon sun. Scene: a senior mobile home park with double-wide homes, small carports and narrow private streets; fire showing from one upstairs unit window, smoke spreading along the walkway."
+  },
+  {
+    "code": "B-MF-06",
+    "type": "multi-family",
+    "area": "Rincon Valley",
+    "time": "23:40",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late night, streetlights on, most windows dark. Scene: a senior mobile home park with double-wide homes, small carports and narrow private streets; smoke pushing from one unit's front door and window, residents standing in the parking lot."
+  },
+  {
+    "code": "B-MF-07",
+    "type": "multi-family",
+    "area": "Near the junior college",
+    "time": "05:10",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: before dawn, dark with a faint blue glow on the horizon, porch lights and streetlights on. Scene: a 1900s two-story Victorian house divided into student apartments, several mailboxes and bikes on the porch; smoke pushing from one unit's front door and window, residents standing in the parking lot."
+  },
+  {
+    "code": "B-MF-08",
+    "type": "multi-family",
+    "area": "Near the junior college",
+    "time": "20:30",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early night, streetlights on, some windows lit. Scene: a 1900s two-story Victorian house divided into student apartments, several mailboxes and bikes on the porch; fire showing from one upstairs unit window, smoke spreading along the walkway."
+  },
+  {
+    "code": "B-MF-09",
+    "type": "multi-family",
+    "area": "Downtown",
+    "time": "18:50",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: dusk, sky turning orange. Scene: a new four-story apartment building over ground-floor shops on a downtown street; light smoke from the attic vents along the whole roof."
+  },
+  {
+    "code": "B-MF-10",
+    "type": "multi-family",
+    "area": "Downtown",
+    "time": "08:10",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: low morning sun. Scene: a new four-story apartment building over ground-floor shops on a downtown street; fire showing from a ground-floor unit, smoke rising up the face of the building past the units above."
+  },
+  {
+    "code": "B-MF-11",
+    "type": "multi-family",
+    "area": "Montgomery Village",
+    "time": "02:50",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: middle of the night, dark, only streetlights. Scene: a single-story 1960s fourplex with four front doors under one long roof; smoke pushing from one unit's front door and window, residents standing in the parking lot."
+  },
+  {
+    "code": "B-MF-12",
+    "type": "multi-family",
+    "area": "Montgomery Village",
+    "time": "10:40",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: clear mid-morning sun. Scene: a single-story 1960s fourplex with four front doors under one long roof; fire showing from a ground-floor unit, smoke rising up the face of the building past the units above."
+  },
+  {
+    "code": "B-MF-13",
+    "type": "multi-family",
+    "area": "Coffey Park",
+    "time": "15:50",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: warm afternoon sun. Scene: a row of new two-story townhomes with attached garages, built after the Tubbs Fire; fire showing from one upstairs unit window, smoke spreading along the walkway."
+  },
+  {
+    "code": "B-MF-14",
+    "type": "multi-family",
+    "area": "Coffey Park",
+    "time": "15:50",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: warm afternoon sun. Scene: a row of new two-story townhomes with attached garages, built after the Tubbs Fire; light smoke from the attic vents along the whole roof."
+  },
+  {
+    "code": "B-MF-15",
+    "type": "multi-family",
+    "area": "Roseland",
+    "time": "02:50",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: middle of the night, dark, only streetlights. Scene: a 1970s two-story eight-unit apartment building with an open stairway in the middle; light smoke from the attic vents along the whole roof."
+  },
+  {
+    "code": "B-MF-16",
+    "type": "multi-family",
+    "area": "Roseland",
+    "time": "17:40",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late afternoon sun, long shadows. Scene: a 1970s two-story eight-unit apartment building with an open stairway in the middle; fire showing from a ground-floor unit, smoke rising up the face of the building past the units above."
+  },
+  {
+    "code": "B-COM-01",
+    "type": "commercial",
+    "area": "Santa Rosa Avenue",
+    "time": "15:50",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: warm afternoon sun. Scene: a single-story 1970s strip mall with a donut shop, a nail salon and a phone store, cars in the lot; smoke from the roofline above one store."
+  },
+  {
+    "code": "B-COM-02",
+    "type": "commercial",
+    "area": "Sebastopol Road",
+    "time": "06:30",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: soft dawn light. Scene: a single-story corner market and taqueria with a flat roof and a small parking lot; smoke pushing from the front door and a rooftop vent."
+  },
+  {
+    "code": "B-COM-03",
+    "type": "commercial",
+    "area": "Stony Point Road industrial area",
+    "time": "07:20",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early morning with light marine-layer fog. Scene: a concrete tilt-up warehouse with roll-up doors and a few trucks; smoke coming from around two roll-up doors."
+  },
+  {
+    "code": "B-COM-04",
+    "type": "commercial",
+    "area": "Courthouse Square, downtown",
+    "time": "18:50",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: dusk, sky turning orange. Scene: a two-story 1920s brick commercial building with shops below and offices above, sidewalk and street trees; smoke from the second-floor windows."
+  },
+  {
+    "code": "B-COM-05",
+    "type": "commercial",
+    "area": "Railroad Square",
+    "time": "17:40",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late afternoon sun, long shadows. Scene: a historic two-story stone warehouse building now used as shops and a restaurant; smoke from the roof and upper windows at one end."
+  },
+  {
+    "code": "B-COM-06",
+    "type": "commercial",
+    "area": "Santa Rosa Avenue",
+    "time": "10:40",
+    "day": "Monday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: clear mid-morning sun. Scene: a small auto repair shop with three service bays; smoke pouring from one open bay."
+  },
+  {
+    "code": "B-COM-07",
+    "type": "commercial",
+    "area": "Coddingtown area",
+    "time": "15:50",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: warm afternoon sun. Scene: a large single-story big-box store with a huge parking lot; smoke from the roof near the back of the building."
+  },
+  {
+    "code": "B-COM-08",
+    "type": "commercial",
+    "area": "Mendocino Avenue",
+    "time": "17:40",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late afternoon sun, long shadows. Scene: a stand-alone fast-food restaurant with a drive-through lane; heavy smoke from the roof over the kitchen."
+  },
+  {
+    "code": "B-COM-09",
+    "type": "commercial",
+    "area": "Airport business park",
+    "time": "05:10",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: before dawn, dark with a faint blue glow on the horizon, porch lights and streetlights on. Scene: a two-story office building with tinted windows and landscaping; smoke from one second-floor window."
+  },
+  {
+    "code": "B-COM-10",
+    "type": "commercial",
+    "area": "West of Fulton Road",
+    "time": "10:40",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: clear mid-morning sun. Scene: a winery production barn with a metal roof, tanks and barrels beside it, vineyards around; smoke from the eaves of the barn."
+  },
+  {
+    "code": "B-COM-11",
+    "type": "commercial",
+    "area": "Hearn Avenue",
+    "time": "18:50",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: dusk, sky turning orange. Scene: a self-storage facility with rows of roll-up units; smoke pushing from one storage unit door."
+  },
+  {
+    "code": "B-COM-12",
+    "type": "commercial",
+    "area": "Rincon Valley",
+    "time": "15:50",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: warm afternoon sun. Scene: a single-story elementary school wing with a covered walkway, empty playground; smoke from the roof vents of one classroom."
+  },
+  {
+    "code": "B-COM-13",
+    "type": "commercial",
+    "area": "Montgomery Drive",
+    "time": "15:50",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: warm afternoon sun. Scene: a 1960s church with a tall A-frame roof and a parking lot; smoke from the eaves and the front doors."
+  },
+  {
+    "code": "B-COM-14",
+    "type": "commercial",
+    "area": "Fourth Street",
+    "time": "15:50",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: warm afternoon sun. Scene: a single-story restaurant with an outdoor patio and string lights; fire showing through the kitchen roof vent with smoke."
+  },
+  {
+    "code": "B-HR-01",
+    "type": "high-rise",
+    "area": "Downtown",
+    "time": "08:10",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: low morning sun. Scene: a seven-story hotel on a downtown corner beside a freeway overpass, set back behind a drop-off loop and street trees; smoke and fire showing from one fifth-floor window."
+  },
+  {
+    "code": "B-HR-02",
+    "type": "high-rise",
+    "area": "Downtown",
+    "time": "15:50",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: warm afternoon sun. Scene: a ten-story senior apartment tower on a city block, a small parking lot and street trees in front, smaller buildings around it; fire showing from one seventh-floor window, smoke above it."
+  },
+  {
+    "code": "B-HR-03",
+    "type": "high-rise",
+    "area": "Downtown",
+    "time": "23:40",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late night, streetlights on, most windows dark. Scene: a six-story 1970s office building on a downtown street with shops across the street; smoke from several windows on the fourth floor."
+  },
+  {
+    "code": "B-HR-04",
+    "type": "high-rise",
+    "area": "Fountaingrove",
+    "time": "05:10",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: before dawn, dark with a faint blue glow on the horizon, porch lights and streetlights on. Scene: a five-story hotel on a hill with landscaped grounds and a parking lot; smoke from the roofline and one top-floor window."
+  },
+  {
+    "code": "B-HR-05",
+    "type": "high-rise",
+    "area": "Medical district",
+    "time": "10:40",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: clear mid-morning sun. Scene: a five-story medical office building with a parking garage beside it; smoke from one third-floor window."
+  },
+  {
+    "code": "B-HR-06",
+    "type": "high-rise",
+    "area": "Downtown",
+    "time": "10:40",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: clear mid-morning sun. Scene: a six-story apartment building with balconies on a downtown street; fire on one fourth-floor balcony spreading into the unit."
+  },
+  {
+    "code": "B-VEG-01",
+    "type": "vegetation",
+    "area": "Highway 12 near Oakmont",
+    "time": "18:50",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: dusk, sky turning orange. Scene: a small grass fire, about the size of a basketball court, on the shoulder of a two-lane highway, oaks and a row of houses about 200 feet away, dry golden grass, flames a foot or two high, light smoke."
+  },
+  {
+    "code": "B-VEG-02",
+    "type": "vegetation",
+    "area": "Fountaingrove",
+    "time": "10:40",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: clear mid-morning sun. Scene: a small grass fire in a strip of open space behind a row of new homes, burning toward the back fences, dry golden grass, flames a foot or two high, light smoke."
+  },
+  {
+    "code": "B-VEG-03",
+    "type": "vegetation",
+    "area": "Southwest Santa Rosa",
+    "time": "13:20",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: bright midday sun. Scene: a small grass fire in a weedy vacant lot between houses and a shopping center, dry golden grass, flames a foot or two high, light smoke."
+  },
+  {
+    "code": "B-VEG-04",
+    "type": "vegetation",
+    "area": "Santa Rosa Creek trail",
+    "time": "17:40",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late afternoon sun, long shadows. Scene: a small brush fire in the blackberry and willow along a creek trail, a paved path and houses on the far side, dry golden grass, flames a foot or two high, light smoke."
+  },
+  {
+    "code": "B-VEG-05",
+    "type": "vegetation",
+    "area": "West of Fulton Road",
+    "time": "15:50",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: warm afternoon sun. Scene: a small field fire beside a hay barn on a farm, fire about 60 feet from the barn, dry golden grass, flames a foot or two high, light smoke."
+  },
+  {
+    "code": "B-VEG-06",
+    "type": "vegetation",
+    "area": "Bennett Valley",
+    "time": "17:40",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late afternoon sun, long shadows. Scene: a small grass fire at the edge of a vineyard next to a country road, a house up the hill, dry golden grass, flames a foot or two high, light smoke."
+  },
+  {
+    "code": "B-VEG-07",
+    "type": "vegetation",
+    "area": "Annadel trailhead",
+    "time": "15:50",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: warm afternoon sun. Scene: a small grass fire in the grass beside a trailhead parking lot, oak woodland beyond, dry golden grass, flames a foot or two high, light smoke."
+  },
+  {
+    "code": "B-VEG-08",
+    "type": "vegetation",
+    "area": "Highway 101",
+    "time": "17:40",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: late afternoon sun, long shadows. Scene: a small grass fire in the freeway median, oleander bushes nearby, traffic passing, dry golden grass, flames a foot or two high, light smoke."
+  },
+  {
+    "code": "B-VEH-01",
+    "type": "vehicle",
+    "area": "Southwest Santa Rosa",
+    "time": "13:20",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: bright midday sun. Scene: a car on fire in an apartment complex parking lot, cars parked on both sides."
+  },
+  {
+    "code": "B-VEH-02",
+    "type": "vehicle",
+    "area": "Rincon Valley",
+    "time": "06:30",
+    "day": "Saturday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: soft dawn light. Scene: a pickup truck on fire in a driveway, parked close to the garage door of a house."
+  },
+  {
+    "code": "B-VEH-03",
+    "type": "vehicle",
+    "area": "West of Fulton Road",
+    "time": "13:20",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: bright midday sun. Scene: a travel trailer on fire on a rural lot next to a house and a barn."
+  },
+  {
+    "code": "B-VEH-04",
+    "type": "vehicle",
+    "area": "Highway 101",
+    "time": "05:10",
+    "day": "Wednesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: before dawn, dark with a faint blue glow on the horizon, porch lights and streetlights on. Scene: a car on fire on the shoulder of the freeway, dry grass next to the shoulder."
+  },
+  {
+    "code": "B-VEH-05",
+    "type": "vehicle",
+    "area": "Montgomery Village",
+    "time": "05:10",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: before dawn, dark with a faint blue glow on the horizon, porch lights and streetlights on. Scene: a wooden shed on fire in a backyard, a fence and the back of the house about ten feet away, seen from the side street."
+  },
+  {
+    "code": "B-VEH-06",
+    "type": "vehicle",
+    "area": "Santa Rosa Avenue",
+    "time": "08:10",
+    "day": "Thursday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: low morning sun. Scene: a dumpster on fire against the back wall of a commercial building."
+  },
+  {
+    "code": "B-VEH-07",
+    "type": "vehicle",
+    "area": "Bennett Valley",
+    "time": "20:30",
+    "day": "Sunday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early night, streetlights on, some windows lit. Scene: a boat on a trailer burning in the side yard of a house."
+  },
+  {
+    "code": "B-VEH-08",
+    "type": "vehicle",
+    "area": "Oakmont",
+    "time": "20:30",
+    "day": "Friday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: early night, streetlights on, some windows lit. Scene: a golf cart on fire in an open garage of a single-story home."
+  },
+  {
+    "code": "B-VEH-09",
+    "type": "vehicle",
+    "area": "Roseland",
+    "time": "13:20",
+    "day": "Tuesday",
+    "prompt": "Photorealistic photograph, landscape 16:9, taken at eye level from the street as the first fire engine pulls up. Santa Rosa, Sonoma County, California. An ordinary, believable scene: the building sits on its own lot beside a normal street, with plausible neighbors, street trees, utility poles and parked cars, and the street runs past the building, not into it. No firefighters, no fire trucks, no emergency vehicles, no hoses, no readable text or signs, no watermark. Lighting: bright midday sun. Scene: a car on fire parked at the curb in front of small houses."
+  }
+]

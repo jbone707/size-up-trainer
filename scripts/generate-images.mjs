@@ -27,11 +27,15 @@ const maxImages = Number(process.env.MAX_IMAGES || 250);
 if (jobs.length > maxImages) { console.log(`capped at ${maxImages} of ${jobs.length}`); jobs = jobs.slice(0, maxImages); }
 let stop = false;
 const errors = [];
+const started = Date.now();
+const budgetMs = Number(process.env.TIME_BUDGET_MIN || 70) * 60000;
+let consecutive429 = 0;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function one([p, v]) {
   if (stop) return;
   const file = `generated/${p.code}-${v}.png`;
   for (let attempt = 1; attempt <= 6 && !stop; attempt++) {
+    if (Date.now() - started > budgetMs) { stop = true; errors.push({ image: `${p.code}-${v}`, message: "time budget reached, stopped so the images made so far are saved" }); return; }
     try {
       const r = await fetch("https://api.openai.com/v1/images/generations", {
         method: "POST",
@@ -40,6 +44,7 @@ async function one([p, v]) {
       });
       const body = await r.json().catch(() => ({}));
       if (r.ok) {
+        consecutive429 = 0;
         writeFileSync(file, Buffer.from(body.data[0].b64_json, "base64"));
         manifest.push({ ...p, file, model, quality });
         console.log(`${p.code}-${v}: ok`);
@@ -52,6 +57,7 @@ async function one([p, v]) {
       // Out of money or bad key: stop everything, spending more cannot help.
       if (r.status === 401 || /insufficient_quota|billing_hard_limit/.test(code) || /billing hard limit|exceeded your current quota/i.test(msg)) { stop = true; return; }
       // Rate limit or server trouble: wait and try again.
+      if (r.status === 429 && ++consecutive429 >= 5) { stop = true; errors.push({ image: `${p.code}-${v}`, message: "five rate-limit refusals in a row, stopped" }); return; }
       if (r.status === 429 || r.status >= 500) { await sleep(Math.min(60000, 5000 * 2 ** (attempt - 1))); continue; }
       // Anything else (a refused prompt): give up on this one image.
       failures++;

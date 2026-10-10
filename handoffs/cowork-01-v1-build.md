@@ -35,3 +35,11 @@ James: a much simpler size-up simulator than the commercial ones, reachable from
 - James: only two of the 33 photos were usable. His four tests (first arrival with no crews, whole building visible, looks like Santa Rosa, early or offensive fire) are now an AGENTS.md rule. The set was cut to the photos that pass, then the four large wildland photos were dropped as not first-due material.
 - Claude cannot make images. James chose an automated GitHub job using OpenAI's image API with a key he put in the repo secrets himself. One test image passed, then two versions of each of the 38 prompts were made (76 in all). Cowork kept the better version of every prompt.
 - The page now shows a fixed scene code under each picture, because "Scene 7 of 33" is a position in the shuffle and could not be traced back to a picture.
+
+## Overnight 2026-10-09 to 10: gallery and batch two
+- Gallery page (`gallery.html`): every scene as a thumbnail, filter by type, click for a full-size viewer with Previous and Next (arrow keys too), Escape closes. Practice and Gallery links on both pages. Thumbnails in `img/thumbs/`, made by `scripts/make_thumbs.py`; the check fails if one is missing (proven by deleting one).
+- Dropped GEN-HR-02 and GEN-HR-04: a road ran straight at the tower, which is the "high-rise in the middle of a highway" James saw.
+- Batch two: 98 prompts across Santa Rosa (downtown balloon frame, McDonald Ave craftsman, West End, Montgomery Village, Rincon Valley, Oakmont, Bennett Valley, Coffey Park and Fountaingrove rebuilds, Fountaingrove and Skyhawk WUI, Mark West, west of Fulton rural, Roseland, Southwest), with cars and clues matched to the time and day.
+- 86 images made before the OpenAI credit ran out. 39 house scenes kept. Rejected: both versions of B-RES-14, 19, 28, 29 (a fire engine drawn in), and in general any version with an engine, a road running into the building, or fire past offensive.
+- A second run retried the out-of-credit error for 90 minutes and was cancelled with nothing saved; a third, hardened run read the error plainly. No images were charged during either.
+- Not made yet: the 55 remaining batch-two prompts and the 4 redos. They need more OpenAI credit, then one push of `scripts/generate.trigger` (bump RUN).

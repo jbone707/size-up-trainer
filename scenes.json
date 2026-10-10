@@ -48,5 +48,15 @@
     "source": "Wikimedia Commons, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Auto_fire_Vallejo_1.jpg",
     "credit": "Cullen328, CC BY-SA 3.0, via Wikimedia Commons",
     "notes": "Sedan burning in a busy grocery store parking lot, fire in the engine compartment and passenger compartment, cars parked on both sides."
+  },
+  {
+    "id": "gen-res-01",
+    "file": "img/gen-res-01.jpg",
+    "type": "residential",
+    "time": "06:40",
+    "day": "Tuesday",
+    "source": "generated, gpt-image-1, prompt G-RES-01",
+    "credit": "",
+    "notes": "Single-story stucco ranch, attached two-car garage, smoke pushing from the closed garage door and eaves, two cars in the driveway, porch light on, dawn."
   }
 ]

@@ -21,30 +21,39 @@ mkdirSync("generated", { recursive: true });
 const manifest = [];
 let failures = 0;
 
-for (const p of prompts) {
-  for (let v = 1; v <= perPrompt; v++) {
-    const file = `generated/${p.code}-${v}.png`;
-    try {
-      const r = await fetch("https://api.openai.com/v1/images/generations", {
-        method: "POST",
-        headers: { "Authorization": `Bearer ${key}`, "Content-Type": "application/json" },
-        body: JSON.stringify({ model, prompt: p.prompt, size: "1536x1024", quality, n: 1 }),
-      });
-      const body = await r.json();
-      if (!r.ok) {
-        failures++;
-        console.log(`${p.code}-${v}: refused, ${r.status} ${body?.error?.message || ""}`);
-        if (r.status === 401 || r.status === 429 && /quota|billing/i.test(body?.error?.message || "")) process.exit(1);
-        continue;
-      }
-      writeFileSync(file, Buffer.from(body.data[0].b64_json, "base64"));
-      manifest.push({ ...p, file, model, quality });
-      console.log(`${p.code}-${v}: ok`);
-    } catch (e) {
+const jobs = [];
+for (const p of prompts) for (let v = 1; v <= perPrompt; v++) jobs.push([p, v]);
+let stop = false;
+async function one([p, v]) {
+  if (stop) return;
+  const file = `generated/${p.code}-${v}.png`;
+  try {
+    const r = await fetch("https://api.openai.com/v1/images/generations", {
+      method: "POST",
+      headers: { "Authorization": `Bearer ${key}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ model, prompt: p.prompt, size: "1536x1024", quality, n: 1 }),
+    });
+    const body = await r.json();
+    if (!r.ok) {
       failures++;
-      console.log(`${p.code}-${v}: failed, ${e.message}`);
+      const msg = body?.error?.message || "";
+      console.log(`${p.code}-${v}: refused, ${r.status} ${msg}`);
+      if (r.status === 401 || /quota|billing|insufficient/i.test(msg)) stop = true;
+      return;
     }
+    writeFileSync(file, Buffer.from(body.data[0].b64_json, "base64"));
+    manifest.push({ ...p, file, model, quality });
+    console.log(`${p.code}-${v}: ok`);
+  } catch (e) {
+    failures++;
+    console.log(`${p.code}-${v}: failed, ${e.message}`);
   }
 }
+const lanes = Number(process.env.LANES || 4);
+let next = 0;
+await Promise.all(Array.from({ length: lanes }, async () => {
+  while (next < jobs.length && !stop) await one(jobs[next++]);
+}));
+manifest.sort((a, b) => a.file.localeCompare(b.file));
 writeFileSync("generated/manifest.json", JSON.stringify(manifest, null, 2));
 console.log(`made ${manifest.length}, failed ${failures}`);

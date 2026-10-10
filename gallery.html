@@ -60,7 +60,11 @@
     border-radius: 8px;
   }
   main { padding: 16px; }
-  .summary { color: var(--muted); margin: 0 0 12px; }
+  .toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 0 0 12px; }
+  .summary { color: var(--muted); margin: 0; }
+  button.step.random { background: transparent; border: 2px solid var(--accent); }
+  button.step.random:hover { background: var(--accent); }
+  button.step:disabled { opacity: 0.5; cursor: default; }
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -159,7 +163,10 @@
 </header>
 
 <main>
-  <p class="summary" id="summary" role="status">Loading scenes.</p>
+  <div class="toolbar">
+    <p class="summary" id="summary" role="status">Loading scenes.</p>
+    <button type="button" class="step" id="random-top" disabled>Random scene</button>
+  </div>
   <ul class="grid" id="grid"></ul>
 </main>
 
@@ -178,6 +185,7 @@
       <span class="position" id="v-pos"></span>
       <div class="steps">
         <button type="button" class="step" id="prev">Previous</button>
+        <button type="button" class="step random" id="random">Random</button>
         <button type="button" class="step" id="next">Next</button>
       </div>
     </div>
@@ -185,7 +193,7 @@
 </dialog>
 
 <script type="module">
-import { filterScenes, formatTime } from "./picker.js";
+import { filterScenes, formatTime, createDeck } from "./picker.js";
 
 const el = (id) => document.getElementById(id);
 const grid = el("grid"), summary = el("summary"), typeSel = el("type");
@@ -202,10 +210,14 @@ let scenes = [];
 let shown = [];
 let current = -1;
 let lastTile = null;
+let deck = null;
 
 function render() {
   shown = filterScenes(scenes, typeSel.value)
     .sort((a, b) => TYPE_ORDER.indexOf(a.type) - TYPE_ORDER.indexOf(b.type) || a.id.localeCompare(b.id));
+  deck = createDeck(shown.map((_, i) => i));
+  el("random-top").disabled = shown.length === 0;
+  el("random").disabled = shown.length < 2;
   grid.textContent = "";
   summary.textContent = shown.length
     ? plural(shown.length, "scene") + ". Pick one to see it full size."
@@ -261,6 +273,15 @@ function step(d) {
   fill();
 }
 
+function random() {
+  if (!shown.length) return;
+  let i = deck.next();
+  if (shown.length > 1 && i === current) i = deck.next();
+  if (viewer.open) { current = i; fill(); } else { lastTile = grid.children[i]?.firstChild || null; open(i); }
+}
+
+el("random-top").addEventListener("click", random);
+el("random").addEventListener("click", random);
 el("prev").addEventListener("click", () => step(-1));
 el("next").addEventListener("click", () => step(1));
 el("close").addEventListener("click", () => viewer.close());
@@ -268,6 +289,7 @@ viewer.addEventListener("close", () => { if (lastTile) lastTile.focus(); });
 viewer.addEventListener("keydown", (e) => {
   if (e.key === "ArrowRight") { e.preventDefault(); step(1); }
   if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); }
+  if (e.key === "r" || e.key === "R") { e.preventDefault(); random(); }
 });
 
 typeSel.addEventListener("change", () => {

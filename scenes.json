@@ -58,5 +58,375 @@
     "source": "generated, gpt-image-1, prompt G-RES-01",
     "credit": "",
     "notes": "Single-story stucco ranch, attached two-car garage, smoke pushing from the closed garage door and eaves, two cars in the driveway, porch light on, dawn."
+  },
+  {
+    "id": "gen-com-01",
+    "file": "img/gen-com-01.jpg",
+    "type": "commercial",
+    "time": "14:30",
+    "day": "Wednesday",
+    "source": "generated, gpt-image-1, prompt G-COM-01",
+    "credit": "",
+    "notes": "A single-story strip mall with a nail salon, a taqueria and a laundromat; smoke from the roofline above one storefront; cars in the parking lot; businesses open; afternoon."
+  },
+  {
+    "id": "gen-com-02",
+    "file": "img/gen-com-02.jpg",
+    "type": "commercial",
+    "time": "03:00",
+    "day": "Sunday",
+    "source": "generated, gpt-image-1, prompt G-COM-02",
+    "credit": "",
+    "notes": "A single-story strip mall at night, closed and dark; smoke from roof vents and around the front door of one store; empty parking lot."
+  },
+  {
+    "id": "gen-com-03",
+    "file": "img/gen-com-03.jpg",
+    "type": "commercial",
+    "time": "12:00",
+    "day": "Friday",
+    "source": "generated, gpt-image-1, prompt G-COM-03",
+    "credit": "",
+    "notes": "A stand-alone restaurant; heavy smoke coming from the roof near the kitchen exhaust; a few customers standing in the parking lot; lunchtime."
+  },
+  {
+    "id": "gen-com-04",
+    "file": "img/gen-com-04.jpg",
+    "type": "commercial",
+    "time": "22:00",
+    "day": "Tuesday",
+    "source": "generated, gpt-image-1, prompt G-COM-04",
+    "credit": "",
+    "notes": "A large concrete tilt-up warehouse in an industrial park; smoke pushing from around the closed roll-up doors; a few trucks parked; night."
+  },
+  {
+    "id": "gen-com-05",
+    "file": "img/gen-com-05.jpg",
+    "type": "commercial",
+    "time": "10:00",
+    "day": "Thursday",
+    "source": "generated, gpt-image-1, prompt G-COM-05",
+    "credit": "",
+    "notes": "A small auto repair shop with two open bays; smoke pouring from one bay; cars parked out front; morning."
+  },
+  {
+    "id": "gen-com-06",
+    "file": "img/gen-com-06.jpg",
+    "type": "commercial",
+    "time": "19:00",
+    "day": "Saturday",
+    "source": "generated, gpt-image-1, prompt G-COM-06",
+    "credit": "",
+    "notes": "A two-story brick building downtown with shops on the ground floor and apartments above; smoke from the second-floor windows; people on the sidewalk; early evening."
+  },
+  {
+    "id": "gen-hr-01",
+    "file": "img/gen-hr-01.jpg",
+    "type": "high-rise",
+    "time": "15:00",
+    "day": "Wednesday",
+    "source": "generated, gpt-image-1, prompt G-HR-01",
+    "credit": "",
+    "notes": "A ten-story hotel; smoke and fire showing from one sixth-floor window; cars at the entrance; afternoon."
+  },
+  {
+    "id": "gen-hr-02",
+    "file": "img/gen-hr-02.jpg",
+    "type": "high-rise",
+    "time": "02:30",
+    "day": "Thursday",
+    "source": "generated, gpt-image-1, prompt G-HR-02",
+    "credit": "",
+    "notes": "An eight-story senior housing tower at night; fire showing from one fourth-floor window; most windows dark."
+  },
+  {
+    "id": "gen-hr-03",
+    "file": "img/gen-hr-03.jpg",
+    "type": "high-rise",
+    "time": "11:00",
+    "day": "Monday",
+    "source": "generated, gpt-image-1, prompt G-HR-03",
+    "credit": "",
+    "notes": "A seven-story office building; smoke from the roof mechanical area; parking lot full; morning."
+  },
+  {
+    "id": "gen-hr-04",
+    "file": "img/gen-hr-04.jpg",
+    "type": "high-rise",
+    "time": "20:00",
+    "day": "Saturday",
+    "source": "generated, gpt-image-1, prompt G-HR-04",
+    "credit": "",
+    "notes": "A twelve-story residential tower; fire on a ninth-floor balcony; lit windows; evening."
+  },
+  {
+    "id": "gen-mf-01",
+    "file": "img/gen-mf-01.jpg",
+    "type": "multi-family",
+    "time": "01:30",
+    "day": "Sunday",
+    "source": "generated, gpt-image-1, prompt G-MF-01",
+    "credit": "",
+    "notes": "A two-story garden apartment building with exterior stairs and walkways; fire showing from one upstairs unit window and smoke filling the walkway; cars in the parking lot; night, parking lot lights."
+  },
+  {
+    "id": "gen-mf-02",
+    "file": "img/gen-mf-02.jpg",
+    "type": "multi-family",
+    "time": "18:45",
+    "day": "Thursday",
+    "source": "generated, gpt-image-1, prompt G-MF-02",
+    "credit": "",
+    "notes": "A three-story apartment building over tuck-under carport parking; smoke pouring out of the carport level and up the front of the building; residents' cars parked; early evening."
+  },
+  {
+    "id": "gen-mf-03",
+    "file": "img/gen-mf-03.jpg",
+    "type": "multi-family",
+    "time": "06:00",
+    "day": "Tuesday",
+    "source": "generated, gpt-image-1, prompt G-MF-03",
+    "credit": "",
+    "notes": "A two-story fourplex apartment; light gray smoke from the attic vents along the whole length of the roof; several cars out front; first light."
+  },
+  {
+    "id": "gen-mf-04",
+    "file": "img/gen-mf-04.jpg",
+    "type": "multi-family",
+    "time": "13:00",
+    "day": "Saturday",
+    "source": "generated, gpt-image-1, prompt G-MF-04",
+    "credit": "",
+    "notes": "A row of two-story townhomes with shared roofline; fire showing from an upstairs window of a middle unit; smoke at the roofline; midday."
+  },
+  {
+    "id": "gen-mf-05",
+    "file": "img/gen-mf-05.jpg",
+    "type": "multi-family",
+    "time": "23:00",
+    "day": "Friday",
+    "source": "generated, gpt-image-1, prompt G-MF-05",
+    "credit": "",
+    "notes": "A three-story senior apartment building; smoke and orange glow from a third-floor window; a few residents standing on balconies; night."
+  },
+  {
+    "id": "gen-mf-06",
+    "file": "img/gen-mf-06.jpg",
+    "type": "multi-family",
+    "time": "16:00",
+    "day": "Monday",
+    "source": "generated, gpt-image-1, prompt G-MF-06",
+    "credit": "",
+    "notes": "A single-story duplex; fire showing from the front window of one side; the other side's door open; afternoon."
+  },
+  {
+    "id": "gen-res-02",
+    "file": "img/gen-res-02.jpg",
+    "type": "residential",
+    "time": "14:15",
+    "day": "Wednesday",
+    "source": "generated, gpt-image-1, prompt G-RES-02",
+    "credit": "",
+    "notes": "A two-story 1990s tract house with beige siding; fire showing from one upstairs front bedroom window with dark smoke rolling up the face of the house; empty driveway; bright afternoon sun."
+  },
+  {
+    "id": "gen-res-03",
+    "file": "img/gen-res-03.jpg",
+    "type": "residential",
+    "time": "02:15",
+    "day": "Saturday",
+    "source": "generated, gpt-image-1, prompt G-RES-03",
+    "credit": "",
+    "notes": "A small single-story wood-frame bungalow with a front porch; orange glow behind the front windows and light smoke curling from the eaves; one pickup in the driveway; porch light on; dark night, streetlight."
+  },
+  {
+    "id": "gen-res-04",
+    "file": "img/gen-res-04.jpg",
+    "type": "residential",
+    "time": "17:50",
+    "day": "Thursday",
+    "source": "generated, gpt-image-1, prompt G-RES-04",
+    "credit": "",
+    "notes": "A split-level house on a sloped lot; medium gray smoke from the attic vents and along the roof ridge; a minivan and a sedan in the driveway; kids' bikes on the lawn; early evening light."
+  },
+  {
+    "id": "gen-res-05",
+    "file": "img/gen-res-05.jpg",
+    "type": "residential",
+    "time": "11:00",
+    "day": "Sunday",
+    "source": "generated, gpt-image-1, prompt G-RES-05",
+    "credit": "",
+    "notes": "An older two-story craftsman house; flames visible coming through the roof at the rear of the house, seen over the ridgeline from the front; a neighboring house about ten feet away on the left; mid-morning."
+  },
+  {
+    "id": "gen-res-06",
+    "file": "img/gen-res-06.jpg",
+    "type": "residential",
+    "time": "03:30",
+    "day": "Monday",
+    "source": "generated, gpt-image-1, prompt G-RES-06",
+    "credit": "",
+    "notes": "A single-story ranch house at night; heavy fire visible down the side yard at the rear corner; smoke drifting over the roof; front of the house still dark; one car in the driveway."
+  },
+  {
+    "id": "gen-res-07",
+    "file": "img/gen-res-07.jpg",
+    "type": "residential",
+    "time": "12:30",
+    "day": "Saturday",
+    "source": "generated, gpt-image-1, prompt G-RES-07",
+    "credit": "",
+    "notes": "A two-story hillside home with wood siding and a large wooden deck, surrounded by oaks and dry golden grass; smoke and small flames coming from under the deck; steep narrow driveway; hot sunny day."
+  },
+  {
+    "id": "gen-res-08",
+    "file": "img/gen-res-08.jpg",
+    "type": "residential",
+    "time": "19:30",
+    "day": "Friday",
+    "source": "generated, gpt-image-1, prompt G-RES-08",
+    "credit": "",
+    "notes": "A single-wide mobile home in a mobile home park; fire showing from the end window; neighboring mobile homes about fifteen feet away on both sides; dusk."
+  },
+  {
+    "id": "gen-res-09",
+    "file": "img/gen-res-09.jpg",
+    "type": "residential",
+    "time": "07:10",
+    "day": "Monday",
+    "source": "generated, gpt-image-1, prompt G-RES-09",
+    "credit": "",
+    "notes": "A two-story house in light morning fog; thin gray smoke from the roof near the chimney and from the attic vent; two cars in the driveway; trash cans at the curb."
+  },
+  {
+    "id": "gen-res-10",
+    "file": "img/gen-res-10.jpg",
+    "type": "residential",
+    "time": "16:30",
+    "day": "Tuesday",
+    "source": "generated, gpt-image-1, prompt G-RES-10",
+    "credit": "",
+    "notes": "A detached wooden garage behind a single-story house, seen from the alley; fire through the garage roof; the back of the house about fifteen feet away; wooden fence; late afternoon."
+  },
+  {
+    "id": "gen-res-11",
+    "file": "img/gen-res-11.jpg",
+    "type": "residential",
+    "time": "22:45",
+    "day": "Wednesday",
+    "source": "generated, gpt-image-1, prompt G-RES-11",
+    "credit": "",
+    "notes": "A vacant single-story house with boarded-up windows and an overgrown yard; fire showing from one front window around the plywood; no cars; night."
+  },
+  {
+    "id": "gen-res-12",
+    "file": "img/gen-res-12.jpg",
+    "type": "residential",
+    "time": "09:00",
+    "day": "Saturday",
+    "source": "generated, gpt-image-1, prompt G-RES-12",
+    "credit": "",
+    "notes": "A single-story ranch house; heavy black smoke pushing from a front window and the eaves; garage door closed; one car in the driveway; clear morning."
+  },
+  {
+    "id": "gen-veg-01",
+    "file": "img/gen-veg-01.jpg",
+    "type": "vegetation",
+    "time": "15:00",
+    "day": "Saturday",
+    "source": "generated, gpt-image-1, prompt G-VEG-01",
+    "credit": "",
+    "notes": "A small grass fire, about the size of a basketball court, on the shoulder of a freeway on-ramp; flames a foot or two high moving uphill in light wind toward a few oak trees; cars passing; hot afternoon."
+  },
+  {
+    "id": "gen-veg-02",
+    "file": "img/gen-veg-02.jpg",
+    "type": "vegetation",
+    "time": "16:30",
+    "day": "Tuesday",
+    "source": "generated, gpt-image-1, prompt G-VEG-02",
+    "credit": "",
+    "notes": "A small grass fire, about a quarter acre, at the edge of a vineyard, burning toward a farmhouse about 100 feet away; light smoke blowing across the vines; late afternoon."
+  },
+  {
+    "id": "gen-veg-03",
+    "file": "img/gen-veg-03.jpg",
+    "type": "vegetation",
+    "time": "01:00",
+    "day": "Monday",
+    "source": "generated, gpt-image-1, prompt G-VEG-03",
+    "credit": "",
+    "notes": "A small brush fire at night on a vacant hillside lot between two houses, about the size of a backyard; flames a few feet high; porch lights on next door; night."
+  },
+  {
+    "id": "gen-veg-04",
+    "file": "img/gen-veg-04.jpg",
+    "type": "vegetation",
+    "time": "13:30",
+    "day": "Thursday",
+    "source": "generated, gpt-image-1, prompt G-VEG-04",
+    "credit": "",
+    "notes": "A small grass fire in a strip of open space right behind a row of wooden backyard fences, about thirty feet long; fence boards starting to scorch; light smoke drifting over the rooftops; midday."
+  },
+  {
+    "id": "gen-veg-05",
+    "file": "img/gen-veg-05.jpg",
+    "type": "vegetation",
+    "time": "17:00",
+    "day": "Wednesday",
+    "source": "generated, gpt-image-1, prompt G-VEG-05",
+    "credit": "",
+    "notes": "A small brush fire along a creek bank under a highway overpass, about the size of a two-car garage; flames in the blackberry and willow; smoke under the bridge; late afternoon."
+  },
+  {
+    "id": "gen-veg-06",
+    "file": "img/gen-veg-06.jpg",
+    "type": "vegetation",
+    "time": "12:00",
+    "day": "Sunday",
+    "source": "generated, gpt-image-1, prompt G-VEG-06",
+    "credit": "",
+    "notes": "A small field fire, about the size of a tennis court, next to a hay barn on a ranch; fire about fifty feet from the barn and moving toward it; dry golden grass; noon."
+  },
+  {
+    "id": "gen-veh-01",
+    "file": "img/gen-veh-01.jpg",
+    "type": "vehicle",
+    "time": "07:45",
+    "day": "Tuesday",
+    "source": "generated, gpt-image-1, prompt G-VEH-01",
+    "credit": "",
+    "notes": "A car on fire in a driveway, parked nose-in close to the closed garage door of a house; flames from under the hood; morning."
+  },
+  {
+    "id": "gen-veh-02",
+    "file": "img/gen-veh-02.jpg",
+    "type": "vehicle",
+    "time": "21:30",
+    "day": "Friday",
+    "source": "generated, gpt-image-1, prompt G-VEH-02",
+    "credit": "",
+    "notes": "A car burning under an apartment complex carport; other cars parked on both sides; night."
+  },
+  {
+    "id": "gen-veh-03",
+    "file": "img/gen-veh-03.jpg",
+    "type": "vehicle",
+    "time": "14:00",
+    "day": "Monday",
+    "source": "generated, gpt-image-1, prompt G-VEH-03",
+    "credit": "",
+    "notes": "A motorhome on fire parked on a residential street; smoke and flames from the rear; houses across the sidewalk; afternoon."
+  },
+  {
+    "id": "gen-veh-04",
+    "file": "img/gen-veh-04.jpg",
+    "type": "vehicle",
+    "time": "16:30",
+    "day": "Saturday",
+    "source": "generated, gpt-image-1, prompt G-VEH-04",
+    "credit": "",
+    "notes": "A backyard wooden shed on fire; flames through the roof; wooden fence and the back of the house about ten feet away; late afternoon."
   }
 ]

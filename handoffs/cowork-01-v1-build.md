@@ -30,3 +30,8 @@ James: a much simpler size-up simulator than the commercial ones, reachable from
 - James to make the repo public and turn on Pages (Cowork's access cannot).
 - Firewall test from a city desktop.
 - More houses, ideally Northern California wood frame and hillside interface.
+
+## Later still: James's review and generated scenes
+- James: only two of the 33 photos were usable. His four tests (first arrival with no crews, whole building visible, looks like Santa Rosa, early or offensive fire) are now an AGENTS.md rule. The set was cut to the photos that pass, then the four large wildland photos were dropped as not first-due material.
+- Claude cannot make images. James chose an automated GitHub job using OpenAI's image API with a key he put in the repo secrets himself. One test image passed, then two versions of each of the 38 prompts were made (76 in all). Cowork kept the better version of every prompt.
+- The page now shows a fixed scene code under each picture, because "Scene 7 of 33" is a position in the shuffle and could not be traced back to a picture.

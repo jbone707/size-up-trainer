@@ -40,46 +40,6 @@
     "notes": "Wider view of the same apartment complex: heavy fire at the end unit, three stories, parking lot access, more buildings behind."
   },
   {
-    "id": "veg-03",
-    "file": "img/veg-03.jpg",
-    "type": "vegetation",
-    "time": "20:40",
-    "day": "Friday",
-    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:Sprawling_Gifford_Fire_Scorches_California_(154658_-_pho_20250809_lrg).jpg",
-    "credit": "U.S. Forest Service, Sergio Mora, public domain, via Wikimedia Commons",
-    "notes": "Wildland fire at dusk on the hills, large lit-up smoke column, grassy foreground, scattered oaks."
-  },
-  {
-    "id": "veg-06",
-    "file": "img/veg-06.jpg",
-    "type": "vegetation",
-    "time": "16:30",
-    "day": "Sunday",
-    "source": "Wikimedia Commons, CC BY 2.0, https://commons.wikimedia.org/wiki/File:High_Park_Fire,_2012020-FS-UNK-0017.jpg",
-    "credit": "U.S. Department of Agriculture, CC BY 2.0, via Wikimedia Commons",
-    "notes": "Large smoke column in timbered mountains with a spot fire on the slope."
-  },
-  {
-    "id": "veg-07",
-    "file": "img/veg-07.jpg",
-    "type": "vegetation",
-    "time": "18:15",
-    "day": "Saturday",
-    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:2001_Sheepshead_Fire_(24893880431).jpg",
-    "credit": "Bureau of Land Management, public domain, via Wikimedia Commons",
-    "notes": "Fast-moving fire through grass and brush with scattered trees, flame lengths several feet, heavy smoke."
-  },
-  {
-    "id": "veg-08",
-    "file": "img/veg-08.jpg",
-    "type": "vegetation",
-    "time": "22:10",
-    "day": "Thursday",
-    "source": "Wikimedia Commons, Public domain, https://commons.wikimedia.org/wiki/File:2001_Sheepshead_Fire_(24691682540).jpg",
-    "credit": "Bureau of Land Management, public domain, via Wikimedia Commons",
-    "notes": "Night grass fire, long flame front across an open field, heavy glow and smoke."
-  },
-  {
     "id": "veh-02",
     "file": "img/veh-02.jpg",
     "type": "vehicle",

@@ -1,0 +1,21 @@
+# One Wikimedia Commons search per line. Changing this file and pushing reruns the fetch.
+incategory:"House fires in the United States"
+incategory:"House fires in California"
+house fire firefighters smoke
+structure fire engine company
+residential structure fire
+apartment fire firefighters
+apartment building fire United States
+commercial building fire firefighters
+warehouse fire smoke
+strip mall fire
+high-rise fire smoke
+incategory:"High-rise fires"
+grass fire firefighters
+brush fire engine California
+wildfire homes California
+Tubbs Fire Santa Rosa
+Glass Fire Santa Rosa
+car fire firefighters
+vehicle fire
+barn fire

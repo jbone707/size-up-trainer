@@ -32,7 +32,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - name: Commit images to their own branch
         run: |
-          if [ ! -s generated/manifest.json ] || [ "$(cat generated/manifest.json)" = "[]" ]; then echo "nothing to commit"; exit 0; fi
+          if [ ! -d generated ]; then echo "nothing to commit"; exit 0; fi
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git checkout --orphan generated

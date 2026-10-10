@@ -26,30 +26,42 @@ for (const p of prompts) for (let v = 1; v <= perPrompt; v++) jobs.push([p, v]);
 const maxImages = Number(process.env.MAX_IMAGES || 250);
 if (jobs.length > maxImages) { console.log(`capped at ${maxImages} of ${jobs.length}`); jobs = jobs.slice(0, maxImages); }
 let stop = false;
+const errors = [];
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function one([p, v]) {
   if (stop) return;
   const file = `generated/${p.code}-${v}.png`;
-  try {
-    const r = await fetch("https://api.openai.com/v1/images/generations", {
-      method: "POST",
-      headers: { "Authorization": `Bearer ${key}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ model, prompt: p.prompt, size: "1536x1024", quality, n: 1 }),
-    });
-    const body = await r.json();
-    if (!r.ok) {
-      failures++;
+  for (let attempt = 1; attempt <= 6 && !stop; attempt++) {
+    try {
+      const r = await fetch("https://api.openai.com/v1/images/generations", {
+        method: "POST",
+        headers: { "Authorization": `Bearer ${key}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ model, prompt: p.prompt, size: "1536x1024", quality, n: 1 }),
+      });
+      const body = await r.json().catch(() => ({}));
+      if (r.ok) {
+        writeFileSync(file, Buffer.from(body.data[0].b64_json, "base64"));
+        manifest.push({ ...p, file, model, quality });
+        console.log(`${p.code}-${v}: ok`);
+        return;
+      }
+      const code = body?.error?.code || "";
       const msg = body?.error?.message || "";
-      console.log(`${p.code}-${v}: refused, ${r.status} ${msg}`);
-      if (r.status === 401 || /quota|billing|insufficient/i.test(msg)) stop = true;
+      errors.push({ image: `${p.code}-${v}`, attempt, status: r.status, code, message: msg.slice(0, 300) });
+      console.log(`${p.code}-${v}: ${r.status} ${code} ${msg}`);
+      // Out of money or bad key: stop everything, spending more cannot help.
+      if (r.status === 401 || /insufficient_quota|billing_hard_limit/.test(code) || /billing hard limit|exceeded your current quota/i.test(msg)) { stop = true; return; }
+      // Rate limit or server trouble: wait and try again.
+      if (r.status === 429 || r.status >= 500) { await sleep(Math.min(60000, 5000 * 2 ** (attempt - 1))); continue; }
+      // Anything else (a refused prompt): give up on this one image.
+      failures++;
       return;
+    } catch (e) {
+      errors.push({ image: `${p.code}-${v}`, attempt, status: 0, message: String(e.message).slice(0, 300) });
+      await sleep(5000);
     }
-    writeFileSync(file, Buffer.from(body.data[0].b64_json, "base64"));
-    manifest.push({ ...p, file, model, quality });
-    console.log(`${p.code}-${v}: ok`);
-  } catch (e) {
-    failures++;
-    console.log(`${p.code}-${v}: failed, ${e.message}`);
   }
+  failures++;
 }
 const lanes = Number(process.env.LANES || 4);
 let next = 0;
@@ -58,4 +70,5 @@ await Promise.all(Array.from({ length: lanes }, async () => {
 }));
 manifest.sort((a, b) => a.file.localeCompare(b.file));
 writeFileSync("generated/manifest.json", JSON.stringify(manifest, null, 2));
+writeFileSync("generated/errors.json", JSON.stringify(errors, null, 2));
 console.log(`made ${manifest.length}, failed ${failures}`);

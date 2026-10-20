@@ -80,12 +80,21 @@ south, north, west, east = 38.385, 38.515, -122.800, -122.580
 z = 13
 xa, ya = tile_xy(north, west, z); xb, yb = tile_xy(south, east, z)
 meta["city"] = stitch(z, int(xa), int(ya), int(xb) - int(xa) + 1, int(yb) - int(ya) + 1, "maps/city.jpg")
-# Close-up per area, 3 by 2 tiles centred on the area point
+# Close-up per area: 768 by 512 pixels cropped exactly around the area point
 z = 16
+W, H = 768, 512
 for a in areas:
     x, y = tile_xy(a["lat"], a["lon"], z)
-    x0, y0 = int(x - 1.5), int(y - 1.0)
-    meta["areas"][a["area"]] = dict(stitch(z, x0, y0, 3, 2, f"maps/{slug(a['area'])}.jpg"), file=f"maps/{slug(a['area'])}.jpg")
+    fx0, fy0 = x - W / 512, y - H / 512          # fractional tile origin of the crop
+    tx0, ty0 = int(math.floor(fx0)), int(math.floor(fy0))
+    big = Image.new("RGB", (4 * 256, 3 * 256))
+    for i in range(4):
+        for j in range(3):
+            big.paste(tile(z, tx0 + i, ty0 + j), (i * 256, j * 256))
+    ox, oy = round((fx0 - tx0) * 256), round((fy0 - ty0) * 256)
+    out = f"maps/{slug(a['area'])}.jpg"
+    big.crop((ox, oy, ox + W, oy + H)).save(out, quality=85, optimize=True)
+    meta["areas"][a["area"]] = {"z": z, "x0": tx0 + ox / 256, "y0": ty0 + oy / 256, "w": W, "h": H, "file": out}
 
 json.dump(meta, open("maps/maps.json", "w"), indent=2)
 json.dump(report, open("maps/geocode-report.json", "w"), indent=2)

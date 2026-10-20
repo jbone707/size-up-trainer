@@ -7,7 +7,8 @@
     "day": "Sunday",
     "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:House_fire_in_Waikanae,_16_May_2026,_P_36.jpg",
     "credit": "Panamitsu, CC BY-SA 4.0, via Wikimedia Commons",
-    "notes": "Hillside neighborhood, two-story house with fire showing from a lower floor and heavy dark smoke; closely spaced exposures uphill and downhill; tight access."
+    "notes": "Hillside neighborhood, two-story house with fire showing from a lower floor and heavy dark smoke; closely spaced exposures uphill and downhill; tight access.",
+    "area": "Fountaingrove hillside"
   },
   {
     "id": "res-07",
@@ -17,7 +18,8 @@
     "day": "Thursday",
     "source": "Wikimedia Commons, CC BY 4.0, https://commons.wikimedia.org/wiki/File:Structure_Fire_in_Union,_Mississippi_05.jpg",
     "credit": "Ktkvtsh, CC BY 4.0, via Wikimedia Commons",
-    "notes": "Single-story bungalow, heavy smoke boiling from the rear and roof, front looks clear, porch entry; mailbox and trash can out front."
+    "notes": "Single-story bungalow, heavy smoke boiling from the rear and roof, front looks clear, porch entry; mailbox and trash can out front.",
+    "area": "Roseland"
   },
   {
     "id": "mf-01",
@@ -27,7 +29,8 @@
     "day": "Sunday",
     "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Apartment_Fire_High_Point,_NC_Feb28_2022_Rear.jpg",
     "credit": "Marcusmax, CC BY-SA 4.0, via Wikimedia Commons",
-    "notes": "Three-story garden apartment complex at night, fire showing at the far end of the building, parked cars, residents outside."
+    "notes": "Three-story garden apartment complex at night, fire showing at the far end of the building, parked cars, residents outside.",
+    "area": "Stony Point Road"
   },
   {
     "id": "mf-02",
@@ -37,7 +40,8 @@
     "day": "Sunday",
     "source": "Wikimedia Commons, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:Apartment_Fire_High_Point,_NC_Feb28_2022.jpg",
     "credit": "Marcusmax, CC BY-SA 4.0, via Wikimedia Commons",
-    "notes": "Wider view of the same apartment complex: heavy fire at the end unit, three stories, parking lot access, more buildings behind."
+    "notes": "Wider view of the same apartment complex: heavy fire at the end unit, three stories, parking lot access, more buildings behind.",
+    "area": "Stony Point Road"
   },
   {
     "id": "veh-02",
@@ -47,7 +51,8 @@
     "day": "Saturday",
     "source": "Wikimedia Commons, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Auto_fire_Vallejo_1.jpg",
     "credit": "Cullen328, CC BY-SA 3.0, via Wikimedia Commons",
-    "notes": "Sedan burning in a busy grocery store parking lot, fire in the engine compartment and passenger compartment, cars parked on both sides."
+    "notes": "Sedan burning in a busy grocery store parking lot, fire in the engine compartment and passenger compartment, cars parked on both sides.",
+    "area": "Santa Rosa Avenue"
   },
   {
     "id": "gen-res-01",
@@ -57,7 +62,8 @@
     "day": "Tuesday",
     "source": "generated, gpt-image-1, prompt G-RES-01",
     "credit": "",
-    "notes": "Single-story stucco ranch, attached two-car garage, smoke pushing from the closed garage door and eaves, two cars in the driveway, porch light on, dawn."
+    "notes": "Single-story stucco ranch, attached two-car garage, smoke pushing from the closed garage door and eaves, two cars in the driveway, porch light on, dawn.",
+    "area": "Montgomery Village"
   },
   {
     "id": "gen-com-01",
@@ -67,7 +73,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt G-COM-01",
     "credit": "",
-    "notes": "A single-story strip mall with a nail salon, a taqueria and a laundromat; smoke from the roofline above one storefront; cars in the parking lot; businesses open; afternoon."
+    "notes": "A single-story strip mall with a nail salon, a taqueria and a laundromat; smoke from the roofline above one storefront; cars in the parking lot; businesses open; afternoon.",
+    "area": "Santa Rosa Avenue"
   },
   {
     "id": "gen-com-02",
@@ -77,7 +84,8 @@
     "day": "Sunday",
     "source": "generated, gpt-image-1, prompt G-COM-02",
     "credit": "",
-    "notes": "A single-story strip mall at night, closed and dark; smoke from roof vents and around the front door of one store; empty parking lot."
+    "notes": "A single-story strip mall at night, closed and dark; smoke from roof vents and around the front door of one store; empty parking lot.",
+    "area": "Sebastopol Road"
   },
   {
     "id": "gen-com-03",
@@ -87,7 +95,8 @@
     "day": "Friday",
     "source": "generated, gpt-image-1, prompt G-COM-03",
     "credit": "",
-    "notes": "A stand-alone restaurant; heavy smoke coming from the roof near the kitchen exhaust; a few customers standing in the parking lot; lunchtime."
+    "notes": "A stand-alone restaurant; heavy smoke coming from the roof near the kitchen exhaust; a few customers standing in the parking lot; lunchtime.",
+    "area": "Mendocino Avenue"
   },
   {
     "id": "gen-com-04",
@@ -97,7 +106,8 @@
     "day": "Tuesday",
     "source": "generated, gpt-image-1, prompt G-COM-04",
     "credit": "",
-    "notes": "A large concrete tilt-up warehouse in an industrial park; smoke pushing from around the closed roll-up doors; a few trucks parked; night."
+    "notes": "A large concrete tilt-up warehouse in an industrial park; smoke pushing from around the closed roll-up doors; a few trucks parked; night.",
+    "area": "Stony Point Road industrial area"
   },
   {
     "id": "gen-com-05",
@@ -107,7 +117,8 @@
     "day": "Thursday",
     "source": "generated, gpt-image-1, prompt G-COM-05",
     "credit": "",
-    "notes": "A small auto repair shop with two open bays; smoke pouring from one bay; cars parked out front; morning."
+    "notes": "A small auto repair shop with two open bays; smoke pouring from one bay; cars parked out front; morning.",
+    "area": "Santa Rosa Avenue"
   },
   {
     "id": "gen-com-06",
@@ -117,7 +128,8 @@
     "day": "Saturday",
     "source": "generated, gpt-image-1, prompt G-COM-06",
     "credit": "",
-    "notes": "A two-story brick building downtown with shops on the ground floor and apartments above; smoke from the second-floor windows; people on the sidewalk; early evening."
+    "notes": "A two-story brick building downtown with shops on the ground floor and apartments above; smoke from the second-floor windows; people on the sidewalk; early evening.",
+    "area": "Courthouse Square"
   },
   {
     "id": "gen-hr-01",
@@ -127,7 +139,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt G-HR-01",
     "credit": "",
-    "notes": "A ten-story hotel; smoke and fire showing from one sixth-floor window; cars at the entrance; afternoon."
+    "notes": "A ten-story hotel; smoke and fire showing from one sixth-floor window; cars at the entrance; afternoon.",
+    "area": "Downtown"
   },
   {
     "id": "gen-hr-03",
@@ -137,7 +150,8 @@
     "day": "Monday",
     "source": "generated, gpt-image-1, prompt G-HR-03",
     "credit": "",
-    "notes": "A seven-story office building; smoke from the roof mechanical area; parking lot full; morning."
+    "notes": "A seven-story office building; smoke from the roof mechanical area; parking lot full; morning.",
+    "area": "Downtown"
   },
   {
     "id": "gen-mf-01",
@@ -147,7 +161,8 @@
     "day": "Sunday",
     "source": "generated, gpt-image-1, prompt G-MF-01",
     "credit": "",
-    "notes": "A two-story garden apartment building with exterior stairs and walkways; fire showing from one upstairs unit window and smoke filling the walkway; cars in the parking lot; night, parking lot lights."
+    "notes": "A two-story garden apartment building with exterior stairs and walkways; fire showing from one upstairs unit window and smoke filling the walkway; cars in the parking lot; night, parking lot lights.",
+    "area": "Stony Point Road"
   },
   {
     "id": "gen-mf-02",
@@ -157,7 +172,8 @@
     "day": "Thursday",
     "source": "generated, gpt-image-1, prompt G-MF-02",
     "credit": "",
-    "notes": "A three-story apartment building over tuck-under carport parking; smoke pouring out of the carport level and up the front of the building; residents' cars parked; early evening."
+    "notes": "A three-story apartment building over tuck-under carport parking; smoke pouring out of the carport level and up the front of the building; residents' cars parked; early evening.",
+    "area": "Southwest Santa Rosa"
   },
   {
     "id": "gen-mf-03",
@@ -167,7 +183,8 @@
     "day": "Tuesday",
     "source": "generated, gpt-image-1, prompt G-MF-03",
     "credit": "",
-    "notes": "A two-story fourplex apartment; light gray smoke from the attic vents along the whole length of the roof; several cars out front; first light."
+    "notes": "A two-story fourplex apartment; light gray smoke from the attic vents along the whole length of the roof; several cars out front; first light.",
+    "area": "Montgomery Village"
   },
   {
     "id": "gen-mf-04",
@@ -177,7 +194,8 @@
     "day": "Saturday",
     "source": "generated, gpt-image-1, prompt G-MF-04",
     "credit": "",
-    "notes": "A row of two-story townhomes with shared roofline; fire showing from an upstairs window of a middle unit; smoke at the roofline; midday."
+    "notes": "A row of two-story townhomes with shared roofline; fire showing from an upstairs window of a middle unit; smoke at the roofline; midday.",
+    "area": "Coffey Park"
   },
   {
     "id": "gen-mf-05",
@@ -187,7 +205,8 @@
     "day": "Friday",
     "source": "generated, gpt-image-1, prompt G-MF-05",
     "credit": "",
-    "notes": "A three-story senior apartment building; smoke and orange glow from a third-floor window; a few residents standing on balconies; night."
+    "notes": "A three-story senior apartment building; smoke and orange glow from a third-floor window; a few residents standing on balconies; night.",
+    "area": "Rincon Valley"
   },
   {
     "id": "gen-mf-06",
@@ -197,7 +216,8 @@
     "day": "Monday",
     "source": "generated, gpt-image-1, prompt G-MF-06",
     "credit": "",
-    "notes": "A single-story duplex; fire showing from the front window of one side; the other side's door open; afternoon."
+    "notes": "A single-story duplex; fire showing from the front window of one side; the other side's door open; afternoon.",
+    "area": "Roseland"
   },
   {
     "id": "gen-res-02",
@@ -207,7 +227,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt G-RES-02",
     "credit": "",
-    "notes": "A two-story 1990s tract house with beige siding; fire showing from one upstairs front bedroom window with dark smoke rolling up the face of the house; empty driveway; bright afternoon sun."
+    "notes": "A two-story 1990s tract house with beige siding; fire showing from one upstairs front bedroom window with dark smoke rolling up the face of the house; empty driveway; bright afternoon sun.",
+    "area": "Southwest Santa Rosa"
   },
   {
     "id": "gen-res-03",
@@ -217,7 +238,8 @@
     "day": "Saturday",
     "source": "generated, gpt-image-1, prompt G-RES-03",
     "credit": "",
-    "notes": "A small single-story wood-frame bungalow with a front porch; orange glow behind the front windows and light smoke curling from the eaves; one pickup in the driveway; porch light on; dark night, streetlight."
+    "notes": "A small single-story wood-frame bungalow with a front porch; orange glow behind the front windows and light smoke curling from the eaves; one pickup in the driveway; porch light on; dark night, streetlight.",
+    "area": "West End"
   },
   {
     "id": "gen-res-04",
@@ -227,7 +249,8 @@
     "day": "Thursday",
     "source": "generated, gpt-image-1, prompt G-RES-04",
     "credit": "",
-    "notes": "A split-level house on a sloped lot; medium gray smoke from the attic vents and along the roof ridge; a minivan and a sedan in the driveway; kids' bikes on the lawn; early evening light."
+    "notes": "A split-level house on a sloped lot; medium gray smoke from the attic vents and along the roof ridge; a minivan and a sedan in the driveway; kids' bikes on the lawn; early evening light.",
+    "area": "Bennett Valley"
   },
   {
     "id": "gen-res-05",
@@ -237,7 +260,8 @@
     "day": "Sunday",
     "source": "generated, gpt-image-1, prompt G-RES-05",
     "credit": "",
-    "notes": "An older two-story craftsman house; flames visible coming through the roof at the rear of the house, seen over the ridgeline from the front; a neighboring house about ten feet away on the left; mid-morning."
+    "notes": "An older two-story craftsman house; flames visible coming through the roof at the rear of the house, seen over the ridgeline from the front; a neighboring house about ten feet away on the left; mid-morning.",
+    "area": "McDonald Avenue area"
   },
   {
     "id": "gen-res-06",
@@ -247,7 +271,8 @@
     "day": "Monday",
     "source": "generated, gpt-image-1, prompt G-RES-06",
     "credit": "",
-    "notes": "A single-story ranch house at night; heavy fire visible down the side yard at the rear corner; smoke drifting over the roof; front of the house still dark; one car in the driveway."
+    "notes": "A single-story ranch house at night; heavy fire visible down the side yard at the rear corner; smoke drifting over the roof; front of the house still dark; one car in the driveway.",
+    "area": "Rincon Valley"
   },
   {
     "id": "gen-res-07",
@@ -257,7 +282,8 @@
     "day": "Saturday",
     "source": "generated, gpt-image-1, prompt G-RES-07",
     "credit": "",
-    "notes": "A two-story hillside home with wood siding and a large wooden deck, surrounded by oaks and dry golden grass; smoke and small flames coming from under the deck; steep narrow driveway; hot sunny day."
+    "notes": "A two-story hillside home with wood siding and a large wooden deck, surrounded by oaks and dry golden grass; smoke and small flames coming from under the deck; steep narrow driveway; hot sunny day.",
+    "area": "Fountaingrove hillside"
   },
   {
     "id": "gen-res-08",
@@ -267,7 +293,8 @@
     "day": "Friday",
     "source": "generated, gpt-image-1, prompt G-RES-08",
     "credit": "",
-    "notes": "A single-wide mobile home in a mobile home park; fire showing from the end window; neighboring mobile homes about fifteen feet away on both sides; dusk."
+    "notes": "A single-wide mobile home in a mobile home park; fire showing from the end window; neighboring mobile homes about fifteen feet away on both sides; dusk.",
+    "area": "Rincon Valley"
   },
   {
     "id": "gen-res-09",
@@ -277,7 +304,8 @@
     "day": "Monday",
     "source": "generated, gpt-image-1, prompt G-RES-09",
     "credit": "",
-    "notes": "A two-story house in light morning fog; thin gray smoke from the roof near the chimney and from the attic vent; two cars in the driveway; trash cans at the curb."
+    "notes": "A two-story house in light morning fog; thin gray smoke from the roof near the chimney and from the attic vent; two cars in the driveway; trash cans at the curb.",
+    "area": "Coffey Park"
   },
   {
     "id": "gen-res-10",
@@ -287,7 +315,8 @@
     "day": "Tuesday",
     "source": "generated, gpt-image-1, prompt G-RES-10",
     "credit": "",
-    "notes": "A detached wooden garage behind a single-story house, seen from the alley; fire through the garage roof; the back of the house about fifteen feet away; wooden fence; late afternoon."
+    "notes": "A detached wooden garage behind a single-story house, seen from the alley; fire through the garage roof; the back of the house about fifteen feet away; wooden fence; late afternoon.",
+    "area": "Downtown, near the junior college"
   },
   {
     "id": "gen-res-11",
@@ -297,7 +326,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt G-RES-11",
     "credit": "",
-    "notes": "A vacant single-story house with boarded-up windows and an overgrown yard; fire showing from one front window around the plywood; no cars; night."
+    "notes": "A vacant single-story house with boarded-up windows and an overgrown yard; fire showing from one front window around the plywood; no cars; night.",
+    "area": "Roseland"
   },
   {
     "id": "gen-res-12",
@@ -307,7 +337,8 @@
     "day": "Saturday",
     "source": "generated, gpt-image-1, prompt G-RES-12",
     "credit": "",
-    "notes": "A single-story ranch house; heavy black smoke pushing from a front window and the eaves; garage door closed; one car in the driveway; clear morning."
+    "notes": "A single-story ranch house; heavy black smoke pushing from a front window and the eaves; garage door closed; one car in the driveway; clear morning.",
+    "area": "Montgomery Village"
   },
   {
     "id": "gen-veg-01",
@@ -317,7 +348,8 @@
     "day": "Saturday",
     "source": "generated, gpt-image-1, prompt G-VEG-01",
     "credit": "",
-    "notes": "A small grass fire, about the size of a basketball court, on the shoulder of a freeway on-ramp; flames a foot or two high moving uphill in light wind toward a few oak trees; cars passing; hot afternoon."
+    "notes": "A small grass fire, about the size of a basketball court, on the shoulder of a freeway on-ramp; flames a foot or two high moving uphill in light wind toward a few oak trees; cars passing; hot afternoon.",
+    "area": "Highway 101"
   },
   {
     "id": "gen-veg-02",
@@ -327,7 +359,8 @@
     "day": "Tuesday",
     "source": "generated, gpt-image-1, prompt G-VEG-02",
     "credit": "",
-    "notes": "A small grass fire, about a quarter acre, at the edge of a vineyard, burning toward a farmhouse about 100 feet away; light smoke blowing across the vines; late afternoon."
+    "notes": "A small grass fire, about a quarter acre, at the edge of a vineyard, burning toward a farmhouse about 100 feet away; light smoke blowing across the vines; late afternoon.",
+    "area": "Bennett Valley"
   },
   {
     "id": "gen-veg-03",
@@ -337,7 +370,8 @@
     "day": "Monday",
     "source": "generated, gpt-image-1, prompt G-VEG-03",
     "credit": "",
-    "notes": "A small brush fire at night on a vacant hillside lot between two houses, about the size of a backyard; flames a few feet high; porch lights on next door; night."
+    "notes": "A small brush fire at night on a vacant hillside lot between two houses, about the size of a backyard; flames a few feet high; porch lights on next door; night.",
+    "area": "Fountaingrove hillside"
   },
   {
     "id": "gen-veg-04",
@@ -347,7 +381,8 @@
     "day": "Thursday",
     "source": "generated, gpt-image-1, prompt G-VEG-04",
     "credit": "",
-    "notes": "A small grass fire in a strip of open space right behind a row of wooden backyard fences, about thirty feet long; fence boards starting to scorch; light smoke drifting over the rooftops; midday."
+    "notes": "A small grass fire in a strip of open space right behind a row of wooden backyard fences, about thirty feet long; fence boards starting to scorch; light smoke drifting over the rooftops; midday.",
+    "area": "Skyhawk, next to Annadel"
   },
   {
     "id": "gen-veg-05",
@@ -357,7 +392,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt G-VEG-05",
     "credit": "",
-    "notes": "A small brush fire along a creek bank under a highway overpass, about the size of a two-car garage; flames in the blackberry and willow; smoke under the bridge; late afternoon."
+    "notes": "A small brush fire along a creek bank under a highway overpass, about the size of a two-car garage; flames in the blackberry and willow; smoke under the bridge; late afternoon.",
+    "area": "Santa Rosa Creek trail"
   },
   {
     "id": "gen-veg-06",
@@ -367,7 +403,8 @@
     "day": "Sunday",
     "source": "generated, gpt-image-1, prompt G-VEG-06",
     "credit": "",
-    "notes": "A small field fire, about the size of a tennis court, next to a hay barn on a ranch; fire about fifty feet from the barn and moving toward it; dry golden grass; noon."
+    "notes": "A small field fire, about the size of a tennis court, next to a hay barn on a ranch; fire about fifty feet from the barn and moving toward it; dry golden grass; noon.",
+    "area": "West edge, near Fulton Road"
   },
   {
     "id": "gen-veh-01",
@@ -377,7 +414,8 @@
     "day": "Tuesday",
     "source": "generated, gpt-image-1, prompt G-VEH-01",
     "credit": "",
-    "notes": "A car on fire in a driveway, parked nose-in close to the closed garage door of a house; flames from under the hood; morning."
+    "notes": "A car on fire in a driveway, parked nose-in close to the closed garage door of a house; flames from under the hood; morning.",
+    "area": "Rincon Valley"
   },
   {
     "id": "gen-veh-02",
@@ -387,7 +425,8 @@
     "day": "Friday",
     "source": "generated, gpt-image-1, prompt G-VEH-02",
     "credit": "",
-    "notes": "A car burning under an apartment complex carport; other cars parked on both sides; night."
+    "notes": "A car burning under an apartment complex carport; other cars parked on both sides; night.",
+    "area": "Southwest Santa Rosa"
   },
   {
     "id": "gen-veh-03",
@@ -397,7 +436,8 @@
     "day": "Monday",
     "source": "generated, gpt-image-1, prompt G-VEH-03",
     "credit": "",
-    "notes": "A motorhome on fire parked on a residential street; smoke and flames from the rear; houses across the sidewalk; afternoon."
+    "notes": "A motorhome on fire parked on a residential street; smoke and flames from the rear; houses across the sidewalk; afternoon.",
+    "area": "Coffey Park"
   },
   {
     "id": "gen-veh-04",
@@ -407,7 +447,8 @@
     "day": "Saturday",
     "source": "generated, gpt-image-1, prompt G-VEH-04",
     "credit": "",
-    "notes": "A backyard wooden shed on fire; flames through the roof; wooden fence and the back of the house about ten feet away; late afternoon."
+    "notes": "A backyard wooden shed on fire; flames through the roof; wooden fence and the back of the house about ten feet away; late afternoon.",
+    "area": "Montgomery Village"
   },
   {
     "id": "b-res-01",
@@ -417,7 +458,8 @@
     "day": "Saturday",
     "source": "generated, gpt-image-1, prompt B-RES-01",
     "credit": "",
-    "notes": "Downtown, near the junior college. A two-story 1900s balloon-frame Victorian house with narrow lap siding, tall double-hung windows, a steep gable roof and a raised foundation with basement windows, on a narrow lot with large old street trees and houses close on both sides; smoke pushing from around the closed garage door and the eaves above it; two cars in the driveway and one on the street."
+    "notes": "Downtown, near the junior college. A two-story 1900s balloon-frame Victorian house with narrow lap siding, tall double-hung windows, a steep gable roof and a raised foundation with basement windows, on a narrow lot with large old street trees and houses close on both sides; smoke pushing from around the closed garage door and the eaves above it; two cars in the driveway and one on the street.",
+    "area": "Downtown, near the junior college"
   },
   {
     "id": "b-res-02",
@@ -427,7 +469,8 @@
     "day": "Friday",
     "source": "generated, gpt-image-1, prompt B-RES-02",
     "credit": "",
-    "notes": "Downtown, near the junior college. A two-story 1900s balloon-frame Victorian house with narrow lap siding, tall double-hung windows, a steep gable roof and a raised foundation with basement windows, on a narrow lot with large old street trees and houses close on both sides; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway, porch light still on."
+    "notes": "Downtown, near the junior college. A two-story 1900s balloon-frame Victorian house with narrow lap siding, tall double-hung windows, a steep gable roof and a raised foundation with basement windows, on a narrow lot with large old street trees and houses close on both sides; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway, porch light still on.",
+    "area": "Downtown, near the junior college"
   },
   {
     "id": "b-res-03",
@@ -437,7 +480,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt B-RES-03",
     "credit": "",
-    "notes": "Downtown, near the junior college. A two-story 1900s balloon-frame Victorian house with narrow lap siding, tall double-hung windows, a steep gable roof and a raised foundation with basement windows, on a narrow lot with large old street trees and houses close on both sides; smoke coming from the basement windows and the front door; two cars in the driveway, porch light still on."
+    "notes": "Downtown, near the junior college. A two-story 1900s balloon-frame Victorian house with narrow lap siding, tall double-hung windows, a steep gable roof and a raised foundation with basement windows, on a narrow lot with large old street trees and houses close on both sides; smoke coming from the basement windows and the front door; two cars in the driveway, porch light still on.",
+    "area": "Downtown, near the junior college"
   },
   {
     "id": "b-res-04",
@@ -447,7 +491,8 @@
     "day": "Monday",
     "source": "generated, gpt-image-1, prompt B-RES-04",
     "credit": "",
-    "notes": "McDonald Avenue area. A 1920s one-and-a-half-story craftsman bungalow with a deep front porch, tapered columns and a low dormer, on an older tree-lined street; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway and one parked on the street."
+    "notes": "McDonald Avenue area. A 1920s one-and-a-half-story craftsman bungalow with a deep front porch, tapered columns and a low dormer, on an older tree-lined street; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway and one parked on the street.",
+    "area": "McDonald Avenue area"
   },
   {
     "id": "b-res-05",
@@ -457,7 +502,8 @@
     "day": "Friday",
     "source": "generated, gpt-image-1, prompt B-RES-05",
     "credit": "",
-    "notes": "McDonald Avenue area. A 1920s one-and-a-half-story craftsman bungalow with a deep front porch, tapered columns and a low dormer, on an older tree-lined street; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway, porch light still on."
+    "notes": "McDonald Avenue area. A 1920s one-and-a-half-story craftsman bungalow with a deep front porch, tapered columns and a low dormer, on an older tree-lined street; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway, porch light still on.",
+    "area": "McDonald Avenue area"
   },
   {
     "id": "b-res-06",
@@ -467,7 +513,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt B-RES-06",
     "credit": "",
-    "notes": "McDonald Avenue area. A 1920s one-and-a-half-story craftsman bungalow with a deep front porch, tapered columns and a low dormer, on an older tree-lined street; fire on the front porch starting to climb the siding; two cars in the driveway and one parked on the street."
+    "notes": "McDonald Avenue area. A 1920s one-and-a-half-story craftsman bungalow with a deep front porch, tapered columns and a low dormer, on an older tree-lined street; fire on the front porch starting to climb the siding; two cars in the driveway and one parked on the street.",
+    "area": "McDonald Avenue area"
   },
   {
     "id": "b-res-07",
@@ -477,7 +524,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt B-RES-07",
     "credit": "",
-    "notes": "West End. A small 1910s single-story workers' cottage with a hip roof and a tiny front porch, close to the sidewalk, a detached garage at the back of the lot; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway."
+    "notes": "West End. A small 1910s single-story workers' cottage with a hip roof and a tiny front porch, close to the sidewalk, a detached garage at the back of the lot; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway.",
+    "area": "West End"
   },
   {
     "id": "b-res-08",
@@ -487,7 +535,8 @@
     "day": "Saturday",
     "source": "generated, gpt-image-1, prompt B-RES-08",
     "credit": "",
-    "notes": "West End. A small 1910s single-story workers' cottage with a hip roof and a tiny front porch, close to the sidewalk, a detached garage at the back of the lot; light smoke from the eaves only, the house otherwise looks normal; two cars in the driveway and one on the street."
+    "notes": "West End. A small 1910s single-story workers' cottage with a hip roof and a tiny front porch, close to the sidewalk, a detached garage at the back of the lot; light smoke from the eaves only, the house otherwise looks normal; two cars in the driveway and one on the street.",
+    "area": "West End"
   },
   {
     "id": "b-res-09",
@@ -497,7 +546,8 @@
     "day": "Thursday",
     "source": "generated, gpt-image-1, prompt B-RES-09",
     "credit": "",
-    "notes": "West End. A small 1910s single-story workers' cottage with a hip roof and a tiny front porch, close to the sidewalk, a detached garage at the back of the lot; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway, porch light still on."
+    "notes": "West End. A small 1910s single-story workers' cottage with a hip roof and a tiny front porch, close to the sidewalk, a detached garage at the back of the lot; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway, porch light still on.",
+    "area": "West End"
   },
   {
     "id": "b-res-10",
@@ -507,7 +557,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt B-RES-10",
     "credit": "",
-    "notes": "Montgomery Village. A 1950s single-story ranch house with board-and-batten siding, a low-pitched roof and an attached one-car garage, mature trees, flat street; smoke pushing from around the closed garage door and the eaves above it; one car in the driveway."
+    "notes": "Montgomery Village. A 1950s single-story ranch house with board-and-batten siding, a low-pitched roof and an attached one-car garage, mature trees, flat street; smoke pushing from around the closed garage door and the eaves above it; one car in the driveway.",
+    "area": "Montgomery Village"
   },
   {
     "id": "b-res-11",
@@ -517,7 +568,8 @@
     "day": "Thursday",
     "source": "generated, gpt-image-1, prompt B-RES-11",
     "credit": "",
-    "notes": "Montgomery Village. A 1950s single-story ranch house with board-and-batten siding, a low-pitched roof and an attached one-car garage, mature trees, flat street; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway and one on the street."
+    "notes": "Montgomery Village. A 1950s single-story ranch house with board-and-batten siding, a low-pitched roof and an attached one-car garage, mature trees, flat street; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway and one on the street.",
+    "area": "Montgomery Village"
   },
   {
     "id": "b-res-12",
@@ -527,7 +579,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt B-RES-12",
     "credit": "",
-    "notes": "Montgomery Village. A 1950s single-story ranch house with board-and-batten siding, a low-pitched roof and an attached one-car garage, mature trees, flat street; fire on the front porch starting to climb the siding; an empty driveway."
+    "notes": "Montgomery Village. A 1950s single-story ranch house with board-and-batten siding, a low-pitched roof and an attached one-car garage, mature trees, flat street; fire on the front porch starting to climb the siding; an empty driveway.",
+    "area": "Montgomery Village"
   },
   {
     "id": "b-res-13",
@@ -537,7 +590,8 @@
     "day": "Tuesday",
     "source": "generated, gpt-image-1, prompt B-RES-13",
     "credit": "",
-    "notes": "Rincon Valley. A 1970s single-story ranch house with wood siding and an attached two-car garage, oak trees in the yard, a gently sloping street; heavy smoke from the windows and the roof; an empty driveway and trash cans at the curb."
+    "notes": "Rincon Valley. A 1970s single-story ranch house with wood siding and an attached two-car garage, oak trees in the yard, a gently sloping street; heavy smoke from the windows and the roof; an empty driveway and trash cans at the curb.",
+    "area": "Rincon Valley"
   },
   {
     "id": "b-res-15",
@@ -547,7 +601,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt B-RES-15",
     "credit": "",
-    "notes": "Rincon Valley. A 1970s single-story ranch house with wood siding and an attached two-car garage, oak trees in the yard, a gently sloping street; smoke pushing from around the closed garage door and the eaves above it; two cars in the driveway."
+    "notes": "Rincon Valley. A 1970s single-story ranch house with wood siding and an attached two-car garage, oak trees in the yard, a gently sloping street; smoke pushing from around the closed garage door and the eaves above it; two cars in the driveway.",
+    "area": "Rincon Valley"
   },
   {
     "id": "b-res-16",
@@ -557,7 +612,8 @@
     "day": "Thursday",
     "source": "generated, gpt-image-1, prompt B-RES-16",
     "credit": "",
-    "notes": "Oakmont. A single-story 1970s ranch home in a quiet retirement community, low-pitched roof, attached two-car garage, tidy landscaping, oak-covered hills behind; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway and one parked on the street."
+    "notes": "Oakmont. A single-story 1970s ranch home in a quiet retirement community, low-pitched roof, attached two-car garage, tidy landscaping, oak-covered hills behind; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway and one parked on the street.",
+    "area": "Oakmont"
   },
   {
     "id": "b-res-17",
@@ -567,7 +623,8 @@
     "day": "Tuesday",
     "source": "generated, gpt-image-1, prompt B-RES-17",
     "credit": "",
-    "notes": "Oakmont. A single-story 1970s ranch home in a quiet retirement community, low-pitched roof, attached two-car garage, tidy landscaping, oak-covered hills behind; fire on the front porch starting to climb the siding; two cars in the driveway and one on the street."
+    "notes": "Oakmont. A single-story 1970s ranch home in a quiet retirement community, low-pitched roof, attached two-car garage, tidy landscaping, oak-covered hills behind; fire on the front porch starting to climb the siding; two cars in the driveway and one on the street.",
+    "area": "Oakmont"
   },
   {
     "id": "b-res-18",
@@ -577,7 +634,8 @@
     "day": "Friday",
     "source": "generated, gpt-image-1, prompt B-RES-18",
     "credit": "",
-    "notes": "Oakmont. A single-story 1970s ranch home in a quiet retirement community, low-pitched roof, attached two-car garage, tidy landscaping, oak-covered hills behind; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway and one on the street."
+    "notes": "Oakmont. A single-story 1970s ranch home in a quiet retirement community, low-pitched roof, attached two-car garage, tidy landscaping, oak-covered hills behind; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway and one on the street.",
+    "area": "Oakmont"
   },
   {
     "id": "b-res-20",
@@ -587,7 +645,8 @@
     "day": "Sunday",
     "source": "generated, gpt-image-1, prompt B-RES-20",
     "credit": "",
-    "notes": "Bennett Valley. A 1980s two-story house with cedar siding on a large lot with mature oaks and a long driveway, golden hills behind; fire showing from one front window with dark smoke rolling up the face of the house; cars in the driveway and on the street."
+    "notes": "Bennett Valley. A 1980s two-story house with cedar siding on a large lot with mature oaks and a long driveway, golden hills behind; fire showing from one front window with dark smoke rolling up the face of the house; cars in the driveway and on the street.",
+    "area": "Bennett Valley"
   },
   {
     "id": "b-res-21",
@@ -597,7 +656,8 @@
     "day": "Tuesday",
     "source": "generated, gpt-image-1, prompt B-RES-21",
     "credit": "",
-    "notes": "Bennett Valley. A 1980s two-story house with cedar siding on a large lot with mature oaks and a long driveway, golden hills behind; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway."
+    "notes": "Bennett Valley. A 1980s two-story house with cedar siding on a large lot with mature oaks and a long driveway, golden hills behind; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway.",
+    "area": "Bennett Valley"
   },
   {
     "id": "b-res-22",
@@ -607,7 +667,8 @@
     "day": "Friday",
     "source": "generated, gpt-image-1, prompt B-RES-22",
     "credit": "",
-    "notes": "Coffey Park, rebuilt after the Tubbs Fire. A new two-story house built after 2017 in modern farmhouse style with fiber-cement siding and dark window frames, a small front yard with young trees, similar new houses close on both sides; smoke pushing from around the closed garage door and the eaves above it; two cars in the driveway and one parked on the street."
+    "notes": "Coffey Park, rebuilt after the Tubbs Fire. A new two-story house built after 2017 in modern farmhouse style with fiber-cement siding and dark window frames, a small front yard with young trees, similar new houses close on both sides; smoke pushing from around the closed garage door and the eaves above it; two cars in the driveway and one parked on the street.",
+    "area": "Coffey Park"
   },
   {
     "id": "b-res-23",
@@ -617,7 +678,8 @@
     "day": "Sunday",
     "source": "generated, gpt-image-1, prompt B-RES-23",
     "credit": "",
-    "notes": "Coffey Park, rebuilt after the Tubbs Fire. A new two-story house built after 2017 in modern farmhouse style with fiber-cement siding and dark window frames, a small front yard with young trees, similar new houses close on both sides; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway, porch light still on."
+    "notes": "Coffey Park, rebuilt after the Tubbs Fire. A new two-story house built after 2017 in modern farmhouse style with fiber-cement siding and dark window frames, a small front yard with young trees, similar new houses close on both sides; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway, porch light still on.",
+    "area": "Coffey Park"
   },
   {
     "id": "b-res-24",
@@ -627,7 +689,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt B-RES-24",
     "credit": "",
-    "notes": "Coffey Park, rebuilt after the Tubbs Fire. A new two-story house built after 2017 in modern farmhouse style with fiber-cement siding and dark window frames, a small front yard with young trees, similar new houses close on both sides; fire in a small backyard accessory dwelling unit behind the house, seen over the side fence; one car in the driveway."
+    "notes": "Coffey Park, rebuilt after the Tubbs Fire. A new two-story house built after 2017 in modern farmhouse style with fiber-cement siding and dark window frames, a small front yard with young trees, similar new houses close on both sides; fire in a small backyard accessory dwelling unit behind the house, seen over the side fence; one car in the driveway.",
+    "area": "Coffey Park"
   },
   {
     "id": "b-res-25",
@@ -637,7 +700,8 @@
     "day": "Thursday",
     "source": "generated, gpt-image-1, prompt B-RES-25",
     "credit": "",
-    "notes": "Fountaingrove, rebuilt after the Tubbs Fire. A large new two-story hillside home with stucco and stone, a tile roof and big windows, on a curving street with young landscaping and a few scorched oak trunks still standing nearby; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway, porch light still on."
+    "notes": "Fountaingrove, rebuilt after the Tubbs Fire. A large new two-story hillside home with stucco and stone, a tile roof and big windows, on a curving street with young landscaping and a few scorched oak trunks still standing nearby; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway, porch light still on.",
+    "area": "Fountaingrove"
   },
   {
     "id": "b-res-26",
@@ -647,7 +711,8 @@
     "day": "Thursday",
     "source": "generated, gpt-image-1, prompt B-RES-26",
     "credit": "",
-    "notes": "Fountaingrove, rebuilt after the Tubbs Fire. A large new two-story hillside home with stucco and stone, a tile roof and big windows, on a curving street with young landscaping and a few scorched oak trunks still standing nearby; heavy smoke from the second floor windows and the roof; two cars in the driveway, porch light still on."
+    "notes": "Fountaingrove, rebuilt after the Tubbs Fire. A large new two-story hillside home with stucco and stone, a tile roof and big windows, on a curving street with young landscaping and a few scorched oak trunks still standing nearby; heavy smoke from the second floor windows and the roof; two cars in the driveway, porch light still on.",
+    "area": "Fountaingrove"
   },
   {
     "id": "b-res-27",
@@ -657,7 +722,8 @@
     "day": "Friday",
     "source": "generated, gpt-image-1, prompt B-RES-27",
     "credit": "",
-    "notes": "Fountaingrove, rebuilt after the Tubbs Fire. A large new two-story hillside home with stucco and stone, a tile roof and big windows, on a curving street with young landscaping and a few scorched oak trunks still standing nearby; light smoke from the eaves only, the house otherwise looks normal; two cars in the driveway."
+    "notes": "Fountaingrove, rebuilt after the Tubbs Fire. A large new two-story hillside home with stucco and stone, a tile roof and big windows, on a curving street with young landscaping and a few scorched oak trunks still standing nearby; light smoke from the eaves only, the house otherwise looks normal; two cars in the driveway.",
+    "area": "Fountaingrove"
   },
   {
     "id": "b-res-30",
@@ -667,7 +733,8 @@
     "day": "Saturday",
     "source": "generated, gpt-image-1, prompt B-RES-30",
     "credit": "",
-    "notes": "Fountaingrove hillside. A large 1990s two-story hillside home with a wooden deck built out over a dry grassy slope, oak woodland around it, a narrow winding street; fire under the deck spreading into the dry grass on the slope below; cars in the driveway and on the street."
+    "notes": "Fountaingrove hillside. A large 1990s two-story hillside home with a wooden deck built out over a dry grassy slope, oak woodland around it, a narrow winding street; fire under the deck spreading into the dry grass on the slope below; cars in the driveway and on the street.",
+    "area": "Fountaingrove hillside"
   },
   {
     "id": "b-res-31",
@@ -677,7 +744,8 @@
     "day": "Friday",
     "source": "generated, gpt-image-1, prompt B-RES-31",
     "credit": "",
-    "notes": "Skyhawk, next to Annadel. A 1990s two-story home on the last street before open space, its back fence opening onto dry golden grass and oaks; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway."
+    "notes": "Skyhawk, next to Annadel. A 1990s two-story home on the last street before open space, its back fence opening onto dry golden grass and oaks; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway.",
+    "area": "Skyhawk, next to Annadel"
   },
   {
     "id": "b-res-32",
@@ -687,7 +755,8 @@
     "day": "Thursday",
     "source": "generated, gpt-image-1, prompt B-RES-32",
     "credit": "",
-    "notes": "Skyhawk, next to Annadel. A 1990s two-story home on the last street before open space, its back fence opening onto dry golden grass and oaks; a kitchen fire: flames out of one side window and smoke along the eaves; an empty driveway and trash cans at the curb."
+    "notes": "Skyhawk, next to Annadel. A 1990s two-story home on the last street before open space, its back fence opening onto dry golden grass and oaks; a kitchen fire: flames out of one side window and smoke along the eaves; an empty driveway and trash cans at the curb.",
+    "area": "Skyhawk, next to Annadel"
   },
   {
     "id": "b-res-33",
@@ -697,7 +766,8 @@
     "day": "Sunday",
     "source": "generated, gpt-image-1, prompt B-RES-33",
     "credit": "",
-    "notes": "Skyhawk, next to Annadel. A 1990s two-story home on the last street before open space, its back fence opening onto dry golden grass and oaks; a small grass fire in the open space burning up to the back fence of the house; two cars in the driveway and a kid's bike on the lawn."
+    "notes": "Skyhawk, next to Annadel. A 1990s two-story home on the last street before open space, its back fence opening onto dry golden grass and oaks; a small grass fire in the open space burning up to the back fence of the house; two cars in the driveway and a kid's bike on the lawn.",
+    "area": "Skyhawk, next to Annadel"
   },
   {
     "id": "b-res-34",
@@ -707,7 +777,8 @@
     "day": "Sunday",
     "source": "generated, gpt-image-1, prompt B-RES-34",
     "credit": "",
-    "notes": "Mark West Springs Road area. A 1960s single-story house on a wooded lot under tall redwoods and bay trees, at the end of a long narrow driveway off a two-lane country road; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway, porch light still on."
+    "notes": "Mark West Springs Road area. A 1960s single-story house on a wooded lot under tall redwoods and bay trees, at the end of a long narrow driveway off a two-lane country road; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway, porch light still on.",
+    "area": "Upper Calistoga Road"
   },
   {
     "id": "b-res-35",
@@ -717,7 +788,8 @@
     "day": "Sunday",
     "source": "generated, gpt-image-1, prompt B-RES-35",
     "credit": "",
-    "notes": "Mark West Springs Road area. A 1960s single-story house on a wooded lot under tall redwoods and bay trees, at the end of a long narrow driveway off a two-lane country road; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway, porch light still on."
+    "notes": "Mark West Springs Road area. A 1960s single-story house on a wooded lot under tall redwoods and bay trees, at the end of a long narrow driveway off a two-lane country road; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway, porch light still on.",
+    "area": "Upper Calistoga Road"
   },
   {
     "id": "b-res-36",
@@ -727,7 +799,8 @@
     "day": "Sunday",
     "source": "generated, gpt-image-1, prompt B-RES-36",
     "credit": "",
-    "notes": "Mark West Springs Road area. A 1960s single-story house on a wooded lot under tall redwoods and bay trees, at the end of a long narrow driveway off a two-lane country road; smoke from the roof and fire showing from a side window, needles and leaves on the roof; two cars in the driveway, porch light still on."
+    "notes": "Mark West Springs Road area. A 1960s single-story house on a wooded lot under tall redwoods and bay trees, at the end of a long narrow driveway off a two-lane country road; smoke from the roof and fire showing from a side window, needles and leaves on the roof; two cars in the driveway, porch light still on.",
+    "area": "Upper Calistoga Road"
   },
   {
     "id": "b-res-37",
@@ -737,7 +810,8 @@
     "day": "Thursday",
     "source": "generated, gpt-image-1, prompt B-RES-37",
     "credit": "",
-    "notes": "West of Fulton Road. A single-story ranch house on a two-acre rural lot with a long gravel driveway, a metal shop building, a horse fence and open fields around; light gray smoke pushing from the attic vents and gable ends, nothing else showing; no vehicles in the driveway."
+    "notes": "West of Fulton Road. A single-story ranch house on a two-acre rural lot with a long gravel driveway, a metal shop building, a horse fence and open fields around; light gray smoke pushing from the attic vents and gable ends, nothing else showing; no vehicles in the driveway.",
+    "area": "West edge, near Fulton Road"
   },
   {
     "id": "b-res-38",
@@ -747,7 +821,8 @@
     "day": "Sunday",
     "source": "generated, gpt-image-1, prompt B-RES-38",
     "credit": "",
-    "notes": "West of Fulton Road. A single-story ranch house on a two-acre rural lot with a long gravel driveway, a metal shop building, a horse fence and open fields around; light smoke from the eaves only, the house otherwise looks normal; a pickup truck and a car parked by the house."
+    "notes": "West of Fulton Road. A single-story ranch house on a two-acre rural lot with a long gravel driveway, a metal shop building, a horse fence and open fields around; light smoke from the eaves only, the house otherwise looks normal; a pickup truck and a car parked by the house.",
+    "area": "West edge, near Fulton Road"
   },
   {
     "id": "b-res-39",
@@ -757,7 +832,8 @@
     "day": "Friday",
     "source": "generated, gpt-image-1, prompt B-RES-39",
     "credit": "",
-    "notes": "West of Fulton Road. A single-story ranch house on a two-acre rural lot with a long gravel driveway, a metal shop building, a horse fence and open fields around; fire in the metal shop building beside the house, smoke from its roll-up door; a pickup truck and a car parked by the house."
+    "notes": "West of Fulton Road. A single-story ranch house on a two-acre rural lot with a long gravel driveway, a metal shop building, a horse fence and open fields around; fire in the metal shop building beside the house, smoke from its roll-up door; a pickup truck and a car parked by the house.",
+    "area": "West edge, near Fulton Road"
   },
   {
     "id": "b-res-40",
@@ -767,7 +843,8 @@
     "day": "Tuesday",
     "source": "generated, gpt-image-1, prompt B-RES-40",
     "credit": "",
-    "notes": "Roseland. A small 1940s single-story stucco house with a chain-link fence and a converted garage, older cars in the driveway and on the street; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway."
+    "notes": "Roseland. A small 1940s single-story stucco house with a chain-link fence and a converted garage, older cars in the driveway and on the street; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway.",
+    "area": "Roseland"
   },
   {
     "id": "b-res-41",
@@ -777,7 +854,8 @@
     "day": "Wednesday",
     "source": "generated, gpt-image-1, prompt B-RES-41",
     "credit": "",
-    "notes": "Roseland. A small 1940s single-story stucco house with a chain-link fence and a converted garage, older cars in the driveway and on the street; heavy smoke from the windows and the roof; two cars in the driveway and one parked on the street."
+    "notes": "Roseland. A small 1940s single-story stucco house with a chain-link fence and a converted garage, older cars in the driveway and on the street; heavy smoke from the windows and the roof; two cars in the driveway and one parked on the street.",
+    "area": "Roseland"
   },
   {
     "id": "b-res-42",
@@ -787,7 +865,8 @@
     "day": "Saturday",
     "source": "generated, gpt-image-1, prompt B-RES-42",
     "credit": "",
-    "notes": "Roseland. A small 1940s single-story stucco house with a chain-link fence and a converted garage, older cars in the driveway and on the street; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway, porch light still on."
+    "notes": "Roseland. A small 1940s single-story stucco house with a chain-link fence and a converted garage, older cars in the driveway and on the street; fire showing at the rear of the house, seen down the side yard, with smoke drifting over the roof; two cars in the driveway, porch light still on.",
+    "area": "Roseland"
   },
   {
     "id": "b-res-43",
@@ -797,6 +876,7 @@
     "day": "Saturday",
     "source": "generated, gpt-image-1, prompt B-RES-43",
     "credit": "",
-    "notes": "Southwest Santa Rosa. A 2000s two-story tract house with stucco walls and a tile roof in a subdivision of similar houses, two-car garage, small lawn; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway and one on the street."
+    "notes": "Southwest Santa Rosa. A 2000s two-story tract house with stucco walls and a tile roof in a subdivision of similar houses, two-car garage, small lawn; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway and one on the street.",
+    "area": "Southwest Santa Rosa"
   }
 ]

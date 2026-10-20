@@ -1,0 +1,12 @@
+[
+  {"station": 1,  "engine": "E1",  "address": "955 Sonoma Ave, Santa Rosa, CA 95404", "area": "Downtown"},
+  {"station": 2,  "engine": "E2",  "address": "65 Stony Point Rd, Santa Rosa, CA 95401", "area": "West side"},
+  {"station": 3,  "engine": "E3",  "address": "3311 Coffey Ln, Santa Rosa, CA 95403", "area": "Coffey Park"},
+  {"station": 4,  "engine": "E4",  "address": "1775 Yulupa Ave, Santa Rosa, CA 95405", "area": "Montgomery Village"},
+  {"station": 5,  "engine": "E5",  "address": "1492 Fountaingrove Pkwy, Santa Rosa, CA 95403", "area": "Fountaingrove"},
+  {"station": 6,  "engine": "E6",  "address": "205 Calistoga Rd, Santa Rosa, CA 95409", "area": "Rincon Valley"},
+  {"station": 7,  "engine": "E7",  "address": "6590 Stone Bridge Rd, Santa Rosa, CA 95409", "area": "Oakmont"},
+  {"station": 8,  "engine": "E8",  "address": "830 Burbank Ave, Santa Rosa, CA 95407", "area": "Roseland"},
+  {"station": 10, "engine": "E10", "address": "1345 Corporate Center Pkwy, Santa Rosa, CA 95407", "area": "Southwest"},
+  {"station": 11, "engine": "E11", "address": "550 Lewis Rd, Santa Rosa, CA 95404", "area": "North central"}
+]

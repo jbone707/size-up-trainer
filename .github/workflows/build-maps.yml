@@ -1,0 +1,31 @@
+name: build-maps
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/stations.json
+      - data/areas.json
+      - scripts/build_maps.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  maps:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: python scripts/build_maps.py
+      - name: Commit maps to their own branch
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git checkout --orphan built-maps
+          git rm -rq --cached .
+          git add maps
+          git commit -qm "Built maps"
+          git push -f origin built-maps

@@ -1,0 +1,244 @@
+{
+  "stations": [
+    {
+      "station": 1,
+      "found": true,
+      "match": "955, Sonoma Avenue, Santa Rosa, Sonoma County, California, 95404, United States"
+    },
+    {
+      "station": 2,
+      "found": true,
+      "match": "65, Stony Point Road, Santa Rosa, Sonoma County, California, 95401, United States"
+    },
+    {
+      "station": 3,
+      "found": true,
+      "match": "Santa Rosa Fire Department Station 3, 3311, Coffey Lane, Santa Rosa, Sonoma County, California, 95403, United States"
+    },
+    {
+      "station": 4,
+      "found": true,
+      "match": "1775, Yulupa Avenue, Santa Rosa, Sonoma County, California, 95405, United States"
+    },
+    {
+      "station": 5,
+      "found": true,
+      "match": "Fire Station 5, 1492, Fountaingrove Parkway, Santa Rosa, Sonoma County, California, 95404, United States"
+    },
+    {
+      "station": 6,
+      "found": true,
+      "match": "205, Calistoga Road, Santa Rosa, Sonoma County, California, 95409, United States"
+    },
+    {
+      "station": 7,
+      "found": true,
+      "match": "6590, Stone Bridge Road, Oakmont, Santa Rosa, Sonoma County, California, 95409, United States"
+    },
+    {
+      "station": 8,
+      "found": true,
+      "match": "830, Burbank Avenue, Roseland, Santa Rosa, Sonoma County, California, 95407, United States"
+    },
+    {
+      "station": 10,
+      "found": true,
+      "match": "1345, Corporate Center Parkway, Santa Rosa, Sonoma County, California, 95407, United States"
+    },
+    {
+      "station": 11,
+      "found": true,
+      "match": "550, Lewis Road, Santa Rosa, Sonoma County, California, 95404, United States"
+    }
+  ],
+  "areas": [
+    {
+      "area": "Downtown",
+      "query": "500 B St, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.42,
+      "match": "500, B Street, Santa Rosa, Sonoma County, California, 95401, United States"
+    },
+    {
+      "area": "Courthouse Square",
+      "query": "600 4th St, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.05,
+      "match": "600, 4th Street, Downtown Santa Rosa, Santa Rosa, Sonoma County, California, 95404, United States"
+    },
+    {
+      "area": "Downtown, near the junior college",
+      "query": "1500 Mendocino Ave, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.28,
+      "match": "1500, Mendocino Avenue, Santa Rosa, Sonoma County, California, 95401, United States"
+    },
+    {
+      "area": "McDonald Avenue area",
+      "query": "1000 McDonald Ave, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.51,
+      "match": "1000, McDonald Avenue, Santa Rosa, Sonoma County, California, 95404, United States"
+    },
+    {
+      "area": "West End",
+      "query": "400 Boyce St, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.6,
+      "match": "400, Boyce Street, Santa Rosa, Sonoma County, California, 95401, United States"
+    },
+    {
+      "area": "Montgomery Village",
+      "query": "2400 Sonoma Ave, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.33,
+      "match": "Mendocino Farms, 2400, Sonoma Avenue, Montgomery Village, Santa Rosa, Sonoma County, California, 95405, United States"
+    },
+    {
+      "area": "Medical district",
+      "query": "1100 Montgomery Dr, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.58,
+      "match": "1100, Montgomery Drive, Santa Rosa, Sonoma County, California, 95405, United States"
+    },
+    {
+      "area": "Rincon Valley",
+      "query": "4500 Montecito Blvd, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 1.55,
+      "match": "Montecito Boulevard, Santa Rosa, Sonoma County, California, 95405, United States"
+    },
+    {
+      "area": "Upper Calistoga Road",
+      "query": "2400 Calistoga Rd, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 2.73,
+      "match": "2400, Calistoga Road, Santa Rosa, Sonoma County, California, 95404, United States"
+    },
+    {
+      "area": "Oakmont",
+      "query": "6500 Oakmont Dr, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.51,
+      "match": "6500, Oakmont Drive, Oakmont, Santa Rosa, Sonoma County, California, 95409, United States"
+    },
+    {
+      "area": "Highway 12 near Oakmont",
+      "query": "Highway 12 at Pythian Rd, Santa Rosa, CA",
+      "found": false
+    },
+    {
+      "area": "Skyhawk, next to Annadel",
+      "query": "5800 Skyhawk Dr, Santa Rosa, CA",
+      "found": false
+    },
+    {
+      "area": "Bennett Valley",
+      "query": "3300 Bennett Valley Rd, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.42,
+      "match": "3300, Bennett Valley Road, Santa Rosa, Sonoma County, California, 95404, United States"
+    },
+    {
+      "area": "Coffey Park",
+      "query": "3500 Coffey Ln, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.26,
+      "match": "3500, Coffey Lane, Coffey Park, Santa Rosa, Sonoma County, California, 95403, United States"
+    },
+    {
+      "area": "Fountaingrove",
+      "query": "3500 Thomas Lake Harris Dr, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 1.51,
+      "match": "Thomas Lake Harris Drive, Santa Rosa, Sonoma County, California, 95403, United States"
+    },
+    {
+      "area": "Fountaingrove hillside",
+      "query": "4300 Thomas Lake Harris Dr, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 2.38,
+      "match": "Thomas Lake Harris Drive, Santa Rosa, Sonoma County, California, 95403, United States"
+    },
+    {
+      "area": "West edge, near Fulton Road",
+      "query": "2400 Fulton Rd, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 3.48,
+      "match": "Fulton Road, Santa Rosa, Sonoma County, California, 95401, United States"
+    },
+    {
+      "area": "Roseland",
+      "query": "1200 Burbank Ave, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.33,
+      "match": "1200, Burbank Avenue, Roseland, Santa Rosa, Sonoma County, California, 95407, United States"
+    },
+    {
+      "area": "Sebastopol Road",
+      "query": "1000 Sebastopol Rd, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.34,
+      "match": "1000, Sebastopol Road, Roseland, Santa Rosa, Sonoma County, California, 95407, United States"
+    },
+    {
+      "area": "Southwest Santa Rosa",
+      "query": "2400 Dutton Meadow, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 1.64,
+      "match": "Dutton Meadow, South Santa Rosa, Santa Rosa, Sonoma County, California, 95407, United States"
+    },
+    {
+      "area": "Hearn Avenue",
+      "query": "1000 Hearn Ave, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.61,
+      "match": "1000, Hearn Avenue, Roseland, Santa Rosa, Sonoma County, California, 95407, United States"
+    },
+    {
+      "area": "Stony Point Road",
+      "query": "400 Stony Point Rd, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.27,
+      "match": "400, Stony Point Road, Santa Rosa, Sonoma County, California, 95401, United States"
+    },
+    {
+      "area": "Stony Point Road industrial area",
+      "query": "2200 Stony Point Rd, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 1.2,
+      "match": "2200, Stony Point Road, Santa Rosa, Sonoma County, California, 95407, United States"
+    },
+    {
+      "area": "Santa Rosa Avenue",
+      "query": "2600 Santa Rosa Ave, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.04,
+      "match": "2600, Santa Rosa Avenue, Santa Rosa, Sonoma County, California, 95407, United States"
+    },
+    {
+      "area": "Coddingtown",
+      "query": "700 Coddingtown Ctr, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.15,
+      "match": "700, Coddingtown Center, Coddingtown Mall, Santa Rosa, Sonoma County, California, 95401, United States"
+    },
+    {
+      "area": "Mendocino Avenue",
+      "query": "2200 Mendocino Ave, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.68,
+      "match": "Safeway Convenience Store, 2200, Mendocino Avenue, Santa Rosa, Sonoma County, California, 95402, United States"
+    },
+    {
+      "area": "Highway 101",
+      "query": "Highway 101 southbound at Steele Ln, Santa Rosa, CA",
+      "found": false
+    },
+    {
+      "area": "Santa Rosa Creek trail",
+      "query": "Santa Rosa Creek Trail near Dutton Ave, Santa Rosa, CA",
+      "found": false
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "attribution": "Map data and tiles: OpenStreetMap contributors",
+  "stations": [
+    {
+      "station": 1,
+      "engine": "E1",
+      "address": "955 Sonoma Ave, Santa Rosa, CA 95404",
+      "area": "Downtown",
+      "lat": 38.44041,
+      "lon": -122.70415
+    },
+    {
+      "station": 2,
+      "engine": "E2",
+      "address": "65 Stony Point Rd, Santa Rosa, CA 95401",
+      "area": "West side",
+      "lat": 38.44141,
+      "lon": -122.74751
+    },
+    {
+      "station": 3,
+      "engine": "E3",
+      "address": "3311 Coffey Ln, Santa Rosa, CA 95403",
+      "area": "Coffey Park",
+      "lat": 38.4695,
+      "lon": -122.74548
+    },
+    {
+      "station": 4,
+      "engine": "E4",
+      "address": "1775 Yulupa Ave, Santa Rosa, CA 95405",
+      "area": "Montgomery Village",
+      "lat": 38.43822,
+      "lon": -122.67105
+    },
+    {
+      "station": 5,
+      "engine": "E5",
+      "address": "1492 Fountaingrove Pkwy, Santa Rosa, CA 95403",
+      "area": "Fountaingrove",
+      "lat": 38.48576,
+      "lon": -122.71069
+    },
+    {
+      "station": 6,
+      "engine": "E6",
+      "address": "205 Calistoga Rd, Santa Rosa, CA 95409",
+      "area": "Rincon Valley",
+      "lat": 38.46735,
+      "lon": -122.65397
+    },
+    {
+      "station": 7,
+      "engine": "E7",
+      "address": "6590 Stone Bridge Rd, Santa Rosa, CA 95409",
+      "area": "Oakmont",
+      "lat": 38.44206,
+      "lon": -122.60691
+    },
+    {
+      "station": 8,
+      "engine": "E8",
+      "address": "830 Burbank Ave, Santa Rosa, CA 95407",
+      "area": "Roseland",
+      "lat": 38.42741,
+      "lon": -122.73507
+    },
+    {
+      "station": 10,
+      "engine": "E10",
+      "address": "1345 Corporate Center Pkwy, Santa Rosa, CA 95407",
+      "area": "Southwest",
+      "lat": 38.41888,
+      "lon": -122.75389
+    },
+    {
+      "station": 11,
+      "engine": "E11",
+      "address": "550 Lewis Rd, Santa Rosa, CA 95404",
+      "area": "North central",
+      "lat": 38.46076,
+      "lon": -122.71567
+    }
+  ],
+  "areas": {
+    "Downtown": {
+      "z": 16,
+      "x0": 10427.28125,
+      "y0": 25176.04296875,
+      "w": 768,
+      "h": 512,
+      "file": "maps/downtown.jpg"
+    },
+    "Courthouse Square": {
+      "z": 16,
+      "x0": 10427.04296875,
+      "y0": 25176.01953125,
+      "w": 768,
+      "h": 512,
+      "file": "maps/courthouse-square.jpg"
+    },
+    "Downtown, near the junior college": {
+      "z": 16,
+      "x0": 10426.09765625,
+      "y0": 25173.01953125,
+      "w": 768,
+      "h": 512,
+      "file": "maps/downtown-near-the-junior-college.jpg"
+    },
+    "McDonald Avenue area": {
+      "z": 16,
+      "x0": 10427.91796875,
+      "y0": 25173.8359375,
+      "w": 768,
+      "h": 512,
+      "file": "maps/mcdonald-avenue-area.jpg"
+    },
+    "West End": {
+      "z": 16,
+      "x0": 10425.1875,
+      "y0": 25175.23046875,
+      "w": 768,
+      "h": 512,
+      "file": "maps/west-end.jpg"
+    },
+    "Montgomery Village": {
+      "z": 16,
+      "x0": 10432.55859375,
+      "y0": 25174.6484375,
+      "w": 768,
+      "h": 512,
+      "file": "maps/montgomery-village.jpg"
+    },
+    "Medical district": {
+      "z": 16,
+      "x0": 10429.46484375,
+      "y0": 25174.30078125,
+      "w": 768,
+      "h": 512,
+      "file": "maps/medical-district.jpg"
+    },
+    "Rincon Valley": {
+      "z": 16,
+      "x0": 10436.9296875,
+      "y0": 25169.18359375,
+      "w": 768,
+      "h": 512,
+      "file": "maps/rincon-valley.jpg"
+    },
+    "Upper Calistoga Road": {
+      "z": 16,
+      "x0": 10436.5625,
+      "y0": 25165.23046875,
+      "w": 768,
+      "h": 512,
+      "file": "maps/upper-calistoga-road.jpg"
+    },
+    "Oakmont": {
+      "z": 16,
+      "x0": 10447.8515625,
+      "y0": 25175.4609375,
+      "w": 768,
+      "h": 512,
+      "file": "maps/oakmont.jpg"
+    },
+    "Highway 12 near Oakmont": {
+      "z": 16,
+      "x0": 10444.7578125,
+      "y0": 25174.4140625,
+      "w": 768,
+      "h": 512,
+      "file": "maps/highway-12-near-oakmont.jpg"
+    },
+    "Skyhawk, next to Annadel": {
+      "z": 16,
+      "x0": 10441.1171875,
+      "y0": 25171.27734375,
+      "w": 768,
+      "h": 512,
+      "file": "maps/skyhawk-next-to-annadel.jpg"
+    },
+    "Bennett Valley": {
+      "z": 16,
+      "x0": 10433.2890625,
+      "y0": 25178.94921875,
+      "w": 768,
+      "h": 512,
+      "file": "maps/bennett-valley.jpg"
+    },
+    "Coffey Park": {
+      "z": 16,
+      "x0": 10421.63671875,
+      "y0": 25168.13671875,
+      "w": 768,
+      "h": 512,
+      "file": "maps/coffey-park.jpg"
+    },
+    "Fountaingrove": {
+      "z": 16,
+      "x0": 10428.5546875,
+      "y0": 25165.11328125,
+      "w": 768,
+      "h": 512,
+      "file": "maps/fountaingrove.jpg"
+    },
+    "Fountaingrove hillside": {
+      "z": 16,
+      "x0": 10429.828125,
+      "y0": 25163.37109375,
+      "w": 768,
+      "h": 512,
+      "file": "maps/fountaingrove-hillside.jpg"
+    },
+    "West edge, near Fulton Road": {
+      "z": 16,
+      "x0": 10417.0859375,
+      "y0": 25170.8125,
+      "w": 768,
+      "h": 512,
+      "file": "maps/west-edge-near-fulton-road.jpg"
+    },
+    "Roseland": {
+      "z": 16,
+      "x0": 10422.63671875,
+      "y0": 25179.52734375,
+      "w": 768,
+      "h": 512,
+      "file": "maps/roseland.jpg"
+    },
+    "Sebastopol Road": {
+      "z": 16,
+      "x0": 10424.18359375,
+      "y0": 25179.3671875,
+      "w": 768,
+      "h": 512,
+      "file": "maps/sebastopol-road.jpg"
+    },
+    "Southwest Santa Rosa": {
+      "z": 16,
+      "x0": 10421.08984375,
+      "y0": 25182.31640625,
+      "w": 768,
+      "h": 512,
+      "file": "maps/southwest-santa-rosa.jpg"
+    },
+    "Hearn Avenue": {
+      "z": 16,
+      "x0": 10424.55078125,
+      "y0": 25183.12890625,
+      "w": 768,
+      "h": 512,
+      "file": "maps/hearn-avenue.jpg"
+    },
+    "Stony Point Road": {
+      "z": 16,
+      "x0": 10421.546875,
+      "y0": 25178.01953125,
+      "w": 768,
+      "h": 512,
+      "file": "maps/stony-point-road.jpg"
+    },
+    "Stony Point Road industrial area": {
+      "z": 16,
+      "x0": 10421.63671875,
+      "y0": 25184.05859375,
+      "w": 768,
+      "h": 512,
+      "file": "maps/stony-point-road-industrial-area.jpg"
+    },
+    "Santa Rosa Avenue": {
+      "z": 16,
+      "x0": 10427.1875,
+      "y0": 25182.19921875,
+      "w": 768,
+      "h": 512,
+      "file": "maps/santa-rosa-avenue.jpg"
+    },
+    "Coddingtown": {
+      "z": 16,
+      "x0": 10423.9140625,
+      "y0": 25172.32421875,
+      "w": 768,
+      "h": 512,
+      "file": "maps/coddingtown.jpg"
+    },
+    "Mendocino Avenue": {
+      "z": 16,
+      "x0": 10425.27734375,
+      "y0": 25170.578125,
+      "w": 768,
+      "h": 512,
+      "file": "maps/mendocino-avenue.jpg"
+    },
+    "Highway 101": {
+      "z": 16,
+      "x0": 10425.00390625,
+      "y0": 25172.5546875,
+      "w": 768,
+      "h": 512,
+      "file": "maps/highway-101.jpg"
+    },
+    "Santa Rosa Creek trail": {
+      "z": 16,
+      "x0": 10423.640625,
+      "y0": 25176.85546875,
+      "w": 768,
+      "h": 512,
+      "file": "maps/santa-rosa-creek-trail.jpg"
+    }
+  },
+  "city": {
+    "z": 13,
+    "x0": 1301,
+    "y0": 3144,
+    "w": 1536,
+    "h": 1280
+  }
+}

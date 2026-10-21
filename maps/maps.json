@@ -36,10 +36,15 @@
     {
       "station": 5,
       "engine": "E5",
-      "address": "1492 Fountaingrove Pkwy, Santa Rosa, CA 95403",
+      "address": "Fountaingrove Pkwy at Stagecoach Rd, Santa Rosa, CA 95403",
       "area": "Fountaingrove",
-      "lat": 38.48576,
-      "lon": -122.71069
+      "intersection": [
+        "Fountaingrove Parkway",
+        "Stagecoach Road"
+      ],
+      "note": "New Station 5 per James, 2026-10-20",
+      "lat": 38.48615,
+      "lon": -122.711
     },
     {
       "station": 6,

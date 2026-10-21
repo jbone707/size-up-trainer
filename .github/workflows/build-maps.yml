@@ -20,12 +20,13 @@ jobs:
           python-version: "3.12"
       - run: pip install pillow
       - run: python scripts/build_maps.py
-      - name: Commit maps to their own branch
+      - name: Commit the rebuilt maps to main
         run: |
+          rm -f maps/geocode-report.json.keep
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git checkout --orphan built-maps
-          git rm -rq --cached .
           git add maps
-          git commit -qm "Built maps"
-          git push -f origin built-maps
+          if git diff --cached --quiet; then echo "maps unchanged"; exit 0; fi
+          git commit -qm "Rebuilt maps"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
+          exit 1

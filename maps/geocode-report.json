@@ -22,8 +22,8 @@
     },
     {
       "station": 5,
-      "found": true,
-      "match": "Fountaingrove Parkway and Stagecoach Road (4 shared nodes)"
+      "found": false,
+      "match": ""
     },
     {
       "station": 6,
@@ -105,7 +105,7 @@
       "area": "Rincon Valley",
       "query": "4500 Montecito Blvd, Santa Rosa, CA",
       "found": true,
-      "km_from_center": 1.55,
+      "km_from_center": 1.53,
       "match": "Montecito Boulevard, Santa Rosa, Sonoma County, California, 95405, United States"
     },
     {
@@ -164,8 +164,8 @@
       "area": "West edge, near Fulton Road",
       "query": "2400 Fulton Rd, Santa Rosa, CA",
       "found": true,
-      "km_from_center": 1.11,
-      "match": "Fulton Road, Santa Rosa, Sonoma County, California, 95403, United States"
+      "km_from_center": 3.48,
+      "match": "Fulton Road, Santa Rosa, Sonoma County, California, 95401, United States"
     },
     {
       "area": "Roseland",
@@ -239,6 +239,13 @@
       "area": "Santa Rosa Creek trail",
       "query": "Santa Rosa Creek Trail near Dutton Ave, Santa Rosa, CA",
       "found": false
+    },
+    {
+      "area": "Railroad Square",
+      "query": "100 4th St, Santa Rosa, CA",
+      "found": true,
+      "km_from_center": 0.12,
+      "match": "Cast Away Yarn Shop, 100, 4th Street, Railroad Square Historic District, Santa Rosa, Sonoma County, California, 95401, United States"
     }
   ]
 }

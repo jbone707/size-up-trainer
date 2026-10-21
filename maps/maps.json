@@ -44,9 +44,7 @@
         "Fountaingrove Parkway",
         "Stagecoach Road"
       ],
-      "note": "New Station 5 per James, 2026-10-20",
-      "lat": 38.48615,
-      "lon": -122.711
+      "note": "New Station 5 per James, 2026-10-20"
     },
     {
       "station": 6,
@@ -313,6 +311,14 @@
       "w": 768,
       "h": 512,
       "file": "maps/santa-rosa-creek-trail.jpg"
+    },
+    "Railroad Square": {
+      "z": 16,
+      "x0": 10425.6796875,
+      "y0": 25176.80859375,
+      "w": 768,
+      "h": 512,
+      "file": "maps/railroad-square.jpg"
     }
   },
   "city": {

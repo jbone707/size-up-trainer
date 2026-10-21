@@ -150,21 +150,21 @@
       "area": "Fountaingrove",
       "query": "3500 Thomas Lake Harris Dr, Santa Rosa, CA",
       "found": true,
-      "km_from_center": 1.51,
+      "km_from_center": 1.43,
       "match": "Thomas Lake Harris Drive, Santa Rosa, Sonoma County, California, 95403, United States"
     },
     {
       "area": "Fountaingrove hillside",
       "query": "4300 Thomas Lake Harris Dr, Santa Rosa, CA",
       "found": true,
-      "km_from_center": 2.38,
+      "km_from_center": 2.5,
       "match": "Thomas Lake Harris Drive, Santa Rosa, Sonoma County, California, 95403, United States"
     },
     {
       "area": "West edge, near Fulton Road",
       "query": "2400 Fulton Rd, Santa Rosa, CA",
       "found": true,
-      "km_from_center": 0.4,
+      "km_from_center": 1.11,
       "match": "Fulton Road, Santa Rosa, Sonoma County, California, 95403, United States"
     },
     {
@@ -185,7 +185,7 @@
       "area": "Southwest Santa Rosa",
       "query": "2400 Dutton Meadow, Santa Rosa, CA",
       "found": true,
-      "km_from_center": 1.99,
+      "km_from_center": 1.64,
       "match": "Dutton Meadow, South Santa Rosa, Santa Rosa, Sonoma County, California, 95407, United States"
     },
     {

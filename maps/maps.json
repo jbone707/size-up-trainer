@@ -44,7 +44,9 @@
         "Fountaingrove Parkway",
         "Stagecoach Road"
       ],
-      "note": "New Station 5 per James, 2026-10-20"
+      "note": "New Station 5 per James, 2026-10-20; point from OpenStreetMap road data, stored so the build does not depend on that service",
+      "lat": 38.48615,
+      "lon": -122.711
     },
     {
       "station": 6,

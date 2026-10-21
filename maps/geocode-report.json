@@ -22,8 +22,8 @@
     },
     {
       "station": 5,
-      "found": false,
-      "match": ""
+      "found": true,
+      "match": "fixed point in data/stations.json"
     },
     {
       "station": 6,
@@ -112,8 +112,8 @@
       "area": "Upper Calistoga Road",
       "query": "2400 Calistoga Rd, Santa Rosa, CA",
       "found": true,
-      "km_from_center": 2.73,
-      "match": "2400, Calistoga Road, Santa Rosa, Sonoma County, California, 95404, United States"
+      "km_from_center": 0.86,
+      "match": "Calistoga Road, Santa Rosa, Sonoma County, California, 95409, United States"
     },
     {
       "area": "Oakmont",
@@ -150,7 +150,7 @@
       "area": "Fountaingrove",
       "query": "3500 Thomas Lake Harris Dr, Santa Rosa, CA",
       "found": true,
-      "km_from_center": 1.43,
+      "km_from_center": 1.51,
       "match": "Thomas Lake Harris Drive, Santa Rosa, Sonoma County, California, 95403, United States"
     },
     {
@@ -164,8 +164,8 @@
       "area": "West edge, near Fulton Road",
       "query": "2400 Fulton Rd, Santa Rosa, CA",
       "found": true,
-      "km_from_center": 3.48,
-      "match": "Fulton Road, Santa Rosa, Sonoma County, California, 95401, United States"
+      "km_from_center": 0.4,
+      "match": "Fulton Road, Santa Rosa, Sonoma County, California, 95403, United States"
     },
     {
       "area": "Roseland",
@@ -185,7 +185,7 @@
       "area": "Southwest Santa Rosa",
       "query": "2400 Dutton Meadow, Santa Rosa, CA",
       "found": true,
-      "km_from_center": 1.64,
+      "km_from_center": 1.99,
       "match": "Dutton Meadow, South Santa Rosa, Santa Rosa, Sonoma County, California, 95407, United States"
     },
     {
@@ -213,7 +213,7 @@
       "area": "Santa Rosa Avenue",
       "query": "2600 Santa Rosa Ave, Santa Rosa, CA",
       "found": true,
-      "km_from_center": 0.01,
+      "km_from_center": 0.04,
       "match": "2600, Santa Rosa Avenue, Santa Rosa, Sonoma County, California, 95407, United States"
     },
     {

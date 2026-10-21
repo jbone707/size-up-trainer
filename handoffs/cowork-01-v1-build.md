@@ -43,3 +43,9 @@ James: a much simpler size-up simulator than the commercial ones, reachable from
 - 86 images made before the OpenAI credit ran out. 39 house scenes kept. Rejected: both versions of B-RES-14, 19, 28, 29 (a fire engine drawn in), and in general any version with an engine, a road running into the building, or fire past offensive.
 - A second run retried the out-of-credit error for 90 minutes and was cancelled with nothing saved; a third, hardened run read the error plainly. No images were charged during either.
 - Not made yet: the 55 remaining batch-two prompts and the 4 redos. They need more OpenAI credit, then one push of `scripts/generate.trigger` (bump RUN).
+
+## 2026-10-20: units, dispatch card, map slide, timer
+- From James's October 2026 assessment instructions: three slides per scenario (dispatch, Tablet Command map, scene), five minutes, first-due engine designator, Control 3. Built all three plus the timer, each switchable.
+- Station addresses verified from srcity.org facility pages and located by OpenStreetMap: 1 Sonoma Ave, 2 Stony Point Rd, 3 Coffey Ln, 4 Yulupa Ave, 5 Fountaingrove Pkwy (temporary per the page), 6 Calistoga Rd, 7 Stone Bridge Rd, 8 Burbank Ave, 10 Corporate Center Pkwy, 11 Lewis Rd. No Station 9 found.
+- Every scene got a Santa Rosa area. Mark West and west-of-Fulton scenes were relabeled Upper Calistoga Road and West edge near Fulton Road, because Mark West is county, not city.
+- Run orders: nearest three by straight line, hand-pinned for ten areas where a freeway or a hill with no through road changes the order.

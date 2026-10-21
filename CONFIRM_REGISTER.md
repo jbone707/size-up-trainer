@@ -9,3 +9,7 @@
 | More single-family house scenes, ideally West Coast wood frame | 14 now (13 generated) |
 | James reviews the generated scenes and names any to drop by code | open, now 80 scenes |
 | Batch two: 55 prompts (multi-family, commercial, mid-rise, vegetation, vehicle, two houses) plus 4 redos not yet made | open, waiting on OpenAI credit |
+| James checks the run order of each area (one table in the 2026-10-20 handoff) | open |
+| Station 9: does it exist, and where? Not in public city pages | open |
+| Station 5: city page gives 1492 Fountaingrove Pkwy as a temporary site; confirm the rebuilt station's address | open |
+| Battalion chief on the 1st alarm? James listed 3 engines, Rescue 1 and Squad 1 only | open |

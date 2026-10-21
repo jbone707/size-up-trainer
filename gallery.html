@@ -180,6 +180,7 @@
     <div class="viewer-bottom">
       <div>
         <div class="clock"><span class="time" id="v-time"></span><span class="day" id="v-day"></span></div>
+        <p class="credit" id="v-units"></p>
         <p class="credit" id="v-credit"></p>
       </div>
       <span class="position" id="v-pos"></span>
@@ -194,6 +195,7 @@
 
 <script type="module">
 import { filterScenes, formatTime, createDeck } from "./picker.js";
+import { dispatchFor } from "./units.js";
 
 const el = (id) => document.getElementById(id);
 const grid = el("grid"), summary = el("summary"), typeSel = el("type");
@@ -207,6 +209,7 @@ const thumbOf = (s) => "img/thumbs/" + s.id + ".jpg";
 const plural = (n, word) => n + " " + word + (n === 1 ? "" : "s");
 
 let scenes = [];
+let areasByName = {}, stations = [];
 let shown = [];
 let current = -1;
 let lastTile = null;
@@ -264,6 +267,8 @@ function fill() {
   el("v-time").textContent = formatTime(s.time);
   el("v-day").textContent = s.day;
   el("v-credit").textContent = s.credit ? "Photo: " + s.credit : "";
+  const d = dispatchFor(s, areasByName, stations);
+  el("v-units").textContent = d ? d.location + ". 1st alarm: " + d.units.join(", ") : "";
   el("v-pos").textContent = (current + 1) + " of " + shown.length;
 }
 
@@ -302,9 +307,14 @@ try {
   if (saved && [...typeSel.options].some((o) => o.value === saved)) typeSel.value = saved;
 } catch (e) { /* storage is optional */ }
 
-fetch("scenes.json", { cache: "no-cache" })
-  .then((r) => { if (!r.ok) throw new Error("scenes"); return r.json(); })
-  .then((list) => { scenes = list; render(); })
+const getJSON = (u) => fetch(u, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(u); return r.json(); });
+Promise.all([getJSON("scenes.json"), getJSON("data/areas.json").catch(() => []), getJSON("maps/maps.json").catch(() => null)])
+  .then(([list, areas, m]) => {
+    scenes = list;
+    areasByName = Object.fromEntries(areas.map((a) => [a.area, a]));
+    stations = m ? m.stations : [];
+    render();
+  })
   .catch(() => { summary.textContent = "The scene list could not be loaded. Check your connection and reload the page."; });
 </script>
 </body>

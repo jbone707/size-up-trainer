@@ -71,10 +71,10 @@
     justify-content: center;
     position: relative;
   }
-  .stage img {
+  .scene .pic img {
     display: block;
     max-width: 100%;
-    max-height: calc(100vh - 230px);
+    max-height: calc(100vh - 300px);
     width: auto;
     height: auto;
     object-fit: contain;
@@ -134,12 +134,63 @@
   button.random:hover, button.random:active { background: var(--accent); }
   :focus-visible { outline: 3px solid #ffd166; outline-offset: 2px; }
   .hint { color: var(--muted); font-size: 0.8rem; padding: 0 16px 12px; background: var(--panel); margin: 0; }
+  .settings { display: flex; gap: 4px 18px; flex-wrap: wrap; padding: 4px 16px; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+  .settings label { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; cursor: pointer; }
+  .settings input { width: 20px; height: 20px; accent-color: var(--accent); }
+  .slide { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+  .slide[hidden] { display: none; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 20px 24px; margin: 16px; max-width: 560px; width: calc(100% - 32px);
+  }
+  .card h2 { margin: 0 0 14px; font-size: 1.05rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+  .card dl { display: grid; grid-template-columns: max-content 1fr; gap: 10px 16px; margin: 0; }
+  .card dt { color: var(--muted); }
+  .card dd { margin: 0; font-weight: 600; }
+  .card .big { font-size: 1.35rem; }
+  .maps { display: grid; grid-template-columns: 3fr 2fr; gap: 12px; padding: 12px; width: 100%; align-items: start; }
+  .mapbox { margin: 0; }
+  .mapbox figcaption { color: var(--muted); font-size: 0.85rem; margin: 6px 0 0; }
+  .mapbox { text-align: center; }
+  .mapbox figcaption { text-align: left; }
+  .mapwrap { position: relative; display: inline-block; line-height: 0; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; max-width: 100%; }
+  .mapwrap img { display: block; width: auto; height: auto; max-width: 100%; max-height: calc(100vh - 330px); }
+  .pin { position: absolute; transform: translate(-50%, -50%); line-height: 1; white-space: nowrap; font-size: 0.75rem; font-weight: 700; }
+  .pin.incident { width: 22px; height: 22px; border-radius: 50%; background: #d7263d; border: 3px solid #fff; box-shadow: 0 0 0 3px rgba(215,38,61,0.4); }
+  .pin.incident { z-index: 1; }
+  .pin.station { z-index: 2; padding: 2px 5px; border-radius: 4px; background: #5c6773; color: #fff; }
+  .pin.station.responding { background: var(--accent); font-size: 0.85rem; box-shadow: 0 0 0 2px #fff; }
+  .attrib { color: var(--muted); font-size: 0.7rem; padding: 0 12px 6px; margin: 0; width: 100%; }
+  .scene { display: grid; grid-template-columns: 1fr 230px; width: 100%; height: 100%; }
+  .scene .pic { display: flex; align-items: center; justify-content: center; min-height: 0; }
+  .units { background: var(--panel); border-left: 1px solid var(--line); padding: 14px 16px; overflow: auto; }
+  .units h2 { margin: 0 0 8px; font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  .units ul { list-style: none; margin: 0 0 14px; padding: 0; }
+  .units li { padding: 6px 0; border-bottom: 1px solid var(--line); font-weight: 600; }
+  .units li .you { color: var(--accent); font-weight: 700; margin-left: 6px; font-size: 0.85rem; }
+  .units p { margin: 0 0 6px; color: var(--muted); font-size: 0.9rem; }
+  .timer { font-size: clamp(1.6rem, 6vw, 2.6rem); font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text); margin-left: 8px; }
+  .timer.low { color: #ffd166; }
+  .timer.out { color: #ff6b6b; }
+  button.advance { background: #2f7d4f; }
+  button.advance:hover, button.advance:active { background: #276843; }
+  @media (max-width: 760px) {
+    .maps { grid-template-columns: 1fr; }
+    .mapwrap img { max-height: none; }
+    .scene { grid-template-columns: 1fr; grid-template-rows: auto auto; }
+    .units { border-left: 0; border-top: 1px solid var(--line); }
+    .units ul { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+    .units li { border: 0; padding: 2px 0; }
+  }
   @media (max-width: 520px) {
     .actions { width: 100%; justify-content: space-between; margin-left: 0; flex-wrap: wrap; gap: 8px; }
     .steps { width: 100%; }
     .steps button { flex: 1; min-width: 0; padding: 0 8px; }
-    .stage img { max-height: 55vh; }
+    button.advance { width: 100%; }
+    .scene .pic img { max-height: 55vh; }
     .hint { display: none; }
+    .card dl { grid-template-columns: 1fr; gap: 2px; }
+    .card dd { margin-bottom: 8px; }
   }
 </style>
 </head>
@@ -165,10 +216,52 @@
     </select>
   </div>
 </header>
+<div class="settings">
+  <label><input type="checkbox" id="opt-dispatch" checked> Dispatch and map first</label>
+  <label><input type="checkbox" id="opt-timer" checked> 5 minute timer</label>
+</div>
 
 <main>
   <div class="stage" id="stage">
-    <img id="photo" alt="" hidden>
+    <section class="slide" id="slide-dispatch" hidden aria-labelledby="dispatch-title">
+      <div class="card">
+        <h2 id="dispatch-title">Dispatch</h2>
+        <dl>
+          <dt>Call</dt><dd class="big" id="d-call"></dd>
+          <dt>Location</dt><dd id="d-location"></dd>
+          <dt>Time</dt><dd id="d-time"></dd>
+          <dt>1st alarm</dt><dd id="d-units"></dd>
+          <dt>You are</dt><dd id="d-you"></dd>
+          <dt>Channel</dt><dd id="d-channel"></dd>
+        </dl>
+      </div>
+    </section>
+    <section class="slide" id="slide-map" hidden aria-label="Map">
+      <div style="width:100%">
+        <div class="maps">
+          <figure class="mapbox">
+            <div class="mapwrap" id="close-wrap"><img id="close-map" alt=""></div>
+            <figcaption id="close-cap"></figcaption>
+          </figure>
+          <figure class="mapbox">
+            <div class="mapwrap" id="city-wrap"><img id="city-map" alt="Santa Rosa with fire stations marked"></div>
+            <figcaption>Stations. Orange: 1st alarm engines. Red dot: incident.</figcaption>
+          </figure>
+        </div>
+        <p class="attrib">Map data: OpenStreetMap contributors</p>
+      </div>
+    </section>
+    <section class="slide" id="slide-scene" hidden aria-label="Scene">
+      <div class="scene">
+        <div class="pic"><img id="photo" alt=""></div>
+        <aside class="units" aria-label="1st alarm">
+          <h2>1st alarm</h2>
+          <ul id="unit-list"></ul>
+          <p id="u-location"></p>
+          <p id="u-channel"></p>
+        </aside>
+      </div>
+    </section>
     <p class="message" id="message" role="status">Loading scenes.</p>
   </div>
   <p class="credit" id="credit"></p>
@@ -176,9 +269,11 @@
     <div class="clock" aria-live="polite">
       <span class="time" id="time"></span>
       <span class="day" id="day"></span>
+      <span class="timer" id="timer" role="timer" hidden></span>
     </div>
     <div class="actions">
       <span class="count" id="count"></span>
+      <button type="button" class="advance" id="advance" hidden>Show map</button>
       <div class="steps">
         <button type="button" id="prev" disabled>Previous</button>
         <button type="button" class="random" id="random" disabled>Random</button>
@@ -186,50 +281,135 @@
       </div>
     </div>
   </div>
-  <p class="hint">Keys: left and right arrows for Previous and Next, space bar or R for Random.</p>
+  <p class="hint">Keys: Enter for the next slide, left and right arrows for Previous and Next scene, space bar or R for Random.</p>
 </main>
 
 <script type="module">
 import { filterScenes, createDeck, formatTime } from "./picker.js";
+import { dispatchFor, engineName, placeOnMap } from "./units.js";
 
 const el = (id) => document.getElementById(id);
 const photo = el("photo"), message = el("message"), credit = el("credit");
-const timeEl = el("time"), dayEl = el("day"), countEl = el("count");
+const timeEl = el("time"), dayEl = el("day"), countEl = el("count"), timerEl = el("timer");
 const nextBtn = el("next"), prevBtn = el("prev"), randBtn = el("random"), typeSel = el("type");
+const advanceBtn = el("advance"), optDispatch = el("opt-dispatch"), optTimer = el("opt-timer");
+const slides = { dispatch: el("slide-dispatch"), map: el("slide-map"), scene: el("slide-scene") };
 const TYPE_ORDER = ["residential", "multi-family", "commercial", "high-rise", "vegetation", "vehicle"];
-
 const TYPE_NAMES = {
   "residential": "residential", "multi-family": "multi-family", "commercial": "commercial",
   "high-rise": "high-rise", "vegetation": "vegetation", "vehicle": "vehicle"
 };
+const LIMIT = 300;
 
-let scenes = [];
-let pool = [];
-let deck = null;
-let current = -1;
+let scenes = [], pool = [], deck = null, current = -1;
+let areasByName = {}, maps = null, stations = [];
+let slide = "scene", info = null;
+let timerId = null, endAt = 0;
 
 function say(text) {
-  photo.hidden = true;
+  for (const s of Object.values(slides)) s.hidden = true;
   message.hidden = false;
   message.textContent = text;
+  advanceBtn.hidden = true;
+  stopTimer();
 }
 
 function clearClock() {
-  timeEl.textContent = "";
-  dayEl.textContent = "";
-  countEl.textContent = "";
-  credit.textContent = "";
+  timeEl.textContent = ""; dayEl.textContent = ""; countEl.textContent = ""; credit.textContent = "";
+}
+
+function stopTimer() {
+  clearInterval(timerId); timerId = null; timerEl.hidden = true; timerEl.className = "timer";
+}
+function tick() {
+  const left = Math.max(0, Math.round((endAt - Date.now()) / 1000));
+  timerEl.textContent = left ? Math.floor(left / 60) + ":" + String(left % 60).padStart(2, "0") : "Time";
+  timerEl.className = "timer" + (left === 0 ? " out" : left <= 60 ? " low" : "");
+  timerEl.setAttribute("aria-label", left ? left + " seconds left" : "Time has expired");
+  if (!left) { clearInterval(timerId); timerId = null; }
+}
+function startTimer() {
+  stopTimer();
+  if (!optTimer.checked) return;
+  endAt = Date.now() + LIMIT * 1000;
+  timerEl.hidden = false;
+  tick();
+  timerId = setInterval(tick, 250);
+}
+
+function pin(wrap, cls, text, pos) {
+  if (!pos || pos.left < 0 || pos.left > 100 || pos.top < 0 || pos.top > 100) return;
+  const p = document.createElement("span");
+  p.className = "pin " + cls;
+  p.textContent = text;
+  p.style.left = pos.left + "%";
+  p.style.top = pos.top + "%";
+  wrap.append(p);
+}
+
+function drawMaps(scene) {
+  const area = areasByName[scene.area];
+  for (const w of [el("close-wrap"), el("city-wrap")]) w.querySelectorAll(".pin").forEach((p) => p.remove());
+  if (!maps || !area || !maps.areas[scene.area]) return false;
+  const close = maps.areas[scene.area];
+  el("close-map").src = close.file;
+  el("close-map").alt = "Street map of " + scene.area;
+  el("close-cap").textContent = info.location;
+  pin(el("close-wrap"), "incident", "", placeOnMap(close, area.lat, area.lon));
+  el("city-map").src = "maps/city.jpg";
+  for (const s of stations) {
+    const on = info.engines.includes(s.engine);
+    pin(el("city-wrap"), "station" + (on ? " responding" : ""), s.engine, placeOnMap(maps.city, s.lat, s.lon));
+  }
+  pin(el("city-wrap"), "incident", "", placeOnMap(maps.city, area.lat, area.lon));
+  return true;
+}
+
+function fillDispatch(scene) {
+  el("d-call").textContent = info.call;
+  el("d-location").textContent = info.location;
+  el("d-time").textContent = formatTime(scene.time) + " " + scene.day;
+  el("d-units").textContent = info.units.join(", ");
+  el("d-you").textContent = info.you + ", first due";
+  el("d-channel").textContent = info.channel;
+  const ul = el("unit-list");
+  ul.textContent = "";
+  info.units.forEach((u, i) => {
+    const li = document.createElement("li");
+    li.textContent = /^E\d+$/.test(u) ? engineName(u) : u;
+    if (i === 0) { const y = document.createElement("span"); y.className = "you"; y.textContent = "You"; li.append(y); }
+    ul.append(li);
+  });
+  el("u-location").textContent = info.location;
+  el("u-channel").textContent = info.channel;
+}
+
+function showSlide(name) {
+  slide = name;
+  message.hidden = true;
+  for (const [k, s] of Object.entries(slides)) s.hidden = k !== name;
+  if (name === "dispatch") { advanceBtn.hidden = false; advanceBtn.textContent = maps ? "Show map" : "Show scene"; stopTimer(); }
+  else if (name === "map") { advanceBtn.hidden = false; advanceBtn.textContent = "Show scene"; stopTimer(); }
+  else { advanceBtn.hidden = true; startTimer(); }
+}
+
+function advance() {
+  if (slide === "dispatch") showSlide(maps && drawMaps(pool[current]) ? "map" : "scene");
+  else if (slide === "map") showSlide("scene");
 }
 
 function show(scene) {
-  message.hidden = true;
-  photo.hidden = false;
+  info = dispatchFor(scene, areasByName, stations) || {
+    call: "Fire", location: scene.area || "", engines: [], units: [], you: "", channel: "Control 3"
+  };
   photo.alt = "Fire scene, " + (TYPE_NAMES[scene.type] || "scene") + ", " + formatTime(scene.time) + " " + scene.day;
   photo.src = scene.file;
   timeEl.textContent = formatTime(scene.time);
   dayEl.textContent = scene.day;
   countEl.textContent = "Scene " + (current + 1) + " of " + pool.length;
   credit.textContent = scene.id.toUpperCase() + (scene.credit ? ". Photo: " + scene.credit : "");
+  fillDispatch(scene);
+  showSlide(optDispatch.checked ? "dispatch" : "scene");
 }
 
 function go(i) {
@@ -260,13 +440,20 @@ function deal() {
   random();
 }
 
-photo.addEventListener("error", () => {
-  say("This picture could not be loaded. Try the next scene.");
-});
-
+photo.addEventListener("error", () => say("This picture could not be loaded. Try the next scene."));
 nextBtn.addEventListener("click", next);
 prevBtn.addEventListener("click", prev);
 randBtn.addEventListener("click", random);
+advanceBtn.addEventListener("click", advance);
+
+for (const [box, key] of [[optDispatch, "optDispatch"], [optTimer, "optTimer"]]) {
+  try { const v = localStorage.getItem(key); if (v !== null) box.checked = v === "1"; } catch (e) { /* optional */ }
+  box.addEventListener("change", () => {
+    try { localStorage.setItem(key, box.checked ? "1" : "0"); } catch (e) { /* optional */ }
+    if (box === optTimer) { if (slide === "scene" && box.checked) startTimer(); else if (!box.checked) stopTimer(); }
+    if (box === optDispatch && current >= 0) show(pool[current]);
+  });
+}
 
 typeSel.addEventListener("change", () => {
   try { localStorage.setItem("sceneType", typeSel.value); } catch (e) { /* storage is optional */ }
@@ -277,9 +464,9 @@ document.addEventListener("keydown", (event) => {
   if (event.altKey || event.ctrlKey || event.metaKey) return;
   const tag = event.target.tagName;
   if (tag === "SELECT" || tag === "INPUT" || tag === "TEXTAREA") return;
-  // A focused button already acts on space, so only take the arrows and R there.
-  if (tag === "BUTTON" && event.key === " ") return;
-  if (event.key === "ArrowRight") { event.preventDefault(); next(); }
+  if (tag === "BUTTON" && (event.key === " " || event.key === "Enter")) return;
+  if (event.key === "Enter") { event.preventDefault(); advance(); }
+  else if (event.key === "ArrowRight") { event.preventDefault(); next(); }
   else if (event.key === "ArrowLeft") { event.preventDefault(); prev(); }
   else if (event.key === " " || event.key === "r" || event.key === "R") { event.preventDefault(); random(); }
 });
@@ -289,13 +476,13 @@ try {
   if (saved && [...typeSel.options].some((o) => o.value === saved)) typeSel.value = saved;
 } catch (e) { /* storage is optional */ }
 
-fetch("scenes.json", { cache: "no-cache" })
-  .then((response) => {
-    if (!response.ok) throw new Error("scenes");
-    return response.json();
-  })
-  .then((list) => {
+const getJSON = (u) => fetch(u, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(u); return r.json(); });
+Promise.all([getJSON("scenes.json"), getJSON("data/areas.json").catch(() => []), getJSON("maps/maps.json").catch(() => null)])
+  .then(([list, areas, m]) => {
     scenes = list;
+    areasByName = Object.fromEntries(areas.map((a) => [a.area, a]));
+    maps = m;
+    stations = m ? m.stations : [];
     deal();
   })
   .catch(() => {

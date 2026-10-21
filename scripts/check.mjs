@@ -4,6 +4,7 @@
 // ignores Markdown files, this script, and the contents of image files.
 import { readFileSync, existsSync } from "node:fs";
 import { filterScenes, createDeck, formatTime } from "../picker.js";
+import { runOrder, dispatchFor, placeOnMap } from "../units.js";
 
 const fails = [];
 const fail = (msg) => fails.push(msg);
@@ -50,6 +51,31 @@ for (const s of scenes) {
   else if (!/^https:\/\//.test(s.file) && !existsSync(new URL(s.file, root))) fail(`${at}: file ${s.file} not found`);
   if (/CC BY/i.test(s.source) && !s.credit) fail(`${at}: a CC BY picture needs a credit line`);
   if (!existsSync(new URL(`img/thumbs/${s.id}.jpg`, root))) fail(`${at}: thumbnail img/thumbs/${s.id}.jpg missing (run python3 scripts/make_thumbs.py)`);
+}
+
+// 2b. Every scene can be dispatched: an area, a map, three different engines.
+{
+  const areas = JSON.parse(read("data/areas.json"));
+  const maps = JSON.parse(read("maps/maps.json"));
+  const byName = Object.fromEntries(areas.map((a) => [a.area, a]));
+  const engines = new Set(maps.stations.map((s) => s.engine));
+  if (!maps.stations.every((s) => typeof s.lat === "number")) fail("maps.json: a station has no location");
+  for (const a of areas) {
+    const order = runOrder(a, maps.stations);
+    if (order.length !== 3 || new Set(order).size !== 3 || !order.every((e) => engines.has(e))) fail(`areas.json ${a.area}: run order ${order.join(",")} is not three different known engines`);
+  }
+  for (const sc of scenes) {
+    const at = `scenes.json ${sc.id}`;
+    if (!byName[sc.area]) { fail(`${at}: area "${sc.area}" is not in data/areas.json`); continue; }
+    const m = maps.areas[sc.area];
+    if (!m || !existsSync(new URL(m.file, root))) fail(`${at}: no map picture for "${sc.area}" (rerun the build-maps job)`);
+    else {
+      const p = placeOnMap(m, byName[sc.area].lat, byName[sc.area].lon);
+      if (Math.abs(p.left - 50) > 5 || Math.abs(p.top - 50) > 5) fail(`${at}: incident is not centered on its map (rerun the build-maps job)`);
+    }
+    const d = dispatchFor(sc, byName, maps.stations);
+    if (!d || d.units.length !== 5 || !d.location) fail(`${at}: dispatch card incomplete`);
+  }
 }
 
 // 3. Copy check

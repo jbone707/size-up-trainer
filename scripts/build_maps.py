@@ -58,8 +58,29 @@ stations = json.load(open("data/stations.json"))
 areas = json.load(open("data/areas.json"))
 report = {"stations": [], "areas": []}
 
+def intersection(a, b):
+    """Point where two named roads meet in Santa Rosa, from OpenStreetMap road data (Overpass)."""
+    q = f"""[out:json][timeout:25];
+area["name"="Santa Rosa"]["boundary"="administrative"]->.sr;
+way(area.sr)["highway"]["name"="{a}"]->.a;
+way(area.sr)["highway"]["name"="{b}"]->.b;
+node(w.a)->.na; node(w.b)->.nb;
+node.na.nb;
+out;"""
+    try:
+        time.sleep(1.1)
+        req = urllib.request.Request("https://overpass-api.de/api/interpreter", data=urllib.parse.urlencode({"data": q}).encode(), headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            els = json.loads(r.read()).get("elements", [])
+        if els:
+            lat = sum(e["lat"] for e in els) / len(els); lon = sum(e["lon"] for e in els) / len(els)
+            return lat, lon, f"{a} and {b} ({len(els)} shared nodes)"
+    except Exception as e:
+        print("intersection failed", a, b, e)
+    return None
+
 for s in stations:
-    g = geocode(s["address"])
+    g = intersection(*s["intersection"]) if s.get("intersection") else geocode(s["address"])
     if g:
         s["lat"], s["lon"] = round(g[0], 5), round(g[1], 5)
     report["stations"].append({"station": s["station"], "found": bool(g), "match": g[2] if g else ""})

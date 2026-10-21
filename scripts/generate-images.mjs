@@ -30,6 +30,7 @@ const errors = [];
 const started = Date.now();
 const budgetMs = Number(process.env.TIME_BUDGET_MIN || 70) * 60000;
 let consecutive429 = 0;
+let creditRefusals = 0;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function one([p, v]) {
   if (stop) return;
@@ -45,6 +46,7 @@ async function one([p, v]) {
       const body = await r.json().catch(() => ({}));
       if (r.ok) {
         consecutive429 = 0;
+        creditRefusals = 0;
         writeFileSync(file, Buffer.from(body.data[0].b64_json, "base64"));
         manifest.push({ ...p, file, model, quality });
         console.log(`${p.code}-${v}: ok`);
@@ -55,7 +57,13 @@ async function one([p, v]) {
       errors.push({ image: `${p.code}-${v}`, attempt, status: r.status, code, message: msg.slice(0, 300) });
       console.log(`${p.code}-${v}: ${r.status} ${code} ${msg}`);
       // Out of money or bad key: stop everything, spending more cannot help.
-      if (r.status === 401 || /insufficient_quota|billing_hard_limit|credit_balance_exhausted/.test(code) || /billing hard limit|exceeded your current quota|no credits remaining/i.test(msg)) { stop = true; return; }
+      if (r.status === 401) { stop = true; return; }
+      // OpenAI sometimes says "no credits" while the balance is plainly positive. Refusals cost
+      // nothing, so wait and retry; stop for good after three refusals in a row (about 6 minutes).
+      if (/insufficient_quota|billing_hard_limit|credit_balance_exhausted/.test(code) || /billing hard limit|exceeded your current quota|no credits remaining/i.test(msg)) {
+        if (++creditRefusals >= 3) { stop = true; return; }
+        await sleep(120000); continue;
+      }
       // Rate limit or server trouble: wait and try again.
       if (r.status === 429 && ++consecutive429 >= 5) { stop = true; errors.push({ image: `${p.code}-${v}`, message: "five rate-limit refusals in a row, stopped" }); return; }
       if (r.status === 429 || r.status >= 500) { await sleep(Math.min(60000, 5000 * 2 ** (attempt - 1))); continue; }

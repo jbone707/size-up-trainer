@@ -880,5 +880,60 @@
     "credit": "",
     "notes": "Southwest Santa Rosa. A 2000s two-story tract house with stucco walls and a tile roof in a subdivision of similar houses, two-car garage, small lawn; fire showing from one front window with dark smoke rolling up the face of the house; two cars in the driveway and one on the street.",
     "area": "Southwest Santa Rosa"
+  },
+  {
+    "id": "b-res-14",
+    "file": "img/b-res-14.jpg",
+    "type": "residential",
+    "time": "07:20",
+    "day": "Tuesday",
+    "source": "generated, gpt-image-1, prompt B-RES-14",
+    "credit": "",
+    "area": "Rincon Valley",
+    "notes": "Rincon Valley. A 1970s single-story ranch house with wood siding and an attached two-car garage, oak trees in the yard, a gently sloping street; light smoke from the eaves only, the house otherwise looks normal; two cars in the driveway and one on the street."
+  },
+  {
+    "id": "b-res-19",
+    "file": "img/b-res-19.jpg",
+    "type": "residential",
+    "time": "18:50",
+    "day": "Monday",
+    "source": "generated, gpt-image-1, prompt B-RES-19",
+    "credit": "",
+    "area": "Bennett Valley",
+    "notes": "Bennett Valley. A 1980s two-story house with cedar siding on a large lot with mature oaks and a long driveway, golden hills behind; light smoke from the eaves only, the house otherwise looks normal; two cars in the driveway and one parked on the street."
+  },
+  {
+    "id": "b-res-28",
+    "file": "img/b-res-28.jpg",
+    "type": "residential",
+    "time": "23:40",
+    "day": "Wednesday",
+    "source": "generated, gpt-image-1, prompt B-RES-28",
+    "credit": "",
+    "area": "Fountaingrove hillside",
+    "notes": "Fountaingrove hillside. A large 1990s two-story hillside home with a wooden deck built out over a dry grassy slope, oak woodland around it, a narrow winding street; heavy smoke from the second floor windows and the roof; two cars in the driveway."
+  },
+  {
+    "id": "b-res-29",
+    "file": "img/b-res-29.jpg",
+    "type": "residential",
+    "time": "02:50",
+    "day": "Wednesday",
+    "source": "generated, gpt-image-1, prompt B-RES-29",
+    "credit": "",
+    "area": "Fountaingrove hillside",
+    "notes": "Fountaingrove hillside. A large 1990s two-story hillside home with a wooden deck built out over a dry grassy slope, oak woodland around it, a narrow winding street; fire on the front porch starting to climb the siding; two cars in the driveway."
+  },
+  {
+    "id": "b-res-44",
+    "file": "img/b-res-44.jpg",
+    "type": "residential",
+    "time": "05:10",
+    "day": "Monday",
+    "source": "generated, gpt-image-1, prompt B-RES-44",
+    "credit": "",
+    "area": "Southwest Santa Rosa",
+    "notes": "Southwest Santa Rosa. A 2000s two-story tract house with stucco walls and a tile roof in a subdivision of similar houses, two-car garage, small lawn; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway, porch light still on."
   }
 ]

@@ -80,7 +80,10 @@ out;"""
     return None
 
 for s in stations:
-    g = intersection(*s["intersection"]) if s.get("intersection") else geocode(s["address"])
+    if isinstance(s.get("lat"), (int, float)) and isinstance(s.get("lon"), (int, float)):
+        g = (s["lat"], s["lon"], "fixed point in data/stations.json")
+    else:
+        g = intersection(*s["intersection"]) if s.get("intersection") else geocode(s["address"])
     if g:
         s["lat"], s["lon"] = round(g[0], 5), round(g[1], 5)
     report["stations"].append({"station": s["station"], "found": bool(g), "match": g[2] if g else ""})

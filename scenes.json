@@ -448,7 +448,9 @@
     "source": "generated, gpt-image-1, prompt G-VEH-04",
     "credit": "",
     "notes": "A backyard wooden shed on fire; flames through the roof; wooden fence and the back of the house about ten feet away; late afternoon.",
-    "area": "Montgomery Village"
+    "area": "Montgomery Village",
+    "call": "Outbuilding fire, exposure to house",
+    "assignment": "structure"
   },
   {
     "id": "b-res-01",

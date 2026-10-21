@@ -19,7 +19,7 @@ It must open on a city desktop, so it lives on `github.io`, an address old enoug
 ## Dispatch, map, scene (added 2026-10-20)
 Each scene runs like the assessment's three slides: a dispatch card (call type, location, time, 1st alarm, "You are Engine N, first due", Control 3), a map slide (street close-up with the incident, and a citywide map with every station and the three 1st-alarm engines highlighted), then the scene with the 1st alarm beside it and a 5:00 timer. "Dispatch and map first" and "5 minute timer" can each be turned off.
 
-The 1st alarm is three engines plus Rescue 1 and Squad 1. The engines are the three closest stations to the scene's area, by straight line from verified station addresses, except where an area pins its own order in `data/areas.json` because of road access. Maps come from OpenStreetMap, built by `.github/workflows/build-maps.yml` and stored in `maps/`.
+Assignments by call type: structure and vegetation get three engines plus Rescue 1 and Squad 1; a vehicle fire gets one engine; a vehicle accident with entrapment gets two engines, the closest truck, Rescue 1, Squad 1 and the Battalion Chief. The engines are the three closest stations to the scene's area, by straight line from verified station addresses, except where an area pins its own order in `data/areas.json` because of road access. Maps come from OpenStreetMap, built by `.github/workflows/build-maps.yml` and stored in `maps/`.
 
 ## A scene (`scenes.json`)
 | Field | Meaning |
@@ -45,6 +45,7 @@ The 1st alarm is three engines plus Rescue 1 and Squad 1. The engines are the th
 - None.
 
 ## Changelog
+- 2026-10-20: Vehicle fire is a single-engine response; Vehicle accident type added with the extrication assignment.
 - 2026-10-20: Dispatch card, map slide, 1st alarm and 5 minute timer, at James's request, modeled on the October 2026 assessment instructions.
 - 2026-10-10: Previous, Random and Next on the Practice page, Gallery page added, at James's request.
 - 2026-10-09: Written by Cowork from James's decisions in chat that day.

@@ -4,7 +4,7 @@
 // ignores Markdown files, this script, and the contents of image files.
 import { readFileSync, existsSync } from "node:fs";
 import { filterScenes, createDeck, formatTime } from "../picker.js";
-import { runOrder, dispatchFor, placeOnMap } from "../units.js";
+import { runOrder, dispatchFor, placeOnMap, mergeStations } from "../units.js";
 
 const fails = [];
 const fail = (msg) => fails.push(msg);
@@ -35,7 +35,7 @@ const read = (p) => readFileSync(new URL(p, root), "utf8");
 }
 
 // 2. scenes.json
-const TYPES = ["residential", "multi-family", "commercial", "high-rise", "vegetation", "vehicle"];
+const TYPES = ["residential", "multi-family", "commercial", "high-rise", "vegetation", "vehicle", "extrication"];
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 const scenes = JSON.parse(read("scenes.json"));
 const ids = new Set();
@@ -57,6 +57,7 @@ for (const s of scenes) {
 {
   const areas = JSON.parse(read("data/areas.json"));
   const maps = JSON.parse(read("maps/maps.json"));
+  maps.stations = mergeStations(JSON.parse(read("data/stations.json")), maps.stations);
   const byName = Object.fromEntries(areas.map((a) => [a.area, a]));
   const engines = new Set(maps.stations.map((s) => s.engine));
   if (!maps.stations.every((s) => typeof s.lat === "number")) fail("maps.json: a station has no location");
@@ -74,8 +75,21 @@ for (const s of scenes) {
       if (Math.abs(p.left - 50) > 5 || Math.abs(p.top - 50) > 5) fail(`${at}: incident is not centered on its map (rerun the build-maps job)`);
     }
     const d = dispatchFor(sc, byName, maps.stations);
-    if (!d || d.units.length !== 5 || !d.location) fail(`${at}: dispatch card incomplete`);
+    const want = { "structure": 5, "vehicle-fire": 1, "extrication": 6 }[d && d.kind];
+    if (!d || d.units.length !== want || !d.location) fail(`${at}: dispatch card incomplete (${d ? d.units.join(",") : "none"})`);
   }
+}
+
+// 2c. Assignments by call type, on a known area.
+{
+  const maps = JSON.parse(read("maps/maps.json"));
+  maps.stations = mergeStations(JSON.parse(read("data/stations.json")), maps.stations);
+  const areas = Object.fromEntries(JSON.parse(read("data/areas.json")).map((a) => [a.area, a]));
+  const t = (type, extra = {}) => dispatchFor({ id: "t", type, area: "Downtown", ...extra }, areas, maps.stations).units.join(",");
+  if (t("vehicle") !== "E1") fail(`assignment: vehicle fire should be one engine, got ${t("vehicle")}`);
+  if (t("extrication") !== "E1,E11,T1,Rescue 1,Squad 1,Battalion Chief") fail(`assignment: extrication got ${t("extrication")}`);
+  if (t("residential") !== "E1,E11,E2,Rescue 1,Squad 1") fail(`assignment: structure got ${t("residential")}`);
+  if (t("vehicle", { assignment: "structure" }).split(",").length !== 5) fail("assignment: a scene can override to a structure assignment");
 }
 
 // 3. Copy check

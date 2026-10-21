@@ -3,13 +3,15 @@
   "station": 1,
   "engine": "E1",
   "address": "955 Sonoma Ave, Santa Rosa, CA 95404",
-  "area": "Downtown"
+  "area": "Downtown",
+  "truck": "T1"
  },
  {
   "station": 2,
   "engine": "E2",
   "address": "65 Stony Point Rd, Santa Rosa, CA 95401",
-  "area": "West side"
+  "area": "West side",
+  "truck": "T2"
  },
  {
   "station": 3,

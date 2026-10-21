@@ -157,7 +157,8 @@
       <option value="commercial">Commercial</option>
       <option value="high-rise">High-rise</option>
       <option value="vegetation">Vegetation</option>
-      <option value="vehicle">Vehicle and other</option>
+      <option value="vehicle">Vehicle fire and other</option>
+      <option value="extrication">Vehicle accident</option>
     </select>
   </div>
 </header>
@@ -195,15 +196,15 @@
 
 <script type="module">
 import { filterScenes, formatTime, createDeck } from "./picker.js";
-import { dispatchFor } from "./units.js";
+import { dispatchFor, mergeStations } from "./units.js";
 
 const el = (id) => document.getElementById(id);
 const grid = el("grid"), summary = el("summary"), typeSel = el("type");
 const viewer = el("viewer"), big = el("big");
-const TYPE_ORDER = ["residential", "multi-family", "commercial", "high-rise", "vegetation", "vehicle"];
+const TYPE_ORDER = ["residential", "multi-family", "commercial", "high-rise", "vegetation", "vehicle", "extrication"];
 const TYPE_NAMES = {
   "residential": "Residential", "multi-family": "Multi-family", "commercial": "Commercial",
-  "high-rise": "High-rise", "vegetation": "Vegetation", "vehicle": "Vehicle and other"
+  "high-rise": "High-rise", "vegetation": "Vegetation", "vehicle": "Vehicle fire and other", "extrication": "Vehicle accident"
 };
 const thumbOf = (s) => "img/thumbs/" + s.id + ".jpg";
 const plural = (n, word) => n + " " + word + (n === 1 ? "" : "s");
@@ -268,7 +269,7 @@ function fill() {
   el("v-day").textContent = s.day;
   el("v-credit").textContent = s.credit ? "Photo: " + s.credit : "";
   const d = dispatchFor(s, areasByName, stations);
-  el("v-units").textContent = d ? d.location + ". 1st alarm: " + d.units.join(", ") : "";
+  el("v-units").textContent = d ? d.location + ". Assignment: " + d.units.join(", ") : "";
   el("v-pos").textContent = (current + 1) + " of " + shown.length;
 }
 
@@ -308,11 +309,11 @@ try {
 } catch (e) { /* storage is optional */ }
 
 const getJSON = (u) => fetch(u, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(u); return r.json(); });
-Promise.all([getJSON("scenes.json"), getJSON("data/areas.json").catch(() => []), getJSON("maps/maps.json").catch(() => null)])
-  .then(([list, areas, m]) => {
+Promise.all([getJSON("scenes.json"), getJSON("data/areas.json").catch(() => []), getJSON("maps/maps.json").catch(() => null), getJSON("data/stations.json").catch(() => [])])
+  .then(([list, areas, m, st]) => {
     scenes = list;
     areasByName = Object.fromEntries(areas.map((a) => [a.area, a]));
-    stations = m ? m.stations : [];
+    stations = mergeStations(st, m ? m.stations : []);
     render();
   })
   .catch(() => { summary.textContent = "The scene list could not be loaded. Check your connection and reload the page."; });

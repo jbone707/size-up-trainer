@@ -13,3 +13,6 @@
 | Station 9 | closed: does not exist yet (James, 2026-10-20) |
 | Station 5 location | closed: new station at Fountaingrove Pkwy and Stagecoach Rd (James, 2026-10-20), located from OpenStreetMap road data |
 | Battalion chief on the 1st alarm? James listed 3 engines, Rescue 1 and Squad 1 only | open |
+| Truck designators: city pages list trucks at Station 1 and Station 2; called T1 and T2 here until James confirms | open |
+| Battalion Chief designator on the extrication assignment (shown as "Battalion Chief") | open |
+| Vehicle accident scenes: 16 prompts in scripts/image-prompts-mva.json, not made yet (OpenAI credit) | open |

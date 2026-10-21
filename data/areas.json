@@ -320,5 +320,15 @@
   "locations": [
    "Santa Rosa Creek Trail near Dutton Ave"
   ]
+ },
+ {
+  "area": "Railroad Square",
+  "lat": 38.4372,
+  "lon": -122.7218,
+  "locations": [
+   "100 block of 4th St",
+   "0 block of Wilson St",
+   "100 block of 5th St"
+  ]
  }
 ]

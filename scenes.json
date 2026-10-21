@@ -935,5 +935,115 @@
     "credit": "",
     "area": "Southwest Santa Rosa",
     "notes": "Southwest Santa Rosa. A 2000s two-story tract house with stucco walls and a tile roof in a subdivision of similar houses, two-car garage, small lawn; light gray smoke pushing from the attic vents and gable ends, nothing else showing; two cars in the driveway, porch light still on."
+  },
+  {
+    "id": "b-mf-01",
+    "file": "img/b-mf-01.jpg",
+    "type": "multi-family",
+    "time": "08:10",
+    "day": "Thursday",
+    "source": "generated, gpt-image-1, prompt B-MF-01",
+    "credit": "",
+    "area": "Stony Point Road",
+    "notes": "Stony Point Road. A two-story 1980s garden apartment complex with exterior stairs and walkways, carports along the parking lot; fire showing from one upstairs unit window, smoke spreading along the walkway."
+  },
+  {
+    "id": "b-mf-02",
+    "file": "img/b-mf-02.jpg",
+    "type": "multi-family",
+    "time": "17:40",
+    "day": "Wednesday",
+    "source": "generated, gpt-image-1, prompt B-MF-02",
+    "credit": "",
+    "area": "Stony Point Road",
+    "notes": "Stony Point Road. A two-story 1980s garden apartment complex with exterior stairs and walkways, carports along the parking lot; fire showing from a ground-floor unit, smoke rising up the face of the building past the units above."
+  },
+  {
+    "id": "b-mf-04",
+    "file": "img/b-mf-04.jpg",
+    "type": "multi-family",
+    "time": "10:40",
+    "day": "Tuesday",
+    "source": "generated, gpt-image-1, prompt B-MF-04",
+    "credit": "",
+    "area": "Southwest Santa Rosa",
+    "notes": "Southwest Santa Rosa. A three-story 2010s apartment building with balconies over a parking lot, more buildings of the same complex behind; light smoke from the attic vents along the whole roof."
+  },
+  {
+    "id": "b-mf-05",
+    "file": "img/b-mf-05.jpg",
+    "type": "multi-family",
+    "time": "15:50",
+    "day": "Monday",
+    "source": "generated, gpt-image-1, prompt B-MF-05",
+    "credit": "",
+    "area": "Rincon Valley",
+    "notes": "Rincon Valley. A senior mobile home park with double-wide homes, small carports and narrow private streets; fire showing from one upstairs unit window, smoke spreading along the walkway."
+  },
+  {
+    "id": "b-mf-06",
+    "file": "img/b-mf-06.jpg",
+    "type": "multi-family",
+    "time": "23:40",
+    "day": "Thursday",
+    "source": "generated, gpt-image-1, prompt B-MF-06",
+    "credit": "",
+    "area": "Rincon Valley",
+    "notes": "Rincon Valley. A senior mobile home park with double-wide homes, small carports and narrow private streets; smoke pushing from one unit's front door and window, residents standing in the parking lot."
+  },
+  {
+    "id": "b-mf-07",
+    "file": "img/b-mf-07.jpg",
+    "type": "multi-family",
+    "time": "05:10",
+    "day": "Thursday",
+    "source": "generated, gpt-image-1, prompt B-MF-07",
+    "credit": "",
+    "area": "Downtown, near the junior college",
+    "notes": "Near the junior college. A 1900s two-story Victorian house divided into student apartments, several mailboxes and bikes on the porch; smoke pushing from one unit's front door and window, residents standing in the parking lot."
+  },
+  {
+    "id": "b-mf-08",
+    "file": "img/b-mf-08.jpg",
+    "type": "multi-family",
+    "time": "20:30",
+    "day": "Thursday",
+    "source": "generated, gpt-image-1, prompt B-MF-08",
+    "credit": "",
+    "area": "Downtown, near the junior college",
+    "notes": "Near the junior college. A 1900s two-story Victorian house divided into student apartments, several mailboxes and bikes on the porch; fire showing from one upstairs unit window, smoke spreading along the walkway."
+  },
+  {
+    "id": "b-mf-10",
+    "file": "img/b-mf-10.jpg",
+    "type": "multi-family",
+    "time": "08:10",
+    "day": "Friday",
+    "source": "generated, gpt-image-1, prompt B-MF-10",
+    "credit": "",
+    "area": "Downtown",
+    "notes": "Downtown. A new four-story apartment building over ground-floor shops on a downtown street; fire showing from a ground-floor unit, smoke rising up the face of the building past the units above."
+  },
+  {
+    "id": "b-mf-11",
+    "file": "img/b-mf-11.jpg",
+    "type": "multi-family",
+    "time": "02:50",
+    "day": "Friday",
+    "source": "generated, gpt-image-1, prompt B-MF-11",
+    "credit": "",
+    "area": "Montgomery Village",
+    "notes": "Montgomery Village. A single-story 1960s fourplex with four front doors under one long roof; smoke pushing from one unit's front door and window, residents standing in the parking lot."
+  },
+  {
+    "id": "b-res-45",
+    "file": "img/b-res-45.jpg",
+    "type": "residential",
+    "time": "07:20",
+    "day": "Wednesday",
+    "source": "generated, gpt-image-1, prompt B-RES-45",
+    "credit": "",
+    "area": "Southwest Santa Rosa",
+    "notes": "Southwest Santa Rosa. A 2000s two-story tract house with stucco walls and a tile roof in a subdivision of similar houses, two-car garage, small lawn; smoke pushing from around the closed garage door and the eaves above it; two cars in the driveway and one on the street."
   }
 ]
